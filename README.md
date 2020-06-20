@@ -1,4 +1,7 @@
 # procelio-localization
+# Prepared in preparation for Procelio 1.0 Alpha release
+
+
 ## The Rust executable is used for generating and compiling localization files. It *must* be ran from the command line.
 
 The available commands:
