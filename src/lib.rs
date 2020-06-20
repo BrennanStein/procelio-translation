@@ -1,3 +1,5 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 mod tools;
 mod json;
 pub fn libmain() {
@@ -11,5 +13,4 @@ pub fn libmain() {
             _ => {}
         }
     }
-//    tools::localizer::build_localization_files(args);
 }

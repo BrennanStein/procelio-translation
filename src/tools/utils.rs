@@ -1,3 +1,5 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 use std::collections::HashMap;
 use std::fs;
 use std::path::Path;

@@ -1,3 +1,5 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 use std::fs;
 use std::collections::HashSet;
 use std::path::Path;
@@ -12,6 +14,8 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
     let config = LanguageConfig {
         anglicized_name: lang_name.to_string(),
         native_name: "".to_string(),
+        authors: "".to_string(),
+        version: (0, 0, 1),
         language_elements: elements,
         language_image: Vec::new()
     };

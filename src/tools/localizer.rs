@@ -1,3 +1,5 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 use std::{fs::File, path::Path};
 use std::io::BufReader;
 use crate::json::localization;

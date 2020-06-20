@@ -1,8 +1,25 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 use std::vec::Vec;
 use serde::{Serialize, Deserialize};
-fn whitefont() -> (u8, u8, u8) {
-    (255, 255, 255)
+use std::default::Default;
+
+#[derive(Clone, PartialEq, Serialize, Deserialize)]
+pub struct TextColor {
+    #[serde(flatten)]
+    pub color: (u8, u8, u8)
 }
+
+impl Default for TextColor {
+    fn default() -> TextColor {
+        TextColor { color: (255, 255, 255) }
+    }
+}
+
+fn is_default<T: PartialEq + Default>(elem: &T) -> bool {
+    *elem == Default::default()
+}
+
 
 pub fn lang_image_size() -> (u16, u16) {
     (48, 24)
@@ -12,6 +29,8 @@ pub fn lang_image_size() -> (u16, u16) {
 pub struct LanguageConfig {
     pub anglicized_name: String,
     pub native_name: String,
+    pub authors: String,
+    pub version: (u32, u32, u32),
     #[serde(skip)] 
     pub language_image: Vec<u8>, // RGBA in row-major order
     pub language_elements: Vec<TextElement>
@@ -22,18 +41,18 @@ pub struct LanguageConfig {
 pub struct TextElement {
     pub field_name: String,
     pub field_value: String,
-    #[serde(default)]
+    #[serde(default, skip_serializing_if = "is_default")]
     pub text_size: u32,
-    #[serde(default)]
+    #[serde(default, skip_serializing_if = "is_default")]
     pub bold: bool,
-    #[serde(default)]
+    #[serde(default, skip_serializing_if = "is_default")]
     pub italic: bool,
-    #[serde(default)]
+    #[serde(default, skip_serializing_if = "is_default")]
     pub underline: bool,
-    #[serde(default)]
+    #[serde(default, skip_serializing_if = "is_default")]
     pub strikethrough: bool,
-    #[serde(default="whitefont")]
-    pub text_color: (u8, u8, u8),
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub text_color: TextColor
 }
 
 impl TextElement {
@@ -46,7 +65,7 @@ impl TextElement {
             italic: false,
             underline: false,
             strikethrough: false,
-            text_color: whitefont()
+            text_color: Default::default()
         }
     }
 }

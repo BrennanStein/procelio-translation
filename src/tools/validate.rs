@@ -1,3 +1,5 @@
+// Procelio Localization Tool
+// Copyright Brennan Stein 2020
 use std::collections::HashSet;
 use std::path::Path;
 use super::utils;
@@ -11,6 +13,7 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
     let mut found_elements = HashSet::new();
 
     let mut errors = 0;
+    let mut missing = 0;
     eprintln!("============");
     if language.native_name.trim().is_empty() {
         errors += 1;
@@ -37,11 +40,13 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
     }
 
     for elem in elements {
-        errors += 1;
+        missing += 1;
         eprintln!("Missing definition for {}", elem);
     }
     eprintln!("============");
     println!("{} errors detected", errors);
+    println!("{} elements missing", missing);
+
     errors == 0
 }
 
