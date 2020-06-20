@@ -6,6 +6,7 @@ use std::path::Path;
 use super::utils;
 use crate::json::localization::{LanguageConfig, TextElement, lang_image_size};
 
+// Create a new folder for the given language name, containing all known UI components, default metadata, and a black flag
 fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mapping) {
     let mut elements = Vec::new();
     for elem in map.field_to_enum {
@@ -41,6 +42,7 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
     }
 }
 
+// Update an existing translation: add new TextElements, remove old TextElements
 fn update_existing_lang(dirpath: &std::path::Path, mut config: LanguageConfig, map: utils::Mapping) {
     let mut elems = map.field_to_enum;
     let mut gone = HashSet::new();
@@ -67,6 +69,7 @@ fn update_existing_lang(dirpath: &std::path::Path, mut config: LanguageConfig, m
     }
 }
 
+// Command-line interface for the create tool
 pub fn create_localization(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {

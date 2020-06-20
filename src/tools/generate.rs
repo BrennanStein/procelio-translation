@@ -5,6 +5,7 @@ use std::{fs::File, path::Path, path::PathBuf};
 use crate::json::localization;
 use super::utils;
 
+// Take the name of a language + config data, and bake that language down to the network file (see docs/localization.md)
 fn build_file(files_folder: &Path, language: &str, config: &localization::BuildLocalizationConfig, map: &utils::Mapping) -> bool {
     let loaded = utils::load_language(&files_folder.join(language));
     if loaded.is_err() {
@@ -24,6 +25,8 @@ fn build_file(files_folder: &Path, language: &str, config: &localization::BuildL
     true
 }
 
+// Parse and return (path/to/files/folder, language_to_translate)
+// If no language given, will return None & default to what's in config.json
 fn parse_args(mut args: std::env::Args) -> (PathBuf, Option<String>) {
     let first_arg = args.next().unwrap_or("./files".to_string());
     let second_arg = args.next();
@@ -33,8 +36,8 @@ fn parse_args(mut args: std::env::Args) -> (PathBuf, Option<String>) {
     (PathBuf::from(&first_arg), None)
 }
 
+// Command line interface for this. See README for purpose
 pub fn build_localization_files(args: std::env::Args) {
-  
     let (arg, single_lang) = parse_args(args);
     let config = utils::load_config(&arg);
     if let Err(e) = config {

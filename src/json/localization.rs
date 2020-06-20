@@ -11,23 +11,26 @@ pub struct TextColor {
     pub text_color: (u8, u8, u8)
 }
 
+// serde needs a function to get the default 
 fn white_text() -> (u8, u8, u8) {(255, 255, 255)}
 
 impl Default for TextColor {
     fn default() -> TextColor {
-        TextColor { text_color: (255, 255, 255) }
+        TextColor { text_color: white_text() }
     }
 }
 
+// Used so serde doesn't serialize default text values (save vertical space)
 fn is_default<T: PartialEq + Default>(elem: &T) -> bool {
     *elem == Default::default()
 }
 
-
+// the size of the langauge image (width, height). Magic numbers.
 pub fn lang_image_size() -> (u16, u16) {
     (48, 24)
 }
 
+// The "full" data for a localization
 #[derive(Clone, Serialize, Deserialize)]
 pub struct LanguageConfig {
     pub anglicized_name: String,
@@ -39,7 +42,9 @@ pub struct LanguageConfig {
     pub language_elements: Vec<TextElement>
 }
 
+// Serialization functions for compiling a localization
 impl LanguageConfig {
+    // Write a single TextElement to the file at the current offset
     fn write_elem(&self, file: &mut Cursor<Vec<u8>>, text: &TextElement, map: &crate::tools::utils::Mapping) {
         let fval = map.get(&text.field_name);
         if let None = fval {
@@ -73,6 +78,7 @@ impl LanguageConfig {
         file.write_all(&u8::to_be_bytes(text.text_color.text_color.2)).unwrap();
     }
 
+    // Compile "this" down to a network-serializable form (see docs/localization.md for format)
     pub fn compile(&self, map: &crate::tools::utils::Mapping) -> Vec<u8> {
         let mut file = Cursor::new(Vec::new());
         file.write_all(&u16::to_be_bytes(0)).unwrap(); // version
@@ -110,6 +116,7 @@ impl LanguageConfig {
     }
 }
 
+// All of the data for a single translated UI text element
 #[derive(Clone, Serialize, Deserialize)]
 pub struct TextElement {
     pub field_name: String,

@@ -10,6 +10,8 @@ use crate::json;
 pub const LANGUAGE_FILE_NAME: &str = "language.json";
 pub const LANGUAGE_IMAGE_NAME: &str = "image.png";
 pub const CONFIG_FILE_NAME: &str = "config.json";
+
+// A mapping of TEXT_TYPE to TEXT_VALUE -- the same identification enum used in the game itself
 pub struct Mapping {
     pub field_to_enum: HashMap<String, i32>
 }
@@ -23,7 +25,7 @@ impl Mapping {
     }
 }
 
-/// Load the mapping, given the path to the root localization folder
+// Load the mapping, given the path to the root localization folder 
 pub fn load_mapping(files_folder: &std::path::Path) -> Result<Mapping, Box<dyn std::error::Error>> {
     let config = load_config(files_folder);
     match config {
@@ -32,6 +34,9 @@ pub fn load_mapping(files_folder: &std::path::Path) -> Result<Mapping, Box<dyn s
     }
 }
 
+// Load the Mapping associated with the current state of Procelio UI.
+// Will pull out the enum definition from what's configured in the config.
+// Enum should be copy-pasted from main Procelio project.
 pub fn load_mapping_with_config(files_folder: &std::path::Path, config: &json::localization::BuildLocalizationConfig) -> Result<Mapping, Box<dyn std::error::Error>> {
     let contents = fs::read_to_string(files_folder.join(&config.enum_file));
     if contents.is_err() {
@@ -66,6 +71,7 @@ pub fn load_mapping_with_config(files_folder: &std::path::Path, config: &json::l
     Ok(Mapping::new(map))
 }
 
+// Load the config file given the path to the files folder
 pub fn load_config(files_folder: &std::path::Path) -> Result<json::localization::BuildLocalizationConfig, Box<dyn std::error::Error>> {
     let config_path = Path::new(&files_folder).join(CONFIG_FILE_NAME);
     let file = File::open(&config_path);
@@ -83,6 +89,7 @@ pub fn load_config(files_folder: &std::path::Path) -> Result<json::localization:
     Ok(config)
 }
 
+// Read a LanguageConfig off of disk. Pull image + json from the language folder passed in.
 pub fn load_language(lang_folder: &std::path::Path) -> Result<json::localization::LanguageConfig, Box<dyn std::error::Error>> {
     let file = File::open(&lang_folder.join(LANGUAGE_FILE_NAME));
     if file.is_err() {

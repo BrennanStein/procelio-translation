@@ -5,6 +5,9 @@ use std::path::Path;
 use super::utils;
 use crate::json::localization::{LanguageConfig};
 
+// Validate that the given LanguageConfig is valid, given the current defined text elements
+// Return true iff no errors (missing definitions are allowed)
+// Prints all errors/missings to stderr
 fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
     let mut elements = HashSet::new();
     for elem in &map.field_to_enum {
@@ -59,7 +62,7 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
     errors == 0
 }
 
-
+// Command line API for file localization. Given a language name, find its files and validate them
 pub fn validate_localization(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {
