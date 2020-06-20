@@ -51,9 +51,11 @@ pub fn build_localization_files(args: std::env::Args) {
 
     if let Some(l) = single_lang {
         build_file(&arg, &l, &config, &mapping);
+        println!("Generaged {}", l);
     } else {
         for lang in &config.languages {
             build_file(&arg, lang, &config, &mapping);
+            println!("Generated {}", lang);
         }
     }
 }

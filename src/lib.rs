@@ -10,12 +10,12 @@ pub fn libmain() {
         match val.as_str() {
             "create" => { tools::create::create_localization(args); },
             "validate" => { tools::validate::validate_localization(args); },
-            "generate" => { tools::generate::build_localization_files(args); }
+            "generate" => { tools::generate::build_localization_files(args); },
             _ => {
-                println!("./executableName [create|validate|generate] args");
-
-
+                println!("localizationTool [create|validate|generate] args");
             }
         }
+    } else {
+        println!("localizationTool [create|validate|generate] args");
     }
 }
