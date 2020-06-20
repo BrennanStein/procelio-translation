@@ -14,8 +14,9 @@ Validates that a localization file is suitable for use in-game. Checks that
 - All fields are defined
 - All fields are present in the enum file
 
-#### generate: `executableName.exe generate path/to/files/directory`
-Generates all localization languages declared in the files/config.json file
+#### generate: `executableName.exe generate [LANGUAGE] path/to/files/directory`
+Generates the compiled localization file for the given language.
+If language is omitted, generates all localization languages declared in the files/config.json file
 Stores the output files in the output folder (defined in config)
 
 
@@ -50,7 +51,7 @@ DO NOT CHANGE
 The text of the UI element. You almost certainly want to change this.
 
 #### text_size
-In case it's necessary to overwrite the size of the text. 0 = default
+In case it's necessary to overwrite the size of the text. 0 = default. 1024 max value. Must be positive.
 If unspecified, treated as 0
 
 #### bold

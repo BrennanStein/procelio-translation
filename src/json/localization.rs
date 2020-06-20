@@ -3,6 +3,7 @@
 use std::vec::Vec;
 use serde::{Serialize, Deserialize};
 use std::default::Default;
+use std::io::{Cursor, Read, Seek, SeekFrom, Write};
 
 #[derive(Clone, PartialEq, Serialize, Deserialize)]
 pub struct TextColor {
@@ -36,6 +37,76 @@ pub struct LanguageConfig {
     pub language_elements: Vec<TextElement>
 }
 
+impl LanguageConfig {
+    fn write_elem(&self, file: &mut Cursor<Vec<u8>>, text: &TextElement, map: &crate::tools::utils::Mapping) {
+        let fval = map.get(&text.field_name);
+        if let None = fval {
+            eprintln!("MISSING {}; SKIPPING", &text.field_name);
+            return;
+        }
+
+        let fval = fval.unwrap();
+        file.write_all(&i32::to_be_bytes(*fval)).unwrap();
+        let translation = text.field_value.as_bytes();
+        file.write_all(&u32::to_be_bytes(translation.len() as u32)).unwrap();
+        file.write_all(translation).unwrap();
+
+        file.write_all(&u16::to_be_bytes(text.text_size as u16)).unwrap();
+        let mut modifications : u8 = 0;
+        if text.bold {
+            modifications |= 1;
+        }
+        if text.italic {
+            modifications |= 2;
+        }
+        if text.underline {
+            modifications |= 4;
+        }
+        if text.strikethrough {
+            modifications |= 8;
+        }
+        file.write_all(&u8::to_be_bytes(modifications)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.color.0)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.color.1)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.color.2)).unwrap();
+    }
+
+    pub fn compile(&self, map: &crate::tools::utils::Mapping) -> Vec<u8> {
+        let mut file = Cursor::new(Vec::new());
+        file.write_all(&u16::to_be_bytes(0)).unwrap(); // version
+        file.seek(SeekFrom::Start(16)).unwrap(); // two offsets
+        let anam = self.anglicized_name.as_bytes();
+        file.write_all(&u8::to_be_bytes(anam.len() as u8)).unwrap();
+        file.write_all(anam).unwrap();
+        let nnam = self.native_name.as_bytes();
+        file.write_all(&u32::to_be_bytes(nnam.len() as u32)).unwrap();
+        file.write_all(nnam).unwrap();
+        let autt = self.authors.as_bytes();
+        file.write_all(&u32::to_be_bytes(autt.len() as u32)).unwrap();
+        file.write_all(autt).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version.0)).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version.1)).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version.2)).unwrap();
+
+        let pic_start = file.position();
+        file.write_all(&self.language_image).unwrap();
+        let data_start = file.position();
+        file.seek(SeekFrom::Start(0)).unwrap();
+        file.write_all(&u32::to_be_bytes(pic_start as u32)).unwrap();
+        file.write_all(&u32::to_be_bytes(data_start as u32)).unwrap();
+        file.seek(SeekFrom::Start(data_start)).unwrap();
+  
+        file.write_all(&u32::to_be_bytes(self.language_elements.len() as u32)).unwrap();
+        for elem in &self.language_elements {
+            self.write_elem(&mut file, &elem, map);
+        }
+
+        file.seek(SeekFrom::Start(0)).unwrap();
+        let mut out = Vec::new();
+        file.read_to_end(&mut out).unwrap();
+        out
+    }
+}
 
 #[derive(Clone, Serialize, Deserialize)]
 pub struct TextElement {

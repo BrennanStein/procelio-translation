@@ -71,7 +71,7 @@ pub fn create_localization(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {
         eprintln!("No language provided!");
-        eprintln!("Usage: localetool.exe create ANGLICIZED_LANG [path/to/files/folder]");
+        eprintln!("Usage: executableName.exe create ANGLICIZED_LANG [path/to/files/folder]");
         return;
     }
     let lang = lang.unwrap();

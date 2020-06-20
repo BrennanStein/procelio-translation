@@ -10,7 +10,12 @@ pub fn libmain() {
         match val.as_str() {
             "create" => { tools::create::create_localization(args); },
             "validate" => { tools::validate::validate_localization(args); },
-            _ => {}
+            "generate" => { tools::generate::build_localization_files(args); }
+            _ => {
+                println!("./executableName [create|validate|generate] args");
+
+
+            }
         }
     }
 }

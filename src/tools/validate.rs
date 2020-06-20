@@ -19,6 +19,10 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
         errors += 1;
         eprintln!("Native language name empty");
     }
+    if language.anglicized_name.as_bytes().len() > 254 {
+        errors += 1;
+        eprintln!("Anglicized name too long! Must be < 256 bytes");
+    }
 
     for element in &language.language_elements {
         if found_elements.contains(&element.field_name) {
@@ -36,6 +40,11 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
         if element.field_value.trim().is_empty() {
             errors += 1;
             eprintln!("Text for {} is empty", element.field_name);
+        }
+
+        if element.text_size > 2048 {
+            errors += 1;
+            eprintln!("Font too big for {}", element.field_name);
         }
     }
 
@@ -55,7 +64,7 @@ pub fn validate_localization(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {
         eprintln!("No language provided!");
-        eprintln!("Usage: localetool.exe validate ANGLICIZED_LANG [path/to/files/folder]");
+        eprintln!("Usage: executableName.exe validate ANGLICIZED_LANG [path/to/files/folder]");
         return;
     }
     let lang = lang.unwrap();

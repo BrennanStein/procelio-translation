@@ -17,6 +17,10 @@ impl Mapping {
     pub fn new(map: HashMap<String, i32>) -> Mapping {
         Mapping { field_to_enum: map }
     }
+
+    pub fn get(&self, val: &str) -> Option<&i32> {
+        self.field_to_enum.get(val)
+    }
 }
 
 /// Load the mapping, given the path to the root localization folder
