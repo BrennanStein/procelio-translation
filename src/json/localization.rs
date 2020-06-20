@@ -7,13 +7,15 @@ use std::io::{Cursor, Read, Seek, SeekFrom, Write};
 
 #[derive(Clone, PartialEq, Serialize, Deserialize)]
 pub struct TextColor {
-    #[serde(flatten)]
-    pub color: (u8, u8, u8)
+    #[serde(default="white_text")]
+    pub text_color: (u8, u8, u8)
 }
+
+fn white_text() -> (u8, u8, u8) {(255, 255, 255)}
 
 impl Default for TextColor {
     fn default() -> TextColor {
-        TextColor { color: (255, 255, 255) }
+        TextColor { text_color: (255, 255, 255) }
     }
 }
 
@@ -66,9 +68,9 @@ impl LanguageConfig {
             modifications |= 8;
         }
         file.write_all(&u8::to_be_bytes(modifications)).unwrap();
-        file.write_all(&u8::to_be_bytes(text.text_color.color.0)).unwrap();
-        file.write_all(&u8::to_be_bytes(text.text_color.color.1)).unwrap();
-        file.write_all(&u8::to_be_bytes(text.text_color.color.2)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.text_color.0)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.text_color.1)).unwrap();
+        file.write_all(&u8::to_be_bytes(text.text_color.text_color.2)).unwrap();
     }
 
     pub fn compile(&self, map: &crate::tools::utils::Mapping) -> Vec<u8> {
@@ -122,7 +124,7 @@ pub struct TextElement {
     pub underline: bool,
     #[serde(default, skip_serializing_if = "is_default")]
     pub strikethrough: bool,
-    #[serde(default, skip_serializing_if = "is_default")]
+    #[serde(flatten, default, skip_serializing_if = "is_default")]
     pub text_color: TextColor
 }
 
