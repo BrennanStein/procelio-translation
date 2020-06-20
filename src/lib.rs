@@ -6,7 +6,8 @@ pub fn libmain() {
     let command = args.next();
     if let Some(val) = command {
         match val.as_str() {
-            "create" => { tools::create::create_localization(args); }
+            "create" => { tools::create::create_localization(args); },
+            "validate" => { tools::validate::validate_localization(args); },
             _ => {}
         }
     }

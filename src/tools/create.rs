@@ -17,6 +17,7 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
     };
     let path = dirpath.join(utils::LANGUAGE_FILE_NAME);
     let serialized = serde_json::to_string_pretty(&config).unwrap();
+    eprintln!("Writing serialize to {:#?}", path.display());
     let res = std::fs::write(path, serialized);
     if let Err(e) = res {
         eprintln!("Failed to create localization file: {:#?}", e);
@@ -89,7 +90,11 @@ pub fn create_localization(mut args: std::env::Args) {
 
     let data = utils::load_language(&newlang);
     match data {
-        Err(_) => { create_new_lang(arg_folder, &lang, mapping); }
-        Ok(c) => { update_existing_lang(arg_folder, c, mapping); }
+        Err(_) => { println!("Generating new language file..."); create_new_lang(&newlang, &lang, mapping); }
+        Ok(c) => { println!("Updating existing language file..."); update_existing_lang(&newlang, c, mapping); }
     }
+
+    println!();
+    println!();
+    println!("File generation in {} successful!", newlang.display());
 }

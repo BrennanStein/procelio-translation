@@ -80,7 +80,7 @@ pub fn load_config(files_folder: &std::path::Path) -> Result<json::localization:
 pub fn load_language(lang_folder: &std::path::Path) -> Result<json::localization::LanguageConfig, Box<dyn std::error::Error>> {
     let file = File::open(&lang_folder.join(LANGUAGE_FILE_NAME));
     if file.is_err() {
-        eprintln!("Could not open localization config file {:#?} {:#?}", &lang_folder.display(), file);
+        eprintln!("Could not open language file {:#?}", &lang_folder.display());
         return Err(file.err().unwrap().into());
     }
     let lang = serde_json::from_reader(BufReader::new(file.unwrap()));
