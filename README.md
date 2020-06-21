@@ -1,4 +1,4 @@
-# procelio-translation
+# Procelio Translation Tool + Files
 # Prepared in preparation for Procelio 1.0 Alpha release
 
 
