@@ -1,18 +1,18 @@
-# procelio-localization
+# procelio-translation
 # Prepared in preparation for Procelio 1.0 Alpha release
 
 
-## The Rust executable is used for generating and compiling localization files. It *must* be ran from the command line.
+## The Rust executable is used for generating and compiling translation files. It *must* be ran from the command line.
 
 The available commands:
-#### create: `LocalizationTool.exe create LANGUAGE [path/to/files/directory]`
+#### create: `TranslationTool.exe create LANGUAGE [path/to/files/directory]`
 Generates the files for the language of the given name by creating a subdirectory in the files folder.
 - If the language does not exist already, creates new files
 - If the language already exists, updates its files to contain the current set of UI fields (as defined in the enum file)
 Path defaults to "./files" if not provided
 
-#### validate: `LocalizationTool.exe validate LANGUAGE [path/to/files/directory]`
-Validates that a localization file is suitable for use in-game. Checks that
+#### validate: `TranslationTool.exe validate LANGUAGE [path/to/files/directory]`
+Validates that a translation file is suitable for use in-game. Checks that
 - The JSON file can be properly parsed
 - No fields are defined multiple times
 - All fields are defined and within proper constraints
@@ -20,20 +20,20 @@ Validates that a localization file is suitable for use in-game. Checks that
 Path defaults to "./files" if not provided
 
 
-#### generate: `LocalizationTool.exe generate [LANGUAGE] path/to/files/directory`
-Generates the compiled localization file for the given language.
-If language is omitted, generates all localization languages declared in the files/config.json file
+#### generate: `TranslationTool.exe generate [LANGUAGE] path/to/files/directory`
+Generates the compiled translation file for the given language.
+If language is omitted, generates all translation languages declared in the files/config.json file
 Stores the output files in the output folder (defined in config)
 
 If ran without language or path, defaults path to "./files" and generates everything in config.
 
-## Customizing Localization Files
-Each localization file consists of two pieces:
+## Customizing Translation Files
+Each translation file consists of two pieces:
 1) The JSON file, where all of the data is defined for the translation
-2) The PNG Image file, which should appear next to the native name in the localization menu (expected to be a country flag)
+2) The PNG Image file, which should appear next to the native name in the translation menu (expected to be a country flag)
 
 ### The JSON file: language.json
-The "language.json" file holds all of the translation data for this localization.
+The "language.json" file holds all of the translation data for this translation.
 This file contains a bit of metadata, then a large list of language elements that define the actual user interface text.
 
 #### Metadata

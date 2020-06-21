@@ -1,9 +1,9 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 use std::collections::HashSet;
 use std::path::Path;
 use super::utils;
-use crate::json::localization::{LanguageConfig};
+use crate::json::translation::{LanguageConfig};
 
 // Validate that the given LanguageConfig is valid, given the current defined text elements
 // Return true iff no errors (missing definitions are allowed)
@@ -62,8 +62,8 @@ fn validate_lang(language: &LanguageConfig, map: &utils::Mapping) -> bool {
     errors == 0
 }
 
-// Command line API for file localization. Given a language name, find its files and validate them
-pub fn validate_localization(mut args: std::env::Args) {
+// Command line API for file translation. Given a language name, find its files and validate them
+pub fn validate_translation(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {
         eprintln!("No language provided!");

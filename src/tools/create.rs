@@ -1,10 +1,10 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 use std::fs;
 use std::collections::HashSet;
 use std::path::Path;
 use super::utils;
-use crate::json::localization::{LanguageConfig, TextElement, lang_image_size};
+use crate::json::translation::{LanguageConfig, TextElement, lang_image_size};
 
 // Create a new folder for the given language name, containing all known UI components, default metadata, and a black flag
 fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mapping) {
@@ -25,7 +25,7 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
     eprintln!("Writing serialize to {:#?}", path.display());
     let res = std::fs::write(path, serialized);
     if let Err(e) = res {
-        eprintln!("Failed to create localization file: {:#?}", e);
+        eprintln!("Failed to create translation file: {:#?}", e);
         return;
     }
 
@@ -37,7 +37,7 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
     }
     let save = img.save(imgpath);
     if let Err(e) = save {
-        eprintln!("Failed to create localization image: {:#?}", e);
+        eprintln!("Failed to create translation image: {:#?}", e);
         return;
     }
 }
@@ -70,7 +70,7 @@ fn update_existing_lang(dirpath: &std::path::Path, mut config: LanguageConfig, m
 }
 
 // Command-line interface for the create tool
-pub fn create_localization(mut args: std::env::Args) {
+pub fn create_translation(mut args: std::env::Args) {
     let lang = args.next();
     if lang.is_none() {
         eprintln!("No language provided!");

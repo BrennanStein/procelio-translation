@@ -1,4 +1,4 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 mod tools;
 mod json;
@@ -8,14 +8,14 @@ pub fn libmain() {
     let command = args.next();
     if let Some(val) = command {
         match val.as_str() {
-            "create" => { tools::create::create_localization(args); },
-            "validate" => { tools::validate::validate_localization(args); },
-            "generate" => { tools::generate::build_localization_files(args); },
+            "create" => { tools::create::create_translation(args); },
+            "validate" => { tools::validate::validate_translation(args); },
+            "generate" => { tools::generate::build_translation_files(args); },
             _ => {
-                println!("localizationTool [create|validate|generate] args");
+                println!("TranslationTool.exe [create|validate|generate] args");
             }
         }
     } else {
-        println!("localizationTool [create|validate|generate] args");
+        println!("TranslationTool.exe [create|validate|generate] args");
     }
 }

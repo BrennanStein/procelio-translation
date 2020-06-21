@@ -1,6 +1,6 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
-use localizationlib::libmain;
+use translationlib::libmain;
 fn main() {
    libmain();
 }

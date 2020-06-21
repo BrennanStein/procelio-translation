@@ -7,15 +7,15 @@ All multi-byte numbers are big-endian and unsigned unless otherwise mentioned
 2 byte: file version
 4 byte: image data region offset
 4 byte: text data region offset 
+4 byte: Version - Major
+4 byte: Version - Minor
+4 byte: Version - Patch
 1 byte: length of anglicized name (bytes)
   N bytes: bytes of anglicized name [UTF-8]
 4 byte: length of native name (bytes)
   N bytes: bytes of native name [UTF-8]
 4 byte: length of authors (bytes)
   N bytes: bytes of authors [UTF-8]
-4 byte: Version - Major
-4 byte: Version - Minor
-4 byte: Version - Patch
 ```
 ### Image Data Region
 ```

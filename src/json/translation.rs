@@ -1,4 +1,4 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 use std::vec::Vec;
 use serde::{Serialize, Deserialize};
@@ -30,7 +30,7 @@ pub fn lang_image_size() -> (u16, u16) {
     (48, 24)
 }
 
-// The "full" data for a localization
+// The "full" data for a translation
 #[derive(Clone, Serialize, Deserialize)]
 pub struct LanguageConfig {
     pub anglicized_name: String,
@@ -42,7 +42,7 @@ pub struct LanguageConfig {
     pub language_elements: Vec<TextElement>
 }
 
-// Serialization functions for compiling a localization
+// Serialization functions for compiling a translation
 impl LanguageConfig {
     // Write a single TextElement to the file at the current offset
     fn write_elem(&self, file: &mut Cursor<Vec<u8>>, text: &TextElement, map: &crate::tools::utils::Mapping) {
@@ -82,7 +82,11 @@ impl LanguageConfig {
     pub fn compile(&self, map: &crate::tools::utils::Mapping) -> Vec<u8> {
         let mut file = Cursor::new(Vec::new());
         file.write_all(&u16::to_be_bytes(0)).unwrap(); // version
-        file.seek(SeekFrom::Start(16)).unwrap(); // two offsets
+        let start_offset = file.position();
+        file.seek(SeekFrom::Start(8 + start_offset)).unwrap(); // two offsets
+        file.write_all(&u32::to_be_bytes(self.version.0)).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version.1)).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version.2)).unwrap();
         let anam = self.anglicized_name.as_bytes();
         file.write_all(&u8::to_be_bytes(anam.len() as u8)).unwrap();
         file.write_all(anam).unwrap();
@@ -92,14 +96,12 @@ impl LanguageConfig {
         let autt = self.authors.as_bytes();
         file.write_all(&u32::to_be_bytes(autt.len() as u32)).unwrap();
         file.write_all(autt).unwrap();
-        file.write_all(&u32::to_be_bytes(self.version.0)).unwrap();
-        file.write_all(&u32::to_be_bytes(self.version.1)).unwrap();
-        file.write_all(&u32::to_be_bytes(self.version.2)).unwrap();
+     
 
         let pic_start = file.position();
         file.write_all(&self.language_image).unwrap();
         let data_start = file.position();
-        file.seek(SeekFrom::Start(0)).unwrap();
+        file.seek(SeekFrom::Start(start_offset)).unwrap();
         file.write_all(&u32::to_be_bytes(pic_start as u32)).unwrap();
         file.write_all(&u32::to_be_bytes(data_start as u32)).unwrap();
         file.seek(SeekFrom::Start(data_start)).unwrap();
@@ -151,7 +153,7 @@ impl TextElement {
 }
 
 #[derive(Clone, Serialize, Deserialize)]
-pub struct BuildLocalizationConfig {
+pub struct BuildTranslationConfig {
     pub enum_file: String, 
     pub output_folder: String,
     pub languages: std::vec::Vec<String>

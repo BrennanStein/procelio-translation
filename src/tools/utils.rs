@@ -1,4 +1,4 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 use std::collections::HashMap;
 use std::fs;
@@ -25,7 +25,7 @@ impl Mapping {
     }
 }
 
-// Load the mapping, given the path to the root localization folder 
+// Load the mapping, given the path to the root translation folder 
 pub fn load_mapping(files_folder: &std::path::Path) -> Result<Mapping, Box<dyn std::error::Error>> {
     let config = load_config(files_folder);
     match config {
@@ -37,10 +37,10 @@ pub fn load_mapping(files_folder: &std::path::Path) -> Result<Mapping, Box<dyn s
 // Load the Mapping associated with the current state of Procelio UI.
 // Will pull out the enum definition from what's configured in the config.
 // Enum should be copy-pasted from main Procelio project.
-pub fn load_mapping_with_config(files_folder: &std::path::Path, config: &json::localization::BuildLocalizationConfig) -> Result<Mapping, Box<dyn std::error::Error>> {
+pub fn load_mapping_with_config(files_folder: &std::path::Path, config: &json::translation::BuildTranslationConfig) -> Result<Mapping, Box<dyn std::error::Error>> {
     let contents = fs::read_to_string(files_folder.join(&config.enum_file));
     if contents.is_err() {
-        eprintln!("Error loading localization mapping {:#?}", contents);
+        eprintln!("Error loading translation mapping {:#?}", contents);
         return Err(contents.unwrap_err().into());
     }
     let contents = contents?;
@@ -72,25 +72,25 @@ pub fn load_mapping_with_config(files_folder: &std::path::Path, config: &json::l
 }
 
 // Load the config file given the path to the files folder
-pub fn load_config(files_folder: &std::path::Path) -> Result<json::localization::BuildLocalizationConfig, Box<dyn std::error::Error>> {
+pub fn load_config(files_folder: &std::path::Path) -> Result<json::translation::BuildTranslationConfig, Box<dyn std::error::Error>> {
     let config_path = Path::new(&files_folder).join(CONFIG_FILE_NAME);
     let file = File::open(&config_path);
     if file.is_err() {
-        eprintln!("Could not open localization config file {:#?} {:#?}", &config_path.display(), file);
+        eprintln!("Could not open translation config file {:#?} {:#?}", &config_path.display(), file);
         return Err(file.err().unwrap().into());
     }
     let config = serde_json::from_reader(BufReader::new(file.unwrap()));
     if config.is_err() {
         let err = config.err();
-        eprintln!("Could not parse localization config file {:#?}", &err);
+        eprintln!("Could not parse translation config file {:#?}", &err);
         return Err(err.unwrap().into());
     }
-    let config: json::localization::BuildLocalizationConfig = config.unwrap();
+    let config: json::translation::BuildTranslationConfig = config.unwrap();
     Ok(config)
 }
 
 // Read a LanguageConfig off of disk. Pull image + json from the language folder passed in.
-pub fn load_language(lang_folder: &std::path::Path) -> Result<json::localization::LanguageConfig, Box<dyn std::error::Error>> {
+pub fn load_language(lang_folder: &std::path::Path) -> Result<json::translation::LanguageConfig, Box<dyn std::error::Error>> {
     let file = File::open(&lang_folder.join(LANGUAGE_FILE_NAME));
     if file.is_err() {
         eprintln!("Could not open language file {:#?}", &lang_folder.display());
@@ -99,12 +99,12 @@ pub fn load_language(lang_folder: &std::path::Path) -> Result<json::localization
     let lang = serde_json::from_reader(BufReader::new(file.unwrap()));
     if lang.is_err() {
         let err = lang.err();
-        eprintln!("Could not parse localization config file {:#?}", &err);
+        eprintln!("Could not parse translation config file {:#?}", &err);
         return Err(err.unwrap().into());
     }
-    let mut lang: json::localization::LanguageConfig = lang.unwrap();
+    let mut lang: json::translation::LanguageConfig = lang.unwrap();
     let img = image::open(&lang_folder.join(LANGUAGE_IMAGE_NAME));
-    let siz = json::localization::lang_image_size();
+    let siz = json::translation::lang_image_size();
     lang.language_image.reserve((siz.0*siz.1).into());
         match img {
             Err(_) => {

@@ -1,3 +1,3 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
-pub mod localization;
+pub mod translation;

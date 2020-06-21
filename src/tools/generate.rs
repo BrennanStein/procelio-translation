@@ -1,12 +1,12 @@
-// Procelio Localization Tool
+// Procelio Translation Tool
 // Copyright Brennan Stein 2020
 use std::io::prelude::*;
 use std::{fs::File, path::Path, path::PathBuf};
-use crate::json::localization;
+use crate::json::translation;
 use super::utils;
 
-// Take the name of a language + config data, and bake that language down to the network file (see docs/localization.md)
-fn build_file(files_folder: &Path, language: &str, config: &localization::BuildLocalizationConfig, map: &utils::Mapping) -> bool {
+// Take the name of a language + config data, and bake that language down to the network file (see docs/translation.md)
+fn build_file(files_folder: &Path, language: &str, config: &translation::BuildTranslationConfig, map: &utils::Mapping) -> bool {
     let loaded = utils::load_language(&files_folder.join(language));
     if loaded.is_err() {
         eprintln!("Failed to load {} {:#?}", language, loaded.err().unwrap());
@@ -37,24 +37,24 @@ fn parse_args(mut args: std::env::Args) -> (PathBuf, Option<String>) {
 }
 
 // Command line interface for this. See README for purpose
-pub fn build_localization_files(args: std::env::Args) {
+pub fn build_translation_files(args: std::env::Args) {
     let (arg, single_lang) = parse_args(args);
     let config = utils::load_config(&arg);
     if let Err(e) = config {
-        eprintln!("Building localization files failed {:#?}", e);
+        eprintln!("Building translation files failed {:#?}", e);
         return;
     }
     let config = config.unwrap();
     let mapping = utils::load_mapping_with_config(&Path::new(&arg), &config);
     if let Err(e) = mapping {
-        eprintln!("Building localization files failed {:#?}", e);
+        eprintln!("Building translation files failed {:#?}", e);
         return;
     }
     let mapping = mapping.unwrap();
 
     if let Some(l) = single_lang {
         build_file(&arg, &l, &config, &mapping);
-        println!("Generaged {}", l);
+        println!("Generated {}", l);
     } else {
         for lang in &config.languages {
             build_file(&arg, lang, &config, &mapping);
