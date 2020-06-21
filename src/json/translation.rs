@@ -36,7 +36,7 @@ pub struct LanguageConfig {
     pub anglicized_name: String,
     pub native_name: String,
     pub authors: String,
-    pub version: (u32, u32, u32),
+    pub version: u32,
     #[serde(skip)] 
     pub language_image: Vec<u8>, // RGBA in row-major order
     pub language_elements: Vec<TextElement>
@@ -84,9 +84,7 @@ impl LanguageConfig {
         file.write_all(&u16::to_be_bytes(0)).unwrap(); // version
         let start_offset = file.position();
         file.seek(SeekFrom::Start(8 + start_offset)).unwrap(); // two offsets
-        file.write_all(&u32::to_be_bytes(self.version.0)).unwrap();
-        file.write_all(&u32::to_be_bytes(self.version.1)).unwrap();
-        file.write_all(&u32::to_be_bytes(self.version.2)).unwrap();
+        file.write_all(&u32::to_be_bytes(self.version)).unwrap();
         let anam = self.anglicized_name.as_bytes();
         file.write_all(&u8::to_be_bytes(anam.len() as u8)).unwrap();
         file.write_all(anam).unwrap();

@@ -16,7 +16,7 @@ fn create_new_lang(dirpath: &std::path::Path, lang_name: &str, map: utils::Mappi
         anglicized_name: lang_name.to_string(),
         native_name: "".to_string(),
         authors: "".to_string(),
-        version: (0, 0, 1),
+        version: 1,
         language_elements: elements,
         language_image: Vec::new()
     };
