@@ -1,7 +1,7 @@
 [package]
 name = "procelio-translation"
 version = "0.1.0"
-authors = ["Brennan Stein <brennan.stein@outlook.com>"]
+authors = ["Brennan Stein"]
 edition = "2018"
 
 [lib]
