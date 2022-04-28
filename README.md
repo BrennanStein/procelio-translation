@@ -4,28 +4,13 @@
 
 ## The Rust executable is used for generating and compiling translation files. It *must* be ran from the command line.
 
-The available commands:
-#### create: `TranslationTool.exe create LANGUAGE [path/to/files/directory]`
-Generates the files for the language of the given name by creating a subdirectory in the files folder.
-- If the language does not exist already, creates new files
-- If the language already exists, updates its files to contain the current set of UI fields (as defined in the enum file)
-Path defaults to "./files" if not provided
+#### `proceliotool.exe lang .\path\to\where\to\save (.\path\to\entries.txt)`
+- If MyLanguageName doesn't exist, creates a new localization file
+- If MyLanguageName does exist _but_ doesn't contain the same set of localization entities as entries.txt, updates the file to contain all
+- If MyLanguageName does exist and is up-to-date, compiles it to AnglicizedName.lang
 
-#### validate: `TranslationTool.exe validate LANGUAGE [path/to/files/directory]`
-Validates that a translation file is suitable for use in-game. Checks that
-- The JSON file can be properly parsed
-- No fields are defined multiple times
-- All fields are defined and within proper constraints
-- All fields are present in the enum file
-Path defaults to "./files" if not provided
-
-
-#### generate: `TranslationTool.exe generate [LANGUAGE] path/to/files/directory`
-Generates the compiled translation file for the given language.
-If language is omitted, generates all translation languages declared in the files/config.json file
-Stores the output files in the output folder (defined in config)
-
-If ran without language or path, defaults path to "./files" and generates everything in config.
+#### If run from the repo root directory...
+`.\proceliotool.exe lang .\files\ENGLISH`
 
 ## Customizing Translation Files
 Each translation file consists of two pieces:
@@ -39,7 +24,7 @@ This file contains a bit of metadata, then a large list of language elements tha
 #### Metadata
 
 ##### anglicized_name
-The name of this language in English. "Spanish", not "Español"
+The name of this language in ASCII English. "Spanish", not "Español"
 
 ##### native_name
 The name of the language in that language. 
@@ -57,14 +42,14 @@ If further alternations are required, various parameters of the text can be modi
 Here is a fully-specified text element
 ```
 {
-      "field_name": "SOME_TEXT_FIELD",
-      "field_value": "Some Text Value In Game",
-      "text_size": 0,
+      "name": "SOME_TEXT_FIELD",
+      "value": "Some Text Value In Game",
+      "size": 0,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "text_color": [
+      "color": [
         255,
         255,
         255
@@ -73,14 +58,14 @@ Here is a fully-specified text element
 ```
 Descriptions of each field are as follows:
 
-#### field_name
+#### name
 The internal name of the field, used so the game can tell which UI element this goes with.
 DO NOT CHANGE
 
-##### field_value
+##### value
 The text of the UI element. You almost certainly want to change this.
 
-##### text_size
+##### size
 In case it's necessary to overwrite the size of the text. 0 = default. 1024 max value. Must be positive.
 If unspecified, treated as 0
 
@@ -100,7 +85,7 @@ If unspecified, treated as 'false'
 Whether the field value should be struck through in-game
 If unspecified, treated as 'false'
 
-##### text_color
+##### color
 What color the text should be in-game
 If unspecified, treated as white '[255, 255, 255]'. Each number is the respective one-byte R,G,B channel
 
