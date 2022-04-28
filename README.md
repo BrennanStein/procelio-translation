@@ -1,8 +1,8 @@
 # Procelio Translation Tool + Files
-# Prepared in preparation for Procelio 1.0 Alpha release
 
+The executable is used for generating and compiling translation files. It *must* be ran from the command line.
 
-## The executable is used for generating and compiling translation files. It *must* be ran from the command line.
+## Usage
 
 #### `proceliotool.exe lang .\path\to\where\to\save (.\path\to\entries.txt)`
 - If MyLanguageName doesn't exist, creates a new localization file
@@ -13,6 +13,12 @@
 `.\proceliotool.exe lang .\files\ENGLISH`
 
 (For creating a new file, you can also copy-paste the English pack and replace as necessary)
+
+
+For mass-release, lang files must be built and deployed serverside for one of the devs.
+
+For local testing, your built .lang file can be put in the `localization` subfolder in Unity's PersistentDataPath. (`C:\Users\brenn\AppData\LocalLow\Procul Games\Procelio\localization\English.lang`, for example, on Windows). If the folder doesn't exist, you can create it yourself.
+
 
 ## Customizing Translation Files
 Each translation file consists of two pieces:
