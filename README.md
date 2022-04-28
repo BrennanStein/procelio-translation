@@ -4,7 +4,7 @@ The executable is used for generating and compiling translation files. It *must*
 
 ## Usage
 
-#### `proceliotool.exe lang .\path\to\where\to\save (.\path\to\entries.txt)`
+#### `proceliotool.exe lang .\path\to\where\to\save\MyLanguageName (.\path\to\entries.txt)`
 - If MyLanguageName doesn't exist, creates a new localization file
 - If MyLanguageName does exist _but_ doesn't contain all localization entities as entries.txt, updates the file to contain all
 - If MyLanguageName does exist and is up-to-date, compiles it to AnglicizedName.lang
