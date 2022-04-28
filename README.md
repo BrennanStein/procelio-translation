@@ -1,5 +1,5 @@
 # Procelio Translation Tool + Files
-# Prepared in preparation for Procelio 1.0 Alpha release
+# Prepared in preparation for Procelio 1.1 Alpha release
 
 
 ## The executable is used for generating and compiling translation files. It *must* be ran from the command line.
@@ -22,6 +22,11 @@ Each translation file consists of two pieces:
 ### The JSON file: language.json
 The "language.json" file holds all of the translation data for this translation.
 This file contains a bit of metadata, then a large list of language elements that define the actual user interface text.
+
+## Usage
+
+For mass-release, lang files must be built and deployed serverside for one of the devs.
+For local testing, your built .lang file can be put in the `localization` subfolder in Unity's PersistentDataPath. (`C:\Users\brenn\AppData\LocalLow\Procul Games\Procelio\localization\English.lang`, for example, on Windwows). If the folder doesn't exist, you can create it yourself.
 
 #### Metadata
 
