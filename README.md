@@ -15,7 +15,7 @@ The executable is used for generating and compiling translation files. It *must*
 (For creating a new file, you can also copy-paste the English pack and replace as necessary)
 
 
-For mass-release, lang files must be built and deployed serverside for one of the devs.
+For mass-release, lang files must be built and deployed serverside by one of the devs.
 
 For local testing, your built .lang file can be put in the `localization` subfolder in Unity's PersistentDataPath. (`C:\Users\brenn\AppData\LocalLow\Procul Games\Procelio\localization\English.lang`, for example, on Windows). If the folder doesn't exist, you can create it yourself.
 
