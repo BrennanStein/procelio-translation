@@ -2,15 +2,17 @@
 # Prepared in preparation for Procelio 1.0 Alpha release
 
 
-## The Rust executable is used for generating and compiling translation files. It *must* be ran from the command line.
+## The executable is used for generating and compiling translation files. It *must* be ran from the command line.
 
 #### `proceliotool.exe lang .\path\to\where\to\save (.\path\to\entries.txt)`
 - If MyLanguageName doesn't exist, creates a new localization file
-- If MyLanguageName does exist _but_ doesn't contain the same set of localization entities as entries.txt, updates the file to contain all
+- If MyLanguageName does exist _but_ doesn't contain all localization entities as entries.txt, updates the file to contain all
 - If MyLanguageName does exist and is up-to-date, compiles it to AnglicizedName.lang
 
 #### If run from the repo root directory...
 `.\proceliotool.exe lang .\files\ENGLISH`
+
+(For creating a new file, you can also copy-paste the English pack and replace as necessary)
 
 ## Customizing Translation Files
 Each translation file consists of two pieces:
@@ -63,7 +65,7 @@ The internal name of the field, used so the game can tell which UI element this 
 DO NOT CHANGE
 
 ##### value
-The text of the UI element. You almost certainly want to change this.
+The text of the UI element. You almost certainly want to change this. If empty, falls back to default English value
 
 ##### size
 In case it's necessary to overwrite the size of the text. 0 = default. 1024 max value. Must be positive.
