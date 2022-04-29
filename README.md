@@ -4,21 +4,30 @@ The executable is used for generating and compiling translation files. It *must*
 
 ## Usage
 
-#### `proceliotool.exe lang .\path\to\where\to\save (.\path\to\entries.txt)`
+#### `proceliotool.exe lang .\path\to\where\to\save\MyLanguageName (.\path\to\entries.txt)`
 - If MyLanguageName doesn't exist, creates a new localization file
 - If MyLanguageName does exist _but_ doesn't contain all localization entities as entries.txt, updates the file to contain all
 - If MyLanguageName does exist and is up-to-date, compiles it to AnglicizedName.lang
 
-#### If run from the repo root directory...
-`.\proceliotool.exe lang .\files\ENGLISH`
+#### A sample run
+```
+# Acquire files and open CMD in the directory. Via CLI, or download/extract the repo from github
+# If tech-savvy, you can do a fork and submit a PR back up when you're done
+git clone https://github.com/BrennanStein/procelio-translation.git
+cd procelio-translation
 
-(For creating a new file, you can also copy-paste the English pack and replace as necessary -- though note, )
+# Actually run the tool
+.\proceliotool.exe lang .\files\MyNewLanguage  # Will generate image+data files. Go edit them
+.\proceliotool.exe lang .\files\MyNewLanguage  # Will generate '.lang' file
+```
 
+(For creating a new file, you can also copy-paste the English pack and overwrite data as necessary)
 
-For mass-release, lang files must be built and deployed serverside for one of the devs.
+#### Deployment
 
-For local testing, your built .lang file can be put in the `localization` subfolder in Unity's PersistentDataPath. (`C:\Users\brenn\AppData\LocalLow\Procul Games\Procelio\localization\English.lang`, for example, on Windows). If the folder doesn't exist, you can create it yourself.
+For mass-release, lang files must be built and deployed serverside by one of the devs.
 
+For local testing, your built .lang file can be put in the `localization` subfolder in Unity's PersistentDataPath. (`C:\Users\brenn\AppData\LocalLow\Procul Games\Procelio\localization\English.lang`, for example, on Windows). If the folder doesn't exist, you can create it yourself. Run Procelio, and the file should be visible in Settings -> Game Settings -> Language
 
 ## Customizing Translation Files
 Each translation file consists of two pieces:
@@ -65,9 +74,10 @@ Here is a fully-specified text element
       ]
 }
 ```
+
 Descriptions of each field are as follows:
 
-#### name
+##### name
 The internal name of the field, used so the game can tell which UI element this goes with.
 DO NOT CHANGE
 
@@ -113,6 +123,7 @@ The alignment to use for text. If unspecified, treated as 0 (i.e. don't override
 14 -> TextAlignmentOptions.Baseline
 15 -> TextAlignmentOptions.BaselineRight
 ```
+
 ##### color
 What color the text should be in-game
 If unspecified, treated as white '[255, 255, 255]'. Each number is the respective one-byte R,G,B channel
@@ -123,10 +134,10 @@ Use any image editor you want to modify it, but keep the file name the same.
 
 
 
-### License
+## License
 This project is made available under the Apache License 2.0.
 
-### Contributions
+## Contributions
 Contributions are welcome, subject to the license above.
 For mildly tech-savvy translators able to use git, feel free to submit PRs.
 Otherwise, feel free to download this repository (the green "Clone/Download" button), fill out a translation locally, and send the json+png to one of the devs.
