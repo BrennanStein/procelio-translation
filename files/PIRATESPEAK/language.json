@@ -1,0 +1,1637 @@
+{
+  "anglicized_name": "Pirate Speak",
+  "native_name": "Normal Speak",
+  "authors": "Pancakei",
+  "version": 1,
+  "language_elements": [
+    {
+      "name": "acct-create-err-bademail-description",
+      "value": "I CAN'T FIND THAT MAILBOX.\n(BEWARE THE DISPOSABLE MAILBOX)"
+    },
+    {
+      "name": "acct-create-err-emailused-description",
+      "value": "THAT MAILBOX' BE USED, LAD."
+    },
+    {
+      "name": "acct-create-err-header",
+      "value": "ACCOUNT MAKIN' BROKE"
+    },
+    {
+      "name": "acct-create-err-network-description",
+      "value": "NETWORK DROWNED"
+    },
+    {
+      "name": "acct-create-err-noagreement-description",
+      "value": "'YE GOTTA SIGN AWAY BEFORE 'YE PLAY PROCELIO"
+    },
+    {
+      "name": "acct-create-err-pwmismatch-description",
+      "value": "THE SECRET PASSCODE HAS GOTTA MATCH LAD"
+    },
+    {
+      "name": "acct-create-err-pwtoolong-description",
+      "value": "HOW ARE WE TO GO ABOUT REMEMBERIN' A PASSCODE THAT LONG???"
+    },
+    {
+      "name": "acct-create-err-pwtooshort-description",
+      "value": "IT'S TOO SHORT. YER' PASSCODE I MEAN."
+    },
+    {
+      "name": "acct-create-err-server-description",
+      "value": "'THE PORTS ON FIRE AGAIN, GO YELL AT BRENN"
+    },
+    {
+      "name": "acct-create-err-userbad-description",
+      "value": "WHAT KIND OF SYMBOLS ARE THESE???"
+    },
+    {
+      "name": "acct-create-err-usertoolong-description",
+      "value": "I'M NOT CALLIN' YE ANYTHING LONGER THAN 28 LETTERS."
+    },
+    {
+      "name": "acct-create-err-userused-description",
+      "value": "WE GOT CREW WITH THAT NAME."
+    },
+    {
+      "name": "acct-create-success-description",
+      "value": "'YER TAGS ARE READY, GO SIGN IN!"
+    },
+    {
+      "name": "add-to-palette",
+      "value": "ADD TO SWAB"
+    },
+    {
+      "name": "ambient-occlusion-quality",
+      "value": "Ambient Occlusion Quality"
+    },
+    {
+      "name": "antialiasing-mode",
+      "value": "Antialiasing Mode"
+    },
+    {
+      "name": "apply-changes",
+      "value": "APPLY FIXIN'"
+    },
+    {
+      "name": "audio-settings-title",
+      "value": "AUDIO SETTINGS"
+    },
+    {
+      "name": "audio-tab",
+      "value": "AUDIO"
+    },
+    {
+      "name": "back",
+      "value": "Back"
+    },
+    {
+      "name": "back-to-login",
+      "value": "BACK TO LOGIN"
+    },
+    {
+      "name": "battle-button",
+      "value": "SAIL"
+    },
+    {
+      "name": "block-alpha_1x2core-desc",
+      "value": "A VERY TINY CAPTAIN LIVES IN IT I'M TELLIN' YE! DON'T LET HIM DIE!!"
+    },
+    {
+      "name": "block-alpha_1x2core-name",
+      "value": "CAPTAIN'S QUARTERS"
+    },
+    {
+      "name": "block-alpha_airframe_angled3-desc",
+      "value": "AN ANGLED MAST WITH GOOD FOOTING."
+    },
+    {
+      "name": "block-alpha_airframe_angled3-name",
+      "value": "MAST 1x3-A"
+    },
+    {
+      "name": "block-alpha_airframe_angled5-desc",
+      "value": "AN ANGLED MAST WITH GOOD FOOTING."
+    },
+    {
+      "name": "block-alpha_airframe_angled5-name",
+      "value": "MAST 1x5-A"
+    },
+    {
+      "name": "block-alpha_airframe_straight4-desc",
+      "value": "A LIGHT MAST WITH GOOD FOOTING."
+    },
+    {
+      "name": "block-alpha_airframe_straight4-name",
+      "value": "MAST 1x4-S"
+    },
+    {
+      "name": "block-alpha_airframe_straight6-desc",
+      "value": "A LIGHT MAST WITH GOOD FOOTING."
+    },
+    {
+      "name": "block-alpha_airframe_straight6-name",
+      "value": "MAST 1x6-S"
+    },
+    {
+      "name": "block-alpha_airframe_tjunction3-desc",
+      "value": "A FUNKY MAST FOR HANGIN' MORE THAN ONE SAIL."
+    },
+    {
+      "name": "block-alpha_airframe_tjunction3-name",
+      "value": "MAST 1x3-T"
+    },
+    {
+      "name": "block-alpha_glasscube-desc",
+      "value": "DON'T DROP IT."
+    },
+    {
+      "name": "block-alpha_glasscube-name",
+      "value": "GLASS PANE"
+    },
+    {
+      "name": "block-alpha_glassinner-desc",
+      "value": "DON'T DROP IT."
+    },
+    {
+      "name": "block-alpha_glassinner-name",
+      "value": "GLASS INNER"
+    },
+    {
+      "name": "block-alpha_glassprism-desc",
+      "value": "DON'T DROP IT."
+    },
+    {
+      "name": "block-alpha_glassprism-name",
+      "value": "GLASS PRISM"
+    },
+    {
+      "name": "block-alpha_glasstetra-desc",
+      "value": "DON'T DROP IT."
+    },
+    {
+      "name": "block-alpha_glasstetra-name",
+      "value": "GLASS TETRA"
+    },
+    {
+      "name": "block-alpha_gyroscope-desc",
+      "value": "WHAT'S THAT THING SPINNING- SOMEBODY SHOULD STOP IT."
+    },
+    {
+      "name": "block-alpha_gyroscope-name",
+      "value": "CAPSTAN"
+    },
+    {
+      "name": "block-alpha_headlight_aimable-desc",
+      "value": "LIGHTS THE WAY AHEAD."
+    },
+    {
+      "name": "block-alpha_headlight_aimable-name",
+      "value": "MANNED LANTERN"
+    },
+    {
+      "name": "block-alpha_headlight_popup-desc",
+      "value": "LIGHTS THE WAY AHEAD."
+    },
+    {
+      "name": "block-alpha_headlight_popup-name",
+      "value": "MOVIN' LANTERN"
+    },
+    {
+      "name": "block-alpha_headlight_standard-desc",
+      "value": "LIGHTS THE WAY AHEAD."
+    },
+    {
+      "name": "block-alpha_headlight_standard-name",
+      "value": "LANTERN"
+    },
+    {
+      "name": "block-alpha_heavycube-desc",
+      "value": "A HEAVIER PLANK FOR HEAVIER APPLICATIONS."
+    },
+    {
+      "name": "block-alpha_heavycube-name",
+      "value": "HEFTY PLANK"
+    },
+    {
+      "name": "block-alpha_heavyinner-desc",
+      "value": "A HEAVIER PLANK FOR HEAVIER APPLICATIONS."
+    },
+    {
+      "name": "block-alpha_heavyinner-name",
+      "value": "HEFTY INNER"
+    },
+    {
+      "name": "block-alpha_heavyprism-desc",
+      "value": "A HEAVIER PLANK FOR HEAVIER APPLICATIONS."
+    },
+    {
+      "name": "block-alpha_heavyprism-name",
+      "value": "HEFTY PRISM"
+    },
+    {
+      "name": "block-alpha_heavytetra-desc",
+      "value": "A HEAVIER PLANK FOR HEAVIER APPLICATIONS."
+    },
+    {
+      "name": "block-alpha_heavytetra-name",
+      "value": "HEFTY TETRA"
+    },
+    {
+      "name": "block-alpha_hoverblade_t9-desc",
+      "value": "THROWS YOU INTO THE AIR, FOR THOSE AFRAID OF MAKIN' GROUND CONTACT."
+    },
+    {
+      "name": "block-alpha_hoverblade_t9-name",
+      "value": "DOOHICKEY"
+    },
+    {
+      "name": "block-alpha_lasergun_t9-desc",
+      "value": "A FOOLPROOF CANNON, POINT AND SHOOT."
+    },
+    {
+      "name": "block-alpha_lasergun_t9-name",
+      "value": "REPEATIN' CANNON"
+    },
+    {
+      "name": "block-alpha_nanoassembler-desc",
+      "value": "USES MAGIC AND LOTS OF NAILS TO FIX 'YER MATES SHIPS."
+    },
+    {
+      "name": "block-alpha_nanoassembler-name",
+      "value": "SHIP FIXER"
+    },
+    {
+      "name": "block-alpha_nonsteering_wheel-desc",
+      "value": "A WHEEL. CAN'T STEER, WHAT GOOD IS IT."
+    },
+    {
+      "name": "block-alpha_nonsteering_wheel-name",
+      "value": "DUD WHEEL"
+    },
+    {
+      "name": "block-alpha_plasmacannon-desc",
+      "value": "A TRUE PIRATE'S CANNON OF CHOICE. LOBS STEEL LIKE NO OTHER, AYE!"
+    },
+    {
+      "name": "block-alpha_plasmacannon-name",
+      "value": "HEAVY CANNON"
+    },
+    {
+      "name": "block-alpha_radar-desc",
+      "value": "SPOTS NEARBY FOES"
+    },
+    {
+      "name": "block-alpha_radar-name",
+      "value": "LOOKOUT"
+    },
+    {
+      "name": "block-alpha_radar_jammer-desc",
+      "value": "TRIES ITS VERY BEST TO HIDE YOU."
+    },
+    {
+      "name": "block-alpha_radar_jammer-name",
+      "value": "LOOKOUT-MIRROR"
+    },
+    {
+      "name": "block-alpha_railgun-desc",
+      "value": "THIS THING TAKES FOREVER TO LOAD, BUT SHE'LL HIT HER MARK AT ANY RANGE."
+    },
+    {
+      "name": "block-alpha_railgun-name",
+      "value": "HOLEPUNCHER"
+    },
+    {
+      "name": "block-alpha_rudder-desc",
+      "value": "IT'S A RUDDER!"
+    },
+    {
+      "name": "block-alpha_rudder-name",
+      "value": "RUDDER"
+    },
+    {
+      "name": "block-alpha_sec_energyblade-desc",
+      "value": "RUN HER ASHORE WITH INTENT TO MAIM AND PLUNDER."
+    },
+    {
+      "name": "block-alpha_sec_energyblade-name",
+      "value": "OVERSIZED CUTLASS"
+    },
+    {
+      "name": "block-alpha_sec_minelayer-desc",
+      "value": "PUNT A BOMB TO SEA AND WAIT FOR A FOOL TO HIT IT."
+    },
+    {
+      "name": "block-alpha_sec_minelayer-name",
+      "value": "NAVAL MINES"
+    },
+    {
+      "name": "block-alpha_sec_rocketlauncher-desc",
+      "value": "LAUNCHES A SHIP-SEEKIN' FLARE."
+    },
+    {
+      "name": "block-alpha_sec_rocketlauncher-name",
+      "value": "FIRECRACKER TUBE"
+    },
+    {
+      "name": "block-alpha_sec_shieldprojector-desc",
+      "value": "PROJECTS THE WRATH OF THE SEAS TO PROTECT AGAINST FIRE."
+    },
+    {
+      "name": "block-alpha_sec_shieldprojector-name",
+      "value": "WAVE MAKER"
+    },
+    {
+      "name": "block-alpha_sec_smokescreen-desc",
+      "value": "WITH CATLIKE TREAD, UPON OUR PREY WE STEAL."
+    },
+    {
+      "name": "block-alpha_sec_smokescreen-name",
+      "value": "SMOKE BOMB"
+    },
+    {
+      "name": "block-alpha_ski-desc",
+      "value": "VERY SLIPPERY BOARD FOR MOVIN' GOODS."
+    },
+    {
+      "name": "block-alpha_ski-name",
+      "value": "SLED"
+    },
+    {
+      "name": "block-alpha_thruster_t1-desc",
+      "value": "A SMALL ROTOR THAT PUSHES 'YER CRAFT."
+    },
+    {
+      "name": "block-alpha_thruster_t1-name",
+      "value": "ROTOR Mk. 1-A"
+    },
+    {
+      "name": "block-alpha_thruster_t9-desc",
+      "value": "A BIG ROTOR THAT PUSHES 'YER CRAFT."
+    },
+    {
+      "name": "block-alpha_thruster_t9-name",
+      "value": "ROTOR Mk. 4"
+    },
+    {
+      "name": "block-alpha_topmount_thruster-desc",
+      "value": "A SMALL ROTOR THAT PUSHES 'YER CRAFT, BUT A WEE HARDER."
+    },
+    {
+      "name": "block-alpha_topmount_thruster-name",
+      "value": "ROTOR Mk. 1-B"
+    },
+    {
+      "name": "block-alpha_wheel_t9-desc",
+      "value": "A WHEEL THAT CAN STEER YER SHIP."
+    },
+    {
+      "name": "block-alpha_wheel_t9-name",
+      "value": "STEERIN' WHEEL"
+    },
+    {
+      "name": "block-alpha_whitecube-desc",
+      "value": "'YER STANDARD FARE PLANK. OL' RELIABLE SIX SIDED PLANK WITH NO NONSENSE."
+    },
+    {
+      "name": "block-alpha_whitecube-name",
+      "value": "NORMAL PLANK"
+    },
+    {
+      "name": "block-alpha_whiteinner-desc",
+      "value": "A PLANK WITH A NOTCH CUT IN IT. MAKE IT LOOK LIKE YE SEEN BATTLE."
+    },
+    {
+      "name": "block-alpha_whiteinner-name",
+      "value": "NORMAL INNER"
+    },
+    {
+      "name": "block-alpha_whiteprism-desc",
+      "value": "A SLOPED PLANK. LESS WEIGHT, FEWER NAILS."
+    },
+    {
+      "name": "block-alpha_whiteprism-name",
+      "value": "NORMAL SLOPE"
+    },
+    {
+      "name": "block-alpha_whitepyramid-desc",
+      "value": "ANOTHER FUNNY PLANK."
+    },
+    {
+      "name": "block-alpha_whitepyramid-name",
+      "value": "NORMAL PYRAMID"
+    },
+    {
+      "name": "block-alpha_whitetetra-desc",
+      "value": "A FUNNY LITTLE PLANK WITH NEXT TO NO NAILIN'"
+    },
+    {
+      "name": "block-alpha_whitetetra-name",
+      "value": "NORMAL TETRA."
+    },
+    {
+      "name": "block-alpha_wing_swept_l-desc",
+      "value": "FLY LIKE A BIRD OVER THE SEA. (PORT)"
+    },
+    {
+      "name": "block-alpha_wing_swept_l-name",
+      "value": "ALBATROSS WING (P)"
+    },
+    {
+      "name": "block-alpha_wing_swept_r-desc",
+      "value": "FLY LIKE A BIRD OVER THE SEA. (STARBOARD)"
+    },
+    {
+      "name": "block-alpha_wing_swept_r-name",
+      "value": "ALBATROSS WING (S)"
+    },
+    {
+      "name": "block-electroplate_a_l-desc",
+      "value": "A MAGICAL PLANK THAT REPAIRS ITSELF. BLIMEY!"
+    },
+    {
+      "name": "block-electroplate_a_l-name",
+      "value": "MAGIC PLANK A.P"
+    },
+    {
+      "name": "block-electroplate_a_r-desc",
+      "value": "A MAGICAL PLANK THAT REPAIRS ITSELF. BLIMEY!"
+    },
+    {
+      "name": "block-electroplate_a_r-name",
+      "value": "MAGIC PLANK A.S"
+    },
+    {
+      "name": "block-electroplate_b_l-desc",
+      "value": "A MAGICAL PLANK THAT REPAIRS ITSELF. BLIMEY!"
+    },
+    {
+      "name": "block-electroplate_b_l-name",
+      "value": "MAGIC PLANK B.P"
+    },
+    {
+      "name": "block-electroplate_b_r-desc",
+      "value": "A MAGICAL PLANK THAT REPAIRS ITSELF. BLIMEY!"
+    },
+    {
+      "name": "block-electroplate_b_r-name",
+      "value": "MAGIC PLANK B.S"
+    },
+    {
+      "name": "block-electroplate_c-desc",
+      "value": "A MAGICAL PLANK THAT REPAIRS ITSELF. BLIMEY!"
+    },
+    {
+      "name": "block-electroplate_c-name",
+      "value": "MAGIC PLANK C"
+    },
+    {
+      "name": "block-helium_112-desc",
+      "value": "A WEE TANK OF FLAMMABLE GAS."
+    },
+    {
+      "name": "block-helium_112-name",
+      "value": "1x1x2 BALLAST"
+    },
+    {
+      "name": "block-helium_123-desc",
+      "value": "A TANK OF FLAMMABLE GAS."
+    },
+    {
+      "name": "block-helium_123-name",
+      "value": "1x3x2 BALLAST"
+    },
+    {
+      "name": "block-helium_224-desc",
+      "value": "A TANK OF FLAMMABLE GAS."
+    },
+    {
+      "name": "block-helium_224-name",
+      "value": "2x2x4 BALLAST"
+    },
+    {
+      "name": "block-helium_335-desc",
+      "value": "A HUGE TANK OF FLAMMABLE GAS."
+    },
+    {
+      "name": "block-helium_335-name",
+      "value": "3x3x5 BALLAST"
+    },
+    {
+      "name": "block-helium_348-desc",
+      "value": "THE MOBY DICK OF FLAMMABLE GAS."
+    },
+    {
+      "name": "block-helium_348-name",
+      "value": "3x4x8 BALLAST"
+    },
+    {
+      "name": "bloom-intensity",
+      "value": "Bloom Intensity"
+    },
+    {
+      "name": "bloom-quality",
+      "value": "Bloom Quality"
+    },
+    {
+      "name": "build-mode-build",
+      "value": "TINKERIN'"
+    },
+    {
+      "name": "build-mode-paint",
+      "value": "PAINTIN'"
+    },
+    {
+      "name": "build-placement-error-archetype",
+      "value": "NO MORE THAN ONE KIND OF CANNON ALLOWED."
+    },
+    {
+      "name": "build-placement-error-maxcpu",
+      "value": "WE'RE RUNNIN' LOW ON STORAGE."
+    },
+    {
+      "name": "build-placement-error-noblocks",
+      "value": "OUT OF STOCK!"
+    },
+    {
+      "name": "build-placement-error-title",
+      "value": "AVAST!"
+    },
+    {
+      "name": "build-placement-error-twocore",
+      "value": "NO MUTINY ALLOWED."
+    },
+    {
+      "name": "buy",
+      "value": "AYE!"
+    },
+    {
+      "name": "choose-active-soundtracks",
+      "value": "Choose Active Soundtracks:"
+    },
+    {
+      "name": "chroma-aberration-quality",
+      "value": "Chromatic Aberration Quality"
+    },
+    {
+      "name": "chromatic-aberration-intensity",
+      "value": "Chromatic Aberration Intensity"
+    },
+    {
+      "name": "clear",
+      "value": "FURL\n"
+    },
+    {
+      "name": "confirm-password",
+      "value": "CONFIRM PASSCODE:",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "conn-files-failed-description",
+      "value": "'ME FILES! THEY'RE GONE!"
+    },
+    {
+      "name": "conn-files-failed-header",
+      "value": "CONNECTION DROWNED"
+    },
+    {
+      "name": "control-settings-title",
+      "value": "CONTROL SETTINGS"
+    },
+    {
+      "name": "controls-tab",
+      "value": "CONTROLS\n"
+    },
+    {
+      "name": "create-account",
+      "value": "CREATE ACCOUNT"
+    },
+    {
+      "name": "damagetest-weapon-select",
+      "value": "CANNON AT THE READY:"
+    },
+    {
+      "name": "delete-bot-body",
+      "value": "SHIP '%b' WILL BE DOWNED AND DROWNED."
+    },
+    {
+      "name": "delete-bot-title",
+      "value": "ARE YE SURE ABOUT THAT?"
+    },
+    {
+      "name": "dialogue-okay",
+      "value": "AYE"
+    },
+    {
+      "name": "dialogue-success",
+      "value": "BLIMEY!"
+    },
+    {
+      "name": "display",
+      "value": "Display"
+    },
+    {
+      "name": "dmg-test-scale",
+      "value": "x3",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "early-access-title",
+      "value": "EARRRLY ACCESS"
+    },
+    {
+      "name": "early-access-warning",
+      "value": "PROCELIO BE IN AN UNFINISHED STATE, LANDLUBBER! BE WARNED, UNFINISHED CONTENT MAY AWAIY YE."
+    },
+    {
+      "name": "edit-bot",
+      "value": "CRAFT SHIP"
+    },
+    {
+      "name": "edit-keybinds",
+      "value": "Edit Keybinds"
+    },
+    {
+      "name": "email-to-reset-password",
+      "value": "EMAIL:",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "enter-game",
+      "value": "LOGIN"
+    },
+    {
+      "name": "enter-garage",
+      "value": "TO THE DOCKS"
+    },
+    {
+      "name": "enter-passord",
+      "value": "ENTER PASSCODE...",
+      "italic": true
+    },
+    {
+      "name": "enter-to-type",
+      "value": "Press ENTER if ye dare...",
+      "italic": true
+    },
+    {
+      "name": "enter-username",
+      "value": "ENTER NICKNAME",
+      "italic": true
+    },
+    {
+      "name": "environmental-volume",
+      "value": "Environmental Volume"
+    },
+    {
+      "name": "exit-game",
+      "value": "RETIRE"
+    },
+    {
+      "name": "fov",
+      "value": "FOV"
+    },
+    {
+      "name": "fps-limit",
+      "value": "FPS Limit"
+    },
+    {
+      "name": "friends",
+      "value": "MATES"
+    },
+    {
+      "name": "fullscreen",
+      "value": "Full Screen"
+    },
+    {
+      "name": "game-area",
+      "value": "Game Area"
+    },
+    {
+      "name": "game-settings-title",
+      "value": "GAME SETTINGS"
+    },
+    {
+      "name": "game-tab",
+      "value": "GAME\n"
+    },
+    {
+      "name": "graphics-advanced",
+      "value": "ADVANCED RIGGINGS"
+    },
+    {
+      "name": "graphics-bad-transparency",
+      "value": "Low-Quality Transparency"
+    },
+    {
+      "name": "graphics-distortion-data",
+      "value": "Capture DIstortion Data"
+    },
+    {
+      "name": "graphics-motion-vectors",
+      "value": "Capture Motion Vectors"
+    },
+    {
+      "name": "graphics-no-decals",
+      "value": "Disable Decals"
+    },
+    {
+      "name": "graphics-preset",
+      "value": "Graphics Preset:"
+    },
+    {
+      "name": "graphics-reflection-probes",
+      "value": "Use Reflection Probes"
+    },
+    {
+      "name": "graphics-refraction-data",
+      "value": "Capture Refraction Data"
+    },
+    {
+      "name": "graphics-ssao",
+      "value": "Do SSAO"
+    },
+    {
+      "name": "graphics-volumetric-fog",
+      "value": "Do Volumetric Fog"
+    },
+    {
+      "name": "graphics-vsync",
+      "value": "VSync"
+    },
+    {
+      "name": "i-accept-the-terms-of-usage-and-privacy-policy",
+      "value": "AYE, I ACCEPT"
+    },
+    {
+      "name": "information",
+      "value": "AHOY!"
+    },
+    {
+      "name": "inv-cat-aeroframe",
+      "value": "MASTS"
+    },
+    {
+      "name": "inv-cat-blocks",
+      "value": "SHIP PLANKS"
+    },
+    {
+      "name": "inv-cat-core",
+      "value": "WORLDS SMALLEST CAPTAINS QUARTERS"
+    },
+    {
+      "name": "inv-cat-cosm",
+      "value": "BOOTY"
+    },
+    {
+      "name": "inv-cat-electroplates",
+      "value": "MAGIC PLANKS"
+    },
+    {
+      "name": "inv-cat-info",
+      "value": "NAVIGATORS"
+    },
+    {
+      "name": "inv-cat-movement",
+      "value": "SAILS AND RUDDERS"
+    },
+    {
+      "name": "inv-cat-viz",
+      "value": "WORKIN' MANS BOOTY"
+    },
+    {
+      "name": "inv-cat-wep-pri",
+      "value": "MAIN CANNONS"
+    },
+    {
+      "name": "inv-cat-wep-sec",
+      "value": "NO LESS VALUABLE CANNONS"
+    },
+    {
+      "name": "inv-tooltip-availability",
+      "value": "READY: %ct"
+    },
+    {
+      "name": "inv-tooltip-stats",
+      "value": "VIGOR: %hp\nSTAMINA: %shield\nHEFT: %mass\nWIT: %cplx\nRANK: %rank\nVALUE: %val\nVALUE(SWAGGER): %prem\nHEADWAY: %trst\nROTARY(deg/s): %rots\nDAMAGE: %dmg"
+    },
+    {
+      "name": "inventory",
+      "value": "CARGO HOLD"
+    },
+    {
+      "name": "inventory-button",
+      "value": "CARGO"
+    },
+    {
+      "name": "invert-mouse-y-build",
+      "value": "Invert Mouse Y (Garage)"
+    },
+    {
+      "name": "invert-mouse-y-drive",
+      "value": "Invert Mouse Y (Drive)"
+    },
+    {
+      "name": "key-drivecamzoomin",
+      "value": "LOOK HARDER"
+    },
+    {
+      "name": "key-drivecamzoomout",
+      "value": "LOOK SOFTER"
+    },
+    {
+      "name": "key-drivecheckscores",
+      "value": "CHECK 'YE PLUNDER"
+    },
+    {
+      "name": "key-drivecycleweapon",
+      "value": "MAN THE CANNONS"
+    },
+    {
+      "name": "key-drivedrift",
+      "value": "SURF"
+    },
+    {
+      "name": "key-driveflipbot",
+      "value": "FLIP YE SHIP"
+    },
+    {
+      "name": "key-drivereload",
+      "value": "LOAD POWDER"
+    },
+    {
+      "name": "key-drivescope",
+      "value": "TELESCOPE"
+    },
+    {
+      "name": "key-driveshoot",
+      "value": "FIRE!"
+    },
+    {
+      "name": "key-garagecammovebackward",
+      "value": "DOCK VIEW: BACK'ARDS"
+    },
+    {
+      "name": "key-garagecammovedown",
+      "value": "DOCK VIEW: SINK"
+    },
+    {
+      "name": "key-garagecammoveforward",
+      "value": "DOCK VIEW: FORWARD"
+    },
+    {
+      "name": "key-garagecammoveup",
+      "value": "DOCK VIEW: FLOAT"
+    },
+    {
+      "name": "key-garagecamstrafeleft",
+      "value": "DOCK VIEW: PORT"
+    },
+    {
+      "name": "key-garagecamstraferight",
+      "value": "DOCK VIEW: STARBOARD"
+    },
+    {
+      "name": "key-garagechangeeditingmode",
+      "value": "SCURRY 'YER TOOLS"
+    },
+    {
+      "name": "key-garagechangesymmetry",
+      "value": "CHANGE MIRROR SHAPE"
+    },
+    {
+      "name": "key-garagepickblock",
+      "value": "STEAL BOARD"
+    },
+    {
+      "name": "key-garageplaceblock",
+      "value": "PLACE BOARD"
+    },
+    {
+      "name": "key-garageremoveblock",
+      "value": "REMOVE BOARD"
+    },
+    {
+      "name": "key-garagerotaterobotleft",
+      "value": "SPIN SHIP TO PORT"
+    },
+    {
+      "name": "key-garagerotaterobotright",
+      "value": "SPIN SHIP TO STARBOARD"
+    },
+    {
+      "name": "key-garageshiftrobotbackward",
+      "value": "ROLL SHIP BACKWARD"
+    },
+    {
+      "name": "key-garageshiftrobotdown",
+      "value": "SINK SHIP"
+    },
+    {
+      "name": "key-garageshiftrobotforward",
+      "value": "ROLL SHIP FORWARD"
+    },
+    {
+      "name": "key-garageshiftrobotleft",
+      "value": "ROLL SHIP TO PORT"
+    },
+    {
+      "name": "key-garageshiftrobotright",
+      "value": "ROLL SHIP TO STARBOARD"
+    },
+    {
+      "name": "key-garageshiftrobotup",
+      "value": "FLOAT SHIP"
+    },
+    {
+      "name": "key-garagetogglemirroractive",
+      "value": "BRING OUT THE MIRROR"
+    },
+    {
+      "name": "key-garagewipebay",
+      "value": "DISMANTLE SHIP"
+    },
+    {
+      "name": "key-mousex",
+      "value": "MOUSE SLIDIN'"
+    },
+    {
+      "name": "key-mousey",
+      "value": "MOUSE FLOATIN'"
+    },
+    {
+      "name": "key-robotdrivebackward",
+      "value": "SAIL BACKWARDS"
+    },
+    {
+      "name": "key-robotdrivedown",
+      "value": "SINK"
+    },
+    {
+      "name": "key-robotdriveforward",
+      "value": "SAIL FORTH"
+    },
+    {
+      "name": "key-robotdriveleft",
+      "value": "TACK PORT"
+    },
+    {
+      "name": "key-robotdriveright",
+      "value": "TACK STARBOARD"
+    },
+    {
+      "name": "key-robotdriveup",
+      "value": "FLOAT"
+    },
+    {
+      "name": "key-robotpitchdown",
+      "value": "LOWER THE SAILS"
+    },
+    {
+      "name": "key-robotpitchup",
+      "value": "RAISE THE SAILS"
+    },
+    {
+      "name": "key-robotrollleft",
+      "value": "ROLL PORT"
+    },
+    {
+      "name": "key-robotrollright",
+      "value": "ROLL STARBOARD"
+    },
+    {
+      "name": "key-robotyawleft",
+      "value": "TURN TO PORT"
+    },
+    {
+      "name": "key-robotyawright",
+      "value": "TURN TO STARBOARD"
+    },
+    {
+      "name": "key-shortcutbuild2battle",
+      "value": "DOCK SHORTCUT: BATTLE"
+    },
+    {
+      "name": "key-shortcutbuild2inventory",
+      "value": "DOCK SHORTCUT: CARGO HOLD"
+    },
+    {
+      "name": "key-shortcutbuild2paint",
+      "value": "DOCK SHORTCUT: PAINT"
+    },
+    {
+      "name": "key-shortcutbuild2shop",
+      "value": "DOCK SHORTCUT: SMITH"
+    },
+    {
+      "name": "key-shortcutbuild2tech",
+      "value": "DOCK SHORTCUT: TACTICS"
+    },
+    {
+      "name": "key-shortcutbuild2test",
+      "value": "DOCK SHORTCUT: TRIAL"
+    },
+    {
+      "name": "key-shortcutbuildhotbar0",
+      "value": "DOCK SHORTCUT: TOOL 10"
+    },
+    {
+      "name": "key-shortcutbuildhotbar1",
+      "value": "DOCK SHORTCUT: TOOL 1"
+    },
+    {
+      "name": "key-shortcutbuildhotbar2",
+      "value": "DOCK SHORTCUT: TOOL 2"
+    },
+    {
+      "name": "key-shortcutbuildhotbar3",
+      "value": "DOCK SHORTCUT: TOOL 3"
+    },
+    {
+      "name": "key-shortcutbuildhotbar4",
+      "value": "DOCK SHORTCUT: TOOL 4"
+    },
+    {
+      "name": "key-shortcutbuildhotbar5",
+      "value": "DOCK SHORTCUT: TOOL 5"
+    },
+    {
+      "name": "key-shortcutbuildhotbar6",
+      "value": "DOCK SHORTCUT: TOOL 6"
+    },
+    {
+      "name": "key-shortcutbuildhotbar7",
+      "value": "DOCK SHORTCUT: TOOL 7"
+    },
+    {
+      "name": "key-shortcutbuildhotbar8",
+      "value": "DOCK SHORTCUT: TOOL 8"
+    },
+    {
+      "name": "key-shortcutbuildhotbar9",
+      "value": "DOCK SHORTCUT: TOOL 9"
+    },
+    {
+      "name": "key-shortcutmenu2battle",
+      "value": "MENU SHORTCUT: TO BATTLE"
+    },
+    {
+      "name": "key-shortcutmenu2exit",
+      "value": "MENU SHORTCUT: PARLEY"
+    },
+    {
+      "name": "key-shortcutmenu2garage",
+      "value": "MENU SHORTCUT: TO THE DOCK"
+    },
+    {
+      "name": "key-shortcutmenu2settings",
+      "value": "MENU SHORTCUT: RIGGINGS"
+    },
+    {
+      "name": "key-shortcutmenu2stats",
+      "value": "MENU SHORTCUT: PLUNDER"
+    },
+    {
+      "name": "key-shortcutsettings2settings1",
+      "value": "RIGGINGS SHORTCUT: PAGE 1"
+    },
+    {
+      "name": "key-shortcutsettings2settings2",
+      "value": "RIGGINGS SHORTCUT: PAGE 2"
+    },
+    {
+      "name": "key-shortcutsettings2settings3",
+      "value": "RIGGINGS SHORTCUT: PAGE 3"
+    },
+    {
+      "name": "key-shortcutsettings2settings4",
+      "value": "RIGGINGS SHORTCUT: PAGE 4"
+    },
+    {
+      "name": "key-showcursor",
+      "value": "SHOW MOUSE CURSIN'"
+    },
+    {
+      "name": "key-uimusicmute",
+      "value": "MUTE THAT INFERNAL TUNE"
+    },
+    {
+      "name": "key-uimusicskip",
+      "value": "I HATE THIS SONG"
+    },
+    {
+      "name": "keybinds-drive",
+      "value": "Drive/Battle Keybinds"
+    },
+    {
+      "name": "keybinds-garage",
+      "value": "Garage/Build Keybinds\n"
+    },
+    {
+      "name": "keybinds-interface",
+      "value": "User Interface Keybinds"
+    },
+    {
+      "name": "keybinds-misc",
+      "value": "Miscellaneous Keybinds"
+    },
+    {
+      "name": "language",
+      "value": "CHANGE LINGO"
+    },
+    {
+      "name": "language-settings-title",
+      "value": "LINGO SETTINGS"
+    },
+    {
+      "name": "loading-assets-description",
+      "value": "READYIN' THE TOOLS..."
+    },
+    {
+      "name": "loading-error-accountstate-description",
+      "value": "CAN'T FIND THE MAPS."
+    },
+    {
+      "name": "loading-error-cullbots-description",
+      "value": "THE MACHINES ARRR TO BLAME."
+    },
+    {
+      "name": "loading-error-stats-description",
+      "value": "CAN'T FIND THE TOOLS."
+    },
+    {
+      "name": "loading-error-title",
+      "value": "THE CARGO WAS DROPPED!"
+    },
+    {
+      "name": "loading-player-description",
+      "value": "HIRIN' CREW..."
+    },
+    {
+      "name": "loading-robots-description",
+      "value": "FINDIN' A VESSEL..."
+    },
+    {
+      "name": "loading-server-description",
+      "value": "CHECKIN' THE MAPS..."
+    },
+    {
+      "name": "loading-title",
+      "value": "LOADING CARGO..."
+    },
+    {
+      "name": "logbook",
+      "value": "SHIP LOG"
+    },
+    {
+      "name": "login-badcreds-description",
+      "value": "'YER CREDENTIALS ARE A WASH"
+    },
+    {
+      "name": "login-failed-title",
+      "value": "LOGIN SUNK"
+    },
+    {
+      "name": "login-networkfail-description",
+      "value": "NETWORK DROWNED"
+    },
+    {
+      "name": "login-servererror-description",
+      "value": "'PORTS ON FIRE"
+    },
+    {
+      "name": "login-sessionexpired-description",
+      "value": "CACHED SESSION'S GONE, LAD"
+    },
+    {
+      "name": "master-volume",
+      "value": "Master Volume\n"
+    },
+    {
+      "name": "match-connecting",
+      "value": "HAULIN' ROPE..."
+    },
+    {
+      "name": "match-loading",
+      "value": "LOADIN' CARGO..."
+    },
+    {
+      "name": "matchmaking-estimated",
+      "value": "WAIT YOUR TURN, CABIN BOY: "
+    },
+    {
+      "name": "matchmaking-failed-body",
+      "value": "WE DON'T KNOW WHY EITHER. IF THIS KEEPS HAPPENIN' YELL AT BRENN."
+    },
+    {
+      "name": "matchmaking-failed-title",
+      "value": "MATCHIN' FAILED"
+    },
+    {
+      "name": "matchmaking-preparing",
+      "value": "PREPARIN' FOR WAR..."
+    },
+    {
+      "name": "matchmaking-ready",
+      "value": "BATTLE AHEAD!"
+    },
+    {
+      "name": "mode-contest-capture",
+      "value": "SEA DOMINANCE"
+    },
+    {
+      "name": "mode-free-for-all",
+      "value": "SLUGFEST"
+    },
+    {
+      "name": "model-quality",
+      "value": "Model LOD Quality"
+    },
+    {
+      "name": "motion-blur-quality",
+      "value": "Motion Blur"
+    },
+    {
+      "name": "mouse-sensitivity-drive",
+      "value": "Mouse Sensitvity (Drive)"
+    },
+    {
+      "name": "mouse-sensitivity-garage",
+      "value": "Mouse Sensitvity (Garage)\n"
+    },
+    {
+      "name": "music-volume",
+      "value": "Music Volume\n"
+    },
+    {
+      "name": "network-connection-lost-info",
+      "value": "%sec SECONDS..."
+    },
+    {
+      "name": "network-connection-lost-title",
+      "value": "CONNECTION DROWNED"
+    },
+    {
+      "name": "options",
+      "value": "RIGGINGS"
+    },
+    {
+      "name": "paint-button",
+      "value": "PAINT"
+    },
+    {
+      "name": "paint-color-preview",
+      "value": "COLOR FORESIGHT"
+    },
+    {
+      "name": "paint-menu",
+      "value": "PAINT BUCKET"
+    },
+    {
+      "name": "paint-mix",
+      "value": "MIX"
+    },
+    {
+      "name": "paint-paint",
+      "value": "PAINT"
+    },
+    {
+      "name": "paint-palette-num",
+      "value": "STANDARD SWAB\n"
+    },
+    {
+      "name": "paint-palette-presets",
+      "value": "STANDARD SWAB"
+    },
+    {
+      "name": "paint-palette-standard",
+      "value": "FANCY SWAB #"
+    },
+    {
+      "name": "paint-pick",
+      "value": "PICK"
+    },
+    {
+      "name": "paint-premiumonly-body",
+      "value": "FANCY PAINT ONLY AVAILABLE TO THOSE WITH SWAGGER."
+    },
+    {
+      "name": "paint-premiumonly-title",
+      "value": "NO SWAGGER."
+    },
+    {
+      "name": "paint-tool-hotbar",
+      "value": "PAINT BRUSHES"
+    },
+    {
+      "name": "password",
+      "value": "PASSCODE:",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "play-button",
+      "value": "SAIL ABROAD"
+    },
+    {
+      "name": "player-statistics",
+      "value": "RECORDIN'S"
+    },
+    {
+      "name": "power-usage",
+      "value": "WIT LIMIT",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "quit-to-garage",
+      "value": "SAIL ANOTHER DAY"
+    },
+    {
+      "name": "re-enter-password",
+      "value": "captain@procelio.com",
+      "italic": true
+    },
+    {
+      "name": "records-path",
+      "value": "RECORDS PATH:"
+    },
+    {
+      "name": "remember-me",
+      "value": "THEY SHALL REMEMBER ME"
+    },
+    {
+      "name": "resolution",
+      "value": "Resolution"
+    },
+    {
+      "name": "return",
+      "value": "Return"
+    },
+    {
+      "name": "return-to-game",
+      "value": "RETURN TO SEA"
+    },
+    {
+      "name": "return-to-main-menu",
+      "value": "MAIN MENU"
+    },
+    {
+      "name": "return-to-orbit",
+      "value": "RETURN TO DOCK"
+    },
+    {
+      "name": "return-to-orbit-in",
+      "value": "I'M TAKING 'YE BACK WHETHER YE LIKE IT OR NOT IN "
+    },
+    {
+      "name": "robot-name",
+      "value": "SHIP NAME"
+    },
+    {
+      "name": "robot-validate-error-disconnect",
+      "value": "CAN'T SAIL WITH FLOATIN' PARTS, LAD."
+    },
+    {
+      "name": "robot-validate-error-maxcpu",
+      "value": "THE SHIP NEEDS TRIMMIN'."
+    },
+    {
+      "name": "robot-validate-error-title",
+      "value": "SHIP'S BROKE"
+    },
+    {
+      "name": "robot-validate-error-twocore",
+      "value": "HOW THE HELL DID YOU GET TWO CAPTAINS ON HERE??"
+    },
+    {
+      "name": "robot-validate-error-zerocore",
+      "value": "EVERY SHIP NEEDS A CAPTAIN."
+    },
+    {
+      "name": "score-damagegiven",
+      "value": "DAMAGE SCORED"
+    },
+    {
+      "name": "score-damagetaken",
+      "value": "DAMAGE TAKEN"
+    },
+    {
+      "name": "score-deaths",
+      "value": "TIMES SUNK"
+    },
+    {
+      "name": "score-kills",
+      "value": "VICTIMS"
+    },
+    {
+      "name": "score-timeconnected",
+      "value": "MONTHS AT SEA"
+    },
+    {
+      "name": "screen-space-global-illumination",
+      "value": "Screen Space Global Illumination"
+    },
+    {
+      "name": "screen-space-reflections",
+      "value": "Screen Space Reflections"
+    },
+    {
+      "name": "self-destruct",
+      "value": "MAROON YE'SELF"
+    },
+    {
+      "name": "set-to-default",
+      "value": "TAKE ME BACK!!"
+    },
+    {
+      "name": "settings-screenshake",
+      "value": "Screenshake\n\n"
+    },
+    {
+      "name": "shadow-quality",
+      "value": "Shadow Quality"
+    },
+    {
+      "name": "shop",
+      "value": "COMPONENT SMITH"
+    },
+    {
+      "name": "shop-button",
+      "value": "SMITH\n"
+    },
+    {
+      "name": "sound-effects-volume",
+      "value": "Sound Effects Volume\n"
+    },
+    {
+      "name": "sss-quality",
+      "value": "Subsurface Scattering Quality"
+    },
+    {
+      "name": "tech-button",
+      "value": "TACTICS"
+    },
+    {
+      "name": "techtree-wip",
+      "value": "UNDER CONSTRUCTION",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "techtree-wip-desc",
+      "value": "WE'RE CLOSED."
+    },
+    {
+      "name": "terms-changed-description",
+      "value": "Procelio's terms of use have changed and required additional agreement to play the game.\n\nSee <link=\"%PRIVACY%\"><color=blue>Privacy Policy</color></link>\nSee <link=\"%TOS%\"><color=blue>Terms of Service</color></link>\n\nDo you agree to the above-linked documents?"
+    },
+    {
+      "name": "terms-changed-header",
+      "value": "Terms of Use Updated"
+    },
+    {
+      "name": "test-button",
+      "value": "TEST'ER"
+    },
+    {
+      "name": "test-environment",
+      "value": "Test Port:"
+    },
+    {
+      "name": "texture-quality",
+      "value": "Texture Quality"
+    },
+    {
+      "name": "transaction-failed-description",
+      "value": "NO DEAL."
+    },
+    {
+      "name": "transaction-failed-header",
+      "value": "NO DEAL."
+    },
+    {
+      "name": "transaction-process-description",
+      "value": "GETTIN' A SIGNATURE."
+    },
+    {
+      "name": "transaction-process-header",
+      "value": "BARGAINING..."
+    },
+    {
+      "name": "translation-disabled",
+      "value": "NOT READY\n",
+      "color": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "translation-download",
+      "value": "AT SEAS"
+    },
+    {
+      "name": "translation-enabled",
+      "value": "READY\n",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "translation-installed",
+      "value": "IN PORT"
+    },
+    {
+      "name": "translation-save-return",
+      "value": "save & return"
+    },
+    {
+      "name": "ui-do-autopurchase",
+      "value": "AUTO-PURCHASE THINGS IN THE DOCK"
+    },
+    {
+      "name": "ui-save-matches",
+      "value": "SAVE ME RECORDS FOR FUTURE USE (avg 300KiB/player/min)"
+    },
+    {
+      "name": "ui-scale",
+      "value": "UI Scale"
+    },
+    {
+      "name": "username",
+      "value": "NICKNAME:",
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    {
+      "name": "video-settings-title",
+      "value": "VIDEO RIGGINGS"
+    },
+    {
+      "name": "video-tab",
+      "value": "VIDEO"
+    },
+    {
+      "name": "view-usage-terms-and-privacy-policy",
+      "value": "VIEW TERMS O' SERVICE"
+    },
+    {
+      "name": "weapon-category-gauss",
+      "value": "HOLEPUNCHER"
+    },
+    {
+      "name": "weapon-category-laser",
+      "value": "REPEATIN' CANNON"
+    },
+    {
+      "name": "weapon-category-mine",
+      "value": "NAVAL MINES"
+    },
+    {
+      "name": "weapon-category-nano",
+      "value": "SHIP FIXER"
+    },
+    {
+      "name": "weapon-category-plasma",
+      "value": "HEAVY CANNON"
+    },
+    {
+      "name": "weapon-category-rocket",
+      "value": "FIRECRACKER TUBE"
+    },
+    {
+      "name": "weapon-category-smoke",
+      "value": "SMOKE BOMB"
+    },
+    {
+      "name": "weapon-category-tesla",
+      "value": "OVERSIZED CUTLASS"
+    }
+  ]
+}
