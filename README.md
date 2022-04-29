@@ -12,7 +12,7 @@ The executable is used for generating and compiling translation files. It *must*
 #### If run from the repo root directory...
 `.\proceliotool.exe lang .\files\ENGLISH`
 
-(For creating a new file, you can also copy-paste the English pack and replace as necessary)
+(For creating a new file, you can also copy-paste the English pack and replace as necessary -- though note, )
 
 
 For mass-release, lang files must be built and deployed serverside for one of the devs.
@@ -57,6 +57,7 @@ Here is a fully-specified text element
       "italic": false,
       "underline": false,
       "strikethrough": false,
+      "alignment": 0,
       "color": [
         255,
         255,
@@ -75,7 +76,7 @@ The text of the UI element. You almost certainly want to change this. If empty, 
 
 ##### size
 In case it's necessary to overwrite the size of the text. 0 = default. 1024 max value. Must be positive.
-If unspecified, treated as 0
+If unspecified, treated as 0 (i.e. don't override)
 
 ##### bold
 Whether the field value should be bold in-game
@@ -93,6 +94,25 @@ If unspecified, treated as 'false'
 Whether the field value should be struck through in-game
 If unspecified, treated as 'false'
 
+##### alignment
+The alignment to use for text. If unspecified, treated as 0 (i.e. don't override)
+```
+1 -> TextAlignmentOptions.TopLeft
+2 -> TextAlignmentOptions.Top
+3 -> TextAlignmentOptions.TopRight
+4 -> TextAlignmentOptions.Left
+5 -> TextAlignmentOptions.Center
+6 -> TextAlignmentOptions.Right
+7 -> TextAlignmentOptions.BottomLeft
+8 -> TextAlignmentOptions.Bottom
+9 -> TextAlignmentOptions.BottomRight
+10 -> TextAlignmentOptions.TopJustified
+11 -> TextAlignmentOptions.Justified
+12 -> TextAlignmentOptions.BottomJustified
+13 -> TextAlignmentOptions.BaselineLeft
+14 -> TextAlignmentOptions.Baseline
+15 -> TextAlignmentOptions.BaselineRight
+```
 ##### color
 What color the text should be in-game
 If unspecified, treated as white '[255, 255, 255]'. Each number is the respective one-byte R,G,B channel
