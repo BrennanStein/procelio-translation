@@ -1,4 +1,4 @@
-dialogue-okay 
+dialogue-okay
 dialogue-success
 terms-changed-header
 terms-changed-description
