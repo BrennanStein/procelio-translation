@@ -302,6 +302,24 @@
       "alignment": 0
     },
     {
+      "name": "confirm-graphics-title",
+      "value": "Confirm graphics settings?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "confirm-graphics-body",
+      "value": "Click \"OK\" if the graphics settings are acceptable.\nSettings will revert in 10 seconds...",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "key-robotdriveforward",
       "value": "Drive Forward",
       "bold": false,
@@ -374,7 +392,7 @@
       "alignment": 0
     },
     {
-      "name": "key-robotyawleft",
+      "name": "key-robotdriveturnleft",
       "value": "Turn Left",
       "bold": false,
       "italic": false,
@@ -383,7 +401,7 @@
       "alignment": 0
     },
     {
-      "name": "key-robotyawright",
+      "name": "key-robotdriveturnright",
       "value": "Turn Right",
       "bold": false,
       "italic": false,
@@ -403,6 +421,24 @@
     {
       "name": "key-robotrollright",
       "value": "Roll Right",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-robotyawleft",
+      "value": "Yaw Left",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-robotyawright",
+      "value": "Yaw Right",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -475,6 +511,15 @@
     {
       "name": "key-garagepickblock",
       "value": "Pick Block",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garagewipecosmetics",
+      "value": "Clear block cosmetics",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -608,6 +653,33 @@
       "alignment": 0
     },
     {
+      "name": "key-garagerotateghostx",
+      "value": "Manually rotate ghost X (with ctrl)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garagerotateghosty",
+      "value": "Manually rotate ghost Y (with ctrl)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garagerotateghostz",
+      "value": "Manually rotate ghost Z (with ctrl",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "key-garagechangesymmetry",
       "value": "Change Even/Odd Mirror",
       "bold": false,
@@ -628,6 +700,15 @@
     {
       "name": "key-garagechangeeditingmode",
       "value": "Change Build/Paint",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garageenableadvanced",
+      "value": "Enable Advanced Build Mode",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -680,6 +761,15 @@
       "alignment": 0
     },
     {
+      "name": "key-drivezoom",
+      "value": "FoV Zoom",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "key-drivecamzoomin",
       "value": "Zoom In",
       "bold": false,
@@ -708,7 +798,7 @@
     },
     {
       "name": "key-drivedrift",
-      "value": "Drift (unused)",
+      "value": "Brake",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -718,6 +808,24 @@
     {
       "name": "key-drivecycleweapon",
       "value": "Cycle Active Weapons",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-battleentityspot",
+      "value": "Spot",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-battleentityping",
+      "value": "Ping",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -950,6 +1058,150 @@
       "alignment": 0
     },
     {
+      "name": "key-shortcuttest2damage",
+      "value": "Test Shortcut: Damage mode",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-uiminimaptoggle",
+      "value": "Hide/Show minimap",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-uiminimapscale",
+      "value": "Scale minimap",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-uitogglefps",
+      "value": "Display FPS in top-left corner",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-battlemapping",
+      "value": "Ping Minimap",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-drivemodule1",
+      "value": "Ability 1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-drivemodule2",
+      "value": "Ability 2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-drivemodule3",
+      "value": "Ability 3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-drivemodule4",
+      "value": "Ability 4",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-functiontoggleui",
+      "value": "Toggle UI visibility",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-functionselfdestruct",
+      "value": "Self Destruct",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-gizmostogglecollisionboxes",
+      "value": "Toggle Collision Box Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-gizmostogglecenteroflift",
+      "value": "Toggle Center of Lift Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-gizmostogglecenterofthrust",
+      "value": "Toggle Center of Thrust Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-gizmostogglecenterofmass",
+      "value": "Toggle Center of Mass Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-gizmosdisableall",
+      "value": "Disable All Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "paint-palette-presets",
       "value": "Preset Colors",
       "bold": false,
@@ -977,8 +1229,1331 @@
       "alignment": 0
     },
     {
-      "name": "inv-tooltip-stats",
-      "value": "Health: %hp\nShield: %shield\nMass: %mass\nComplexity: %cplx\nRanking: %rank\nCost: %val\nCost(Premium): %prem\nThrust: %trst\nRotation(deg/s): %rots\nDamage: %dmg",
+      "name": "stat-health",
+      "value": "Health: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-shield",
+      "value": "Shield: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-shieldRate",
+      "value": "Shield Charge Rate (hp/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-shieldDelay",
+      "value": "Shield Charge Delay (ms): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-mass",
+      "value": "Mass (kg): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-cpu",
+      "value": "Power Usage: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-price",
+      "value": "Price: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-prem-price",
+      "value": "Premium Price: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-thrust",
+      "value": "Thrust: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-rots",
+      "value": "Rotation (deg/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-lift",
+      "value": "Lift (kg): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-minlift",
+      "value": "Min Lift (kg): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-liftctrl",
+      "value": "Lift Control Rate (kg/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "stat-damage",
+      "value": "Damage: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-knockback",
+      "value": "Knockback (kn): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-cooldown",
+      "value": "Cooldown (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-activationcooldown",
+      "value": "Activation Cooldown (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-range",
+      "value": "Range (m): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-dashspeed",
+      "value": "Dash Speed (m/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-dashduration",
+      "value": "Dash Duration (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-buffduration",
+      "value": "Buff Duration (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-chaffcloudduration",
+      "value": "Cloud Duration (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-capacity",
+      "value": "Capacity: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-rechargerate",
+      "value": "Recharge Rate (/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-rechargedelay",
+      "value": "Recharge Delay (s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-passivedrain",
+      "value": "Passive Drain (/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-activedrain",
+      "value": "Active Drain (/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-activationcost",
+      "value": "Activation Cost: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-thrustmultiplier",
+      "value": "Thrust Multiplier: x%s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-restockrate",
+      "value": "Restock Rate (/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-dampen",
+      "value": "Rotation Multiplier (/s): x%s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-nominalcount",
+      "value": "Nominal Cap: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-wingcontrol",
+      "value": "Max Control Force (kN): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-winglift",
+      "value": "Max Lift Force (kN): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-wingstability",
+      "value": "Max Stabilizing Force (kN): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-wingdrag",
+      "value": "Max Drag Force (kN): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-falloffstart",
+      "value": "Optimal Range (m): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-falloffend",
+      "value": "Max Range (m): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-aoeradius",
+      "value": "AoE Radius (m): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-aoefalloff",
+      "value": "AoE Falloff: x%s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_gun_camo-name",
+      "value": "DDPAT Primary Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_gun_camo-desc",
+      "value": "DDPAT Camo skin.\n\nFor primary weapons.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder2-name",
+      "value": "ELC Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder2-desc",
+      "value": "DDPAT Camo skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder3-name",
+      "value": "Nova Bomber",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder3-desc",
+      "value": "Nova bomber themed skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder4-name",
+      "value": "Gauss DDPAT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder4-desc",
+      "value": "DDPAT Camo skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder5-name",
+      "value": "Weaver DDPAT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskinplaceholder5-desc",
+      "value": "DDPAT Camo skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskingoldgauss-name",
+      "value": "Gauss Gold",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskingoldgauss-desc",
+      "value": "Gold Gauss skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskincarbongauss-name",
+      "value": "Gauss Carbon",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-weaponskincarbongauss-desc",
+      "value": "Carbon Fiber Gauss skin, paintable.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_mov_wing_fed-name",
+      "value": "FSAF Aero Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_mov_wing_fed-desc",
+      "value": "This constitutes a false flag operation.\n\nApplicable to wings and rudders.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_mov_wing_camo-name",
+      "value": "DDPAT Aero Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_mov_wing_camo-desc",
+      "value": "For hiding aircraft inside pixelated environments.\n\nApplicable to wings and rudders.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowred-name",
+      "value": "Static Red",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowred-desc",
+      "value": "Gives an electroplate a red color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowblue-name",
+      "value": "Static Blue",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowblue-desc",
+      "value": "Gives an electroplate a purple-blue color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowyellow-name",
+      "value": "Static Yellow",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowyellow-desc",
+      "value": "Gives an electroplate a yellow color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowgreen-name",
+      "value": "Static Green",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowgreen-desc",
+      "value": "Gives an electroplate a green color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowpurple-name",
+      "value": "Static Purple",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowpurple-desc",
+      "value": "Gives an electroplate a purple color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partgloworange-name",
+      "value": "Static Orange",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partgloworange-desc",
+      "value": "Gives an electroplate a orange color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowwhite-name",
+      "value": "Static White",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowwhite-desc",
+      "value": "Gives an electroplate a white color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowblack-name",
+      "value": "Static Black",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowblack-desc",
+      "value": "Gives an electroplate a black color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowmilitary-name",
+      "value": "Static Military",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowmilitary-desc",
+      "value": "Gives an electroplate a military green color.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowbee-name",
+      "value": "Gradient Bee",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowbee-desc",
+      "value": "Gives an electroplate a bee inspired gradient.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowice-name",
+      "value": "Gradient Ice",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowice-desc",
+      "value": "Gives an electroplate an ice inspired gradient.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowdarkred-name",
+      "value": "Static Dark Red",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowdarkred-desc",
+      "value": "Gives an electroplate a dark red color. \n\nNothing edgier than a spoon.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowpurpulse-name",
+      "value": "Gradient Pulsor",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowpurpulse-desc",
+      "value": "Gives an electroplate a purple/black pulsing gradient.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowthunder-name",
+      "value": "Gradient Thunder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowthunder-desc",
+      "value": "Gives an electroplate a pulsing thunder inspired gradient.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowearth-name",
+      "value": "Gradient Earth",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowearth-desc",
+      "value": "Gives an electroplate an earth inspired gradient.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowrainbow-name",
+      "value": "Gradient Rainbow",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-partglowrainbow-desc",
+      "value": "Gives an electroplate the rainbow gradient.\n\nFor the true gamer.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncube-name",
+      "value": "Cubes",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncube-desc",
+      "value": "Gives an electroplate a cubed pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri1-name",
+      "value": "Triangles 1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri1-desc",
+      "value": "Gives an electroplate a triangled pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri2-name",
+      "value": "Triangles 2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri2-desc",
+      "value": "Gives an electroplate a triangled pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri3-name",
+      "value": "Triangles 3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterntri3-desc",
+      "value": "Gives an electroplate a triangled pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncarbon-name",
+      "value": "Carbon Fiber",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncarbon-desc",
+      "value": "Gives an electroplate a carbon fiber pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncamo-name",
+      "value": "Urban DDPAT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatterncamo-desc",
+      "value": "Gives an electroplate an urban DDPAT camouflage pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem1-name",
+      "value": "Low Poly",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem1-desc",
+      "value": "Gives an electroplate a low poly pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem2-name",
+      "value": "Hazard Stripes",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem2-desc",
+      "value": "Gives an electroplate a hazard stripe pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem3-name",
+      "value": "Squares",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternprem3-desc",
+      "value": "Gives an electroplate a squared pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustpurple-name",
+      "value": "Purple",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustpurple-desc",
+      "value": "Simply purple, not very exciting.\n\nAn alternate exhaust trail for thrusters,",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustblue-name",
+      "value": "Cryogenic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustblue-desc",
+      "value": "Also useful for sleeping!\n\nAn alternate exhaust trail for thrusters,",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustmusic-name",
+      "value": "Music",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustmusic-desc",
+      "value": "Pretty sound waves, by Blade (he just does the music).\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustplasma-name",
+      "value": "Nova",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustplasma-desc",
+      "value": "Nova styled thruster exhaust.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustglow-name",
+      "value": "Glow",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustglow-desc",
+      "value": "Don't look directly at it.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustpan-name",
+      "value": "Jacked",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustpan-desc",
+      "value": "Lose the suckers!\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustgreen-name",
+      "value": "Green",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustgreen-desc",
+      "value": "You know I'm something of a scientist myself.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustrings-name",
+      "value": "Gold",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustrings-desc",
+      "value": "Ooohhh shiny!\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustclassic-name",
+      "value": "Classic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustclassic-desc",
+      "value": "The Audiovisual Experience.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhausthexglow-name",
+      "value": "Hexglow",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhausthexglow-desc",
+      "value": "A red glowing hex trail.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustwireframe-name",
+      "value": "Wireframe",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustwireframe-desc",
+      "value": "Rotating a cube inside your mind is always free.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustspiral-name",
+      "value": "Spiral",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustspiral-desc",
+      "value": "Your thrust will be the thrust that pierces the heavens.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph3-name",
+      "value": "Placeholder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph3-desc",
+      "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph4-name",
+      "value": "Placeholder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph4-desc",
+      "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph5-name",
+      "value": "Placeholder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph5-desc",
+      "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph6-name",
+      "value": "Placeholder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-thrusterexhaustph6-desc",
+      "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternhlwn122-name",
+      "value": "Halloween",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternhlwn122-desc",
+      "value": "For the spooky season. \n\nDOOT DOOT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternhlwn222-name",
+      "value": "Halloween",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternhlwn222-desc",
+      "value": "For the spooky season. \n\nDOOT DOOT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternxmas122-name",
+      "value": "X-mas",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternxmas122-desc",
+      "value": "Jolly time to destroy your enemy. \n\nBing Bong.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternxmas222-name",
+      "value": "X-mas",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternxmas222-desc",
+      "value": "Jolly time to destroy your enemy. \n\nBing Bong.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -987,7 +2562,25 @@
     },
     {
       "name": "inv-cat-blocks",
-      "value": "Chassis Blocks",
+      "value": "Normal Chassis Blocks",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-heavyblocks",
+      "value": "Heavy Chassis Blocks",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-glassblocks",
+      "value": "Light Chassis Blocks",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -996,7 +2589,7 @@
     },
     {
       "name": "inv-cat-aeroframe",
-      "value": "Aeroframes",
+      "value": "Airframes",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1005,7 +2598,7 @@
     },
     {
       "name": "inv-cat-core",
-      "value": "Robot Core",
+      "value": "Functionals",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1031,8 +2624,53 @@
       "alignment": 0
     },
     {
+      "name": "inv-cat-module",
+      "value": "Modules",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "inv-cat-movement",
       "value": "Movement Parts",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-groundmovement",
+      "value": "Ground Movement",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-wings",
+      "value": "Wings",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-thrusters",
+      "value": "Thrusters",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-LTA",
+      "value": "LTA Canisters",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1067,6 +2705,60 @@
       "alignment": 0
     },
     {
+      "name": "inv-cat-cosm-wep",
+      "value": "Weapon Skins",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-cosm-mov",
+      "value": "Movement Skins",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-cosm-thruster",
+      "value": "Thruster Exhausts",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-cosm-pattern",
+      "value": "Shield Patterns",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-cosm-glow",
+      "value": "Shield Colors",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "inv-cat-cosm-stickers",
+      "value": "Stickers",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "inv-cat-info",
       "value": "Information",
       "bold": false,
@@ -1077,7 +2769,7 @@
     },
     {
       "name": "weapon-category-laser",
-      "value": "Repeating Machinegun",
+      "value": "Electrolaser Carbine",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1095,7 +2787,7 @@
     },
     {
       "name": "weapon-category-plasma",
-      "value": "Plasma Cannon",
+      "value": "Nova Cannon",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1104,7 +2796,52 @@
     },
     {
       "name": "weapon-category-nano",
-      "value": "Nanobot Assembler",
+      "value": "Flux Weaver",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-rivet",
+      "value": "Rivet Rifle",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-mwave",
+      "value": "Wave Splitter",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-salvo",
+      "value": "Cerberus UMRL",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-trace",
+      "value": "Sighthound LGML",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-slablauncher",
+      "value": "SOML Turret",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1131,7 +2868,7 @@
     },
     {
       "name": "weapon-category-tesla",
-      "value": "Energy Blade",
+      "value": "CAS Cutter",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1141,6 +2878,15 @@
     {
       "name": "weapon-category-smoke",
       "value": "Smokescreen",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-minigun",
+      "value": "Autocannon",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1158,7 +2904,7 @@
     },
     {
       "name": "block-alpha_1x2core-desc",
-      "value": "The control and power core of a robot. Any blocks disconnected from it are destroyed, and if no functional components remain you die",
+      "value": "The controller and power core of a robot. Any blocks disconnected from it are destroyed, and if no functional components remain your bot will be destroyed.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1176,7 +2922,7 @@
     },
     {
       "name": "block-alpha_whitecube-desc",
-      "value": "Your generic 6-sided chassis block, allowing connectivity and damage flow on all sides",
+      "value": "Your generic 6-sided chassis block, allowing connectivity and damage flow on all sides.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1194,7 +2940,7 @@
     },
     {
       "name": "block-alpha_whiteinner-desc",
-      "value": "A truncated chassis cube: the same connectivity at lower weight",
+      "value": "A truncated chassis cube: the same connectivity at lower weight.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1212,7 +2958,7 @@
     },
     {
       "name": "block-alpha_whiteprism-desc",
-      "value": "A prism-shaped chassis piece. Used for aesthetics or for its lower weight",
+      "value": "A prism-shaped chassis piece. Used for aesthetics or for its lower weight.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1230,7 +2976,7 @@
     },
     {
       "name": "block-alpha_whitetetra-desc",
-      "value": "A small lightweight chassis component, often used for routing connectivity and damage flow",
+      "value": "A small lightweight chassis component, often used for routing connectivity and damage flow.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1248,7 +2994,7 @@
     },
     {
       "name": "block-alpha_whitepyramid-desc",
-      "value": "A square-bottom variant of the tetra",
+      "value": "A square-bottom variant of the tetra.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1266,7 +3012,7 @@
     },
     {
       "name": "block-alpha_heavycube-desc",
-      "value": "A heavier variant of the chassis cube",
+      "value": "A heavier variant of the chassis cube.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1284,7 +3030,7 @@
     },
     {
       "name": "block-alpha_heavyinner-desc",
-      "value": "A heavier variant of the chassis inner",
+      "value": "A heavier variant of the chassis inner.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1302,7 +3048,7 @@
     },
     {
       "name": "block-alpha_heavyprism-desc",
-      "value": "A heavier variant of the chassis prism",
+      "value": "A heavier variant of the chassis prism.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1320,7 +3066,25 @@
     },
     {
       "name": "block-alpha_heavytetra-desc",
-      "value": "A heavier variant of the chassis tetra",
+      "value": "A heavier variant of the chassis tetra.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_heavypyramid-name",
+      "value": "Heavy Pyramid",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_heavypyramid-desc",
+      "value": "A heavier variant of the chassis pyramid.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1338,7 +3102,7 @@
     },
     {
       "name": "block-alpha_glasscube-desc",
-      "value": "A lighter and more reflective variant of the chassis cube",
+      "value": "A lighter and more reflective variant of the chassis cube.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1356,7 +3120,7 @@
     },
     {
       "name": "block-alpha_glassinner-desc",
-      "value": "A lighter and more reflective variant of the chassis inner",
+      "value": "A lighter and more reflective variant of the chassis inner.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1374,7 +3138,7 @@
     },
     {
       "name": "block-alpha_glassprism-desc",
-      "value": "A lighter and more reflective variant of the chassis prism",
+      "value": "A lighter and more reflective variant of the chassis prism.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1392,7 +3156,241 @@
     },
     {
       "name": "block-alpha_glasstetra-desc",
-      "value": "A lighter and more reflective variant of the chassis tetra",
+      "value": "A lighter and more reflective variant of the chassis tetra.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_glasspyramid-name",
+      "value": "Glass Pyramid",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_glasspyramid-desc",
+      "value": "A lighter and more reflective variant of the chassis pyramid.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_coppercube-name",
+      "value": "Smooth Cube",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_coppercube-desc",
+      "value": "A smoother variant of the chassis cube.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperinner-name",
+      "value": "Smooth Inner",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperinner-desc",
+      "value": "A smoother variant of the chassis inner.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperprism-name",
+      "value": "Smooth Prism",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperprism-desc",
+      "value": "A smoother variant of the chassis prism.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_coppertetra-name",
+      "value": "Smooth Tetra",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_coppertetra-desc",
+      "value": "A smoother variant of the chassis tetra.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperpyramid-name",
+      "value": "Smooth Pyramid",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_copperpyramid-desc",
+      "value": "A smoother variant of the chassis pyramid.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carboncube-name",
+      "value": "Carbon Cube",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carboncube-desc",
+      "value": "A lighter and more reflective variant of the chassis cube.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carboninner-name",
+      "value": "Carbon Inner",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carboninner-desc",
+      "value": "A lighter and more reflective variant of the chassis inner.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbonprism-name",
+      "value": "Carbon Prism",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbonprism-desc",
+      "value": "A lighter and more reflective variant of the chassis prism.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbontetra-name",
+      "value": "Carbon Tetra",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbontetra-desc",
+      "value": "A lighter and more reflective variant of the chassis tetra.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbonpyramid-name",
+      "value": "Carbon Pyramid",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_carbonpyramid-desc",
+      "value": "A lighter and more reflective variant of the chassis pyramid.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight3-name",
+      "value": "Frame 1x3-S",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight3-desc",
+      "value": "A lightweight rod featuring connections on both ends.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight3_flat-name",
+      "value": "Frame 1x3-S-F",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight3_flat-desc",
+      "value": "A lightweight flat rod featuring connections on both ends.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1401,7 +3399,7 @@
     },
     {
       "name": "block-alpha_airframe_straight4-name",
-      "value": "Airframe 1x4-S",
+      "value": "Frame 1x4-S",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1410,7 +3408,43 @@
     },
     {
       "name": "block-alpha_airframe_straight4-desc",
-      "value": "A lightweight rod featuring connections on both ends",
+      "value": "A lightweight rod featuring connections on both ends.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight5-name",
+      "value": "Frame 1x5-S",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight5-desc",
+      "value": "A lightweight rod featuring connections on both ends.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight5_flat-name",
+      "value": "Frame 1x5-S-F",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_airframe_straight5_flat-desc",
+      "value": "A lightweight flat rod featuring connections on both ends.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1419,7 +3453,7 @@
     },
     {
       "name": "block-alpha_airframe_straight6-name",
-      "value": "Airframe 1x6-S",
+      "value": "Frame 1x6-S",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1428,7 +3462,7 @@
     },
     {
       "name": "block-alpha_airframe_straight6-desc",
-      "value": "A lightweight rod featuring connections on both ends",
+      "value": "A lightweight rod featuring connections on both ends.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1437,7 +3471,7 @@
     },
     {
       "name": "block-alpha_airframe_angled3-name",
-      "value": "Airframe 1x3-A",
+      "value": "Frame 1x3-A",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1446,7 +3480,7 @@
     },
     {
       "name": "block-alpha_airframe_angled3-desc",
-      "value": "An angled lightweight rod featuring connections on both ends",
+      "value": "An angled lightweight rod featuring connections on both ends.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1455,7 +3489,7 @@
     },
     {
       "name": "block-alpha_airframe_angled5-name",
-      "value": "Airframe 1x5-A",
+      "value": "Frame 1x5-A",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1464,7 +3498,7 @@
     },
     {
       "name": "block-alpha_airframe_angled5-desc",
-      "value": "An angled lightweight rod featuring connections on both ends",
+      "value": "An angled lightweight rod featuring connections on both ends.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1473,7 +3507,7 @@
     },
     {
       "name": "block-alpha_airframe_tjunction3-name",
-      "value": "Airframe 1x3-T",
+      "value": "Frame 1x3-T",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1482,25 +3516,7 @@
     },
     {
       "name": "block-alpha_airframe_tjunction3-desc",
-      "value": "A lightweight split rod featuring connections on each end",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_lasergun_t9-name",
-      "value": "Repeating Machine Gun",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_lasergun_t9-desc",
-      "value": "A simple gun that shoots where you aim it. Hitscan.",
+      "value": "A lightweight split rod featuring connections on each end.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1509,7 +3525,7 @@
     },
     {
       "name": "block-alpha_thruster_t1-name",
-      "value": "Thruster Mk. 1-A",
+      "value": "Mk. 1-A",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1518,7 +3534,7 @@
     },
     {
       "name": "block-alpha_thruster_t1-desc",
-      "value": "A small and simple thruster that can apply force in the placed direction",
+      "value": "A small and simple thruster that can apply force in the placed direction.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1527,7 +3543,7 @@
     },
     {
       "name": "block-alpha_topmount_thruster-name",
-      "value": "Thruster Mk. 1-B",
+      "value": "Mk. 1-B",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1536,7 +3552,25 @@
     },
     {
       "name": "block-alpha_topmount_thruster-desc",
-      "value": "A small and simple thruster, attached directly to a robot for increased power output",
+      "value": "A small and simple thruster, attached directly to a robot.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_thruster_t5-name",
+      "value": "Mk. 3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_thruster_t5-desc",
+      "value": "A medium sized thruster that can apply force in the placed direction.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1545,7 +3579,7 @@
     },
     {
       "name": "block-alpha_thruster_t9-name",
-      "value": "Thruster Mk. 4",
+      "value": "Mk. 4",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1554,7 +3588,7 @@
     },
     {
       "name": "block-alpha_thruster_t9-desc",
-      "value": "A large and powerful thruster that can apply force in the placed direction",
+      "value": "A large and powerful thruster that can apply force in the placed direction.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1572,7 +3606,7 @@
     },
     {
       "name": "block-alpha_wheel_t9-desc",
-      "value": "A wheel. Does wheel things. Can steer",
+      "value": "A wheel. Does wheel things.\nCan steer.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1590,7 +3624,7 @@
     },
     {
       "name": "block-alpha_nonsteering_wheel-desc",
-      "value": "A wheel. Does wheel things. Can't steer",
+      "value": "A wheel. Does wheel things.\nDoes not steer.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1608,7 +3642,7 @@
     },
     {
       "name": "block-alpha_hoverblade_t9-desc",
-      "value": "A powerful fan providing movement within a small distance from the ground",
+      "value": "A powerful fan providing movement within a moderate distance from the ground.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1626,7 +3660,241 @@
     },
     {
       "name": "block-alpha_ski-desc",
-      "value": "An unpowered, uncontrolled, low-friction ski",
+      "value": "An unpowered, uncontrolled, low-friction ski.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_repulsor_pad-name",
+      "value": "A-GRV Repulsion Pad",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_repulsor_pad-desc",
+      "value": "A high-tech repulsion pad, allowing frictionless travel over terrain in all directions.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_left-name",
+      "value": "Tank Track [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_left-desc",
+      "value": "A durable continous track with multiple drive gears.\n\nHold 'down' to enter high gear, gaining speed but sacrificing turning.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_right-name",
+      "value": "Tank Track [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_right-desc",
+      "value": "A durable continous track with multiple drive gears.\n\nHold 'down' to enter high gear, gaining speed but sacrificing turning.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_central-name",
+      "value": "Tank Track [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_tank_track_central-desc",
+      "value": "YOU'RE NOT SUPPOSED TO BE HERE.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_small-name",
+      "value": "Light Insect Leg",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_small-desc",
+      "value": "An agile leg mimicing Earth insects, allowing robots to stably walk on walls and beneath overhangs.\n\nPress XXX to jump. Hold XXX to crouch, charging a boosted jump. Continue holding XXX after jumping to skate after landing.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_medium-name",
+      "value": "Medium Insect Leg",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_medium-desc",
+      "value": "A durable leg mimicing Earth insects, allowing robots to stably walk on walls and beneath overhangs.\n\nPress XXX to jump. Hold XXX to crouch, charging a boosted jump. Continue holding XXX after jumping to skate after landing.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_large-name",
+      "value": "Heavy Insect Leg",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_leg_large-desc",
+      "value": "A tanky leg mimicing Earth insects, allowing robots to walk on stably walls and beneath overhangs.\n\nPress XXX to jump. Hold XXX to crouch, charging a boosted jump. <b>Unlike its lighter counterparts, Heavy legs are incapable of skating.</b>",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_flat-name",
+      "value": "Flat Wing",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_flat-desc",
+      "value": "Simple wings with good low-speed control and modest lift. \n\nProne to diminished control from overspeed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_swept-name",
+      "value": "Swept Wing",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_swept-desc",
+      "value": "Stable, high lift wings with moderate drag.\nHarder to stall.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_delta-name",
+      "value": "Delta Wing",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_wing_delta-desc",
+      "value": "Unstable wings with great high speed performance and control, but prone to stalls. \n\nLift performance is reliant on high speeds.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_flat-name",
+      "value": "Flat Rudder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_flat-desc",
+      "value": "Control surfaces with good stabilization properties, but low lift.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_swept-name",
+      "value": "Swept Rudder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_swept-desc",
+      "value": "Control surfaces with good stabilization properties, but low lift.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_delta-name",
+      "value": "Delta Rudder",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_rud_delta-desc",
+      "value": "Control surfaces with good stabilization properties, but low lift.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1635,7 +3903,7 @@
     },
     {
       "name": "block-alpha_wing_swept_l-name",
-      "value": "Swept Wing (L)",
+      "value": "Swept Wing [L]",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1644,7 +3912,7 @@
     },
     {
       "name": "block-alpha_wing_swept_l-desc",
-      "value": "A swept wing: stable, high lift, higher drag (left)",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1653,7 +3921,7 @@
     },
     {
       "name": "block-alpha_wing_swept_r-name",
-      "value": "Swept Wing (R)",
+      "value": "Swept Wing [R]",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1662,7 +3930,43 @@
     },
     {
       "name": "block-alpha_wing_swept_r-desc",
-      "value": "A swept wing: stable, high lift, higher drag (right)",
+      "value": "A relic of a past time. Probably shouldn't be here.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_wing_flat_l-name",
+      "value": "Flat Wing [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_wing_flat_l-desc",
+      "value": "A relic of a past time. Probably shouldn't be here.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_wing_flat_r-name",
+      "value": "Flat Wing [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_wing_flat_r-desc",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1671,7 +3975,7 @@
     },
     {
       "name": "block-alpha_rudder-name",
-      "value": "Rudder",
+      "value": "Normal Rudder",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1680,7 +3984,7 @@
     },
     {
       "name": "block-alpha_rudder-desc",
-      "value": "Control surface for airplanes",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1688,8 +3992,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_railgun-name",
-      "value": "Gauss Rifle",
+      "name": "block-alpha_large_rudder-name",
+      "value": "Large Rudder",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1697,8 +4001,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_railgun-desc",
-      "value": "A long-distance, high velocity sniper gun",
+      "name": "block-alpha_large_rudder-desc",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1706,8 +4010,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_plasmacannon-name",
-      "value": "Plasma Cannon",
+      "name": "block-alpha_rudder_i-name",
+      "value": "Inactive Rudder",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1715,8 +4019,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_plasmacannon-desc",
-      "value": "Launches an explosive cansiter of high-temperature plasma",
+      "name": "block-alpha_rudder_i-desc",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1724,8 +4028,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_nanoassembler-name",
-      "value": "Nanobot Assembler",
+      "name": "block-alpha_large_rudder_i-name",
+      "value": "Large Inactive Rudder",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1733,278 +4037,8 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_nanoassembler-desc",
-      "value": "Emits a beam of nanobots to repair allied bots",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_energyblade-name",
-      "value": "Energy Blade",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_energyblade-desc",
-      "value": "Cuts into enemy bots as a melee attack",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_minelayer-name",
-      "value": "Minelayer",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_minelayer-desc",
-      "value": "Drops a mine onto the ground which, after activating, will detonate when other bots approach",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_rocketlauncher-name",
-      "value": "Rocket Launcher",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_rocketlauncher-desc",
-      "value": "Fires a heat-seeking missile",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_shieldprojector-name",
-      "value": "Shield Generator",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_shieldprojector-desc",
-      "value": "Projects an energy shield to block incoming projectiles",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_smokescreen-name",
-      "value": "Smokescreen",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-alpha_sec_smokescreen-desc",
-      "value": "When triggered, emits a cloud of smoke around your bot",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_a_l-name",
-      "value": "Electroplate Model A.L",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_a_l-desc",
-      "value": "A high-tech energy shield which recharges after taking damage",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_a_r-name",
-      "value": "Electroplate Model A.R",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_a_r-desc",
-      "value": "A high-tech energy shield which recharges after taking damage",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_b_l-name",
-      "value": "Electroplate Model B.L",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_b_l-desc",
-      "value": "A high-tech energy shield which recharges after taking damage",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_b_r-name",
-      "value": "Electroplate Model B.R",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_b_r-desc",
-      "value": "A high-tech energy shield which recharges after taking damage",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_c-name",
-      "value": "Electroplate Model C",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-electroplate_c-desc",
-      "value": "A high-tech energy shield which recharges after taking damage",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_112-name",
-      "value": "1x1x2 LTA Canister",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_112-desc",
-      "value": "A small tank of lighter-than-air gas",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_123-name",
-      "value": "1x3x2 LTA Canister",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_123-desc",
-      "value": "A tank of lighter-than-air gas",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_224-name",
-      "value": "2x2x4 LTA Canister",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_224-desc",
-      "value": "A tank of lighter-than-air gas",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_335-name",
-      "value": "3x3x5 LTA Canister",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_335-desc",
-      "value": "A large tank of lighter-than-air gas",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_348-name",
-      "value": "3x4x8 LTA Canister",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0
-    },
-    {
-      "name": "block-helium_348-desc",
-      "value": "A massive tank of lighter-than-air gas",
+      "name": "block-alpha_large_rudder_i-desc",
+      "value": "A relic of a past time. Probably shouldn't be here.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2022,7 +4056,7 @@
     },
     {
       "name": "block-alpha_gyroscope-desc",
-      "value": "Helps limit bot rotation",
+      "value": "On activation, helps counteract bot rotation.\n\nStacking grants additional charges.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2040,7 +4074,7 @@
     },
     {
       "name": "block-alpha_radar-desc",
-      "value": "Reveals nearby enemies",
+      "value": "Reveals nearby enemies.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2058,7 +4092,709 @@
     },
     {
       "name": "block-alpha_radar_jammer-desc",
-      "value": "Counteracts the effects of enemy radar for your bot",
+      "value": "Counteracts the effects of enemy radar for your bot.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_lasergun_t9-name",
+      "value": "Electrolaser Carbine",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_lasergun_t9-desc",
+      "value": "A simple fully automatic gun that fires high-energy beams.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_railgun-name",
+      "value": "Gauss Rifle",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_railgun-desc",
+      "value": "A long-distance, high velocity sniper cannon with a magazine.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_plasmacannon-name",
+      "value": "Nova Cannon",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_plasmacannon-desc",
+      "value": "Fires a volley of unstable energy payloads.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_nanoassembler-name",
+      "value": "Flux Weaver",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_nanoassembler-desc",
+      "value": "Experimental weapon that repairs allied bots.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_rivetrifle-name",
+      "value": "Rivet Rifle",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_rivetrifle-desc",
+      "value": "Power tool turned weapon that fires superheated rivets from a magazine.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_macrowave-name",
+      "value": "Wave Splitter",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_macrowave-desc",
+      "value": "YOU'RE NOT SUPPOSED TO BE HERE.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_missile_salvo-name",
+      "value": "Cerberus UMRL",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_missile_salvo-desc",
+      "value": "Fires a manually-loaded volley of unguided rockets.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_trace_missile-name",
+      "value": "Sighthound LGML",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_trace_missile-desc",
+      "value": "Fires an automatic stream of laser-guided missiles.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_slab_launcher-name",
+      "value": "SOML Turret",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_slab_launcher-desc",
+      "value": "Heavy turret that launches large slabs of matter.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_energyblade-name",
+      "value": "CAS Cutter",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_energyblade-desc",
+      "value": "WARNING: Legacy Content, may be unstable.\n\nContained Arc Saw that cuts into enemy bots as a melee attack.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_minelayer-name",
+      "value": "Minelayer",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_minelayer-desc",
+      "value": "Drops a mine onto the ground which, after activating, will detonate when other bots approach.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_rocketlauncher-name",
+      "value": "Missile Launcher",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_rocketlauncher-desc",
+      "value": "Fires a heat-seeking missile.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_shieldprojector-name",
+      "value": "Shield Generator",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_shieldprojector-desc",
+      "value": "Projects an energy shield to block incoming projectiles.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_smokescreen-name",
+      "value": "Smoke Launcher",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_smokescreen-desc",
+      "value": "Launches a canister that emits a cloud of smoke where it lands.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_minigun-name",
+      "value": "Autocannon",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_minigun-desc",
+      "value": "A devastating fully automatic cannon with limited mount rotation and an internal magazine.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_a_l-name",
+      "value": "Model A.L",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_a_l-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_a_r-name",
+      "value": "Model A.R",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_a_r-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_b_l-name",
+      "value": "Model B.L",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_b_l-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_b_r-name",
+      "value": "Model B.R",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_b_r-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_c-name",
+      "value": "Model C",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-electroplate_c-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_112-name",
+      "value": "LTA 1x1x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_112-desc",
+      "value": "A tiny tank of lighter-than-air gas.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_123-name",
+      "value": "LTA 1x3x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_123-desc",
+      "value": "A small tank of lighter-than-air gas.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_224-name",
+      "value": "LTA 2x2x4",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_224-desc",
+      "value": "A medium tank of lighter-than-air gas.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_335-name",
+      "value": "LTA 3x3x5",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_335-desc",
+      "value": "A large tank of lighter-than-air gas.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_348-name",
+      "value": "LTA 3x4x8",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-helium_348-desc",
+      "value": "A massive tank of lighter-than-air gas.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_devonly_antigrav-name",
+      "value": "DevHax (antigrav)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_devonly_antigrav-desc",
+      "value": "DevHax (antigrav)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_dash-name",
+      "value": "Mass Distortion Drive",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_dash-desc",
+      "value": "On activation, create a singularity that displaces bot in desired direction.\n\nStacking grants additional charges.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_flare-name",
+      "value": "Countermeasure Bay",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_flare-desc",
+      "value": "On activation, grants temporary immunity to lock-ons and deploys a field that destroys nova projectiles and missiles.\n\nStacking grants additional charges.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_fuel-name",
+      "value": "Turbofuel Injector",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_fuel-desc",
+      "value": "On activation, expend turbofuel to tremendously increase thrust output of thrusters that align with the afterburner.\n\nStacking grants additional tank capacity.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_shockwave-name",
+      "value": "Force Concussor",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_shockwave-desc",
+      "value": "On activation, release a radial blast that damages and pushes enemy bots away.\n\nStacking grants additional charges.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_overshield-name",
+      "value": "Personal Shield Generator",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_overshield-desc",
+      "value": "Passively creates a full-bot overshield that takes incoming damage before the bot does, with a slow recharge.\n\nStacking grants additional overshield.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_spoofer-name",
+      "value": "IFF Spoofer",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_spoofer-desc",
+      "value": "On activation, temporarily disguise your IFF signal to appear as an ally to your enemies, fooling mines and missile locks as well. Taking and dealing damage drains the effect faster.\n\nStacking grants additional disguide time.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_forge-name",
+      "value": "Munitions Forge",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mod_forge-desc",
+      "value": "Passively restocks secondary weapon systems.\n\nStacking grants additional restock speed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_8-name",
+      "value": "Mod 8",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_8-desc",
+      "value": "Mod 8",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_9-name",
+      "value": "Mod 9",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_9-desc",
+      "value": "Mod 9",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_10-name",
+      "value": "Mod 10",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-module_10-desc",
+      "value": "Mod 10",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_isopod_cosmetic-name",
+      "value": "Hardhat Craig",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_isopod_cosmetic-desc",
+      "value": "Our little isopod mascot, the original.\n\nDon't worry, this is just a decoy.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_isopod_xmas-name",
+      "value": "Xmas hat Craig",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_isopod_xmas-desc",
+      "value": "Our little isopod mascot, in seasonal spirit!\n\nDon't worry, this is just a decoy.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_isopod_nwyrs23-name",
+      "value": "New Years Craig",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_isopod_nwyrs23-desc",
+      "value": "Our little isopod mascot is wishing you a happy new year!\n\nDon't worry, this is just a decoy.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2076,7 +4812,7 @@
     },
     {
       "name": "block-alpha_headlight_standard-desc",
-      "value": "Headlight variant",
+      "value": "A flat headlight, for nighttime warfare.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2113,6 +4849,1248 @@
     {
       "name": "block-alpha_headlight_aimable-desc",
       "value": "Headlight variant",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_vapor_cosmetic-name",
+      "value": "Vapor Trail",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_vapor_cosmetic-desc",
+      "value": "Emits a constant trail of vapor",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sirenlight-name",
+      "value": "Siren Light",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sirenlight-desc",
+      "value": "Has lights, rotates.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_arm-name",
+      "value": "Servo Arm",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_arm-desc",
+      "value": "Well, never know when you're going to find a perfectly good rock.\n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_exhaust-name",
+      "value": "Exhaust Prism",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_exhaust-desc",
+      "value": "Why limit pollution to just Earth?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_kitt-name",
+      "value": "Oscillating Light Strip",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_kitt-desc",
+      "value": "Someone in Osprey R&D was a fan of old sci-fi.\n\nDoes not come with voice module.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallantenna-name",
+      "value": "Small Antenna",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallantenna-desc",
+      "value": "Comes with jiggle physics! \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_antenna_side-name",
+      "value": "Side Antenna",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_antenna_side-desc",
+      "value": "Comes with side mounted jiggle physics! \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largeantenna-name",
+      "value": "Large Antenna",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largeantenna-desc",
+      "value": "Enables you to call into One Mars Radio.* \n\n*Does not actually enable you to call into One Mars Radio.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallspike-name",
+      "value": "Small Spike",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallspike-desc",
+      "value": "Doesn't do any damage. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largespike-name",
+      "value": "Large Spike",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largespike-desc",
+      "value": "Doesn't do any damage, but larger. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smalltailspike-name",
+      "value": "Small Tailspike",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smalltailspike-desc",
+      "value": "Doesn't help your aerodynamics. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largetailspike-name",
+      "value": "Large Tailspike",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largetailspike-desc",
+      "value": "Doesn't help your aerodynamics, but larger. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallnosecone-name",
+      "value": "Small Nosecone",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_smallnosecone-desc",
+      "value": "Doesn't help your aerodynamics, but looks cool. \n\nPurely cool.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largenosecone-name",
+      "value": "Large Nosecone",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_largenosecone-desc",
+      "value": "Doesn't help your aerodynamics, but larger. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_mechhead-name",
+      "value": "Vertec™ Sensor Array",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_mechhead-desc",
+      "value": "Twin-Linked Vertec™ Mk.IV Gauss Rifles not included. \n\nPurely cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_screwgreeble-name",
+      "value": "Screw Head",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_screwgreeble-desc",
+      "value": "Speculated to improve the structural stability of fish-inspired crafts by up to 10%. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_pan9k-name",
+      "value": "PAN 9000 (Space)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_pan9k-desc",
+      "value": "I'm sorry, Brenn. I'm afraid I can't do that. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_pan9a-name",
+      "value": "PAN 9000 (Skies)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_pan9a-desc",
+      "value": "Not to be trusted near space infrastructure. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-paint_diagcube-name",
+      "value": "Normal Cube (Diagonal Paint)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-paint_diagcube-desc",
+      "value": "A full chassis cube with an alternate paint job.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-paint_halfcube-name",
+      "value": "Normal Cube (Half Paint)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-paint_halfcube-desc",
+      "value": "A full chassis cube with an alternate paint job.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_ventcube-name",
+      "value": "Vent Cube",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_ventcube-desc",
+      "value": "A chassis cube with only a mild chance of containing infiltrators.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_vent_long-name",
+      "value": "Long Vent",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_vent_long-desc",
+      "value": "A 2 block long vent with only a slightly larger chance of containing infiltrators.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate1-name",
+      "value": "Osprey 1x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate1-desc",
+      "value": "A 1x2 Osprey sticker. \n\nWe will not pay you for using this.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate2-name",
+      "value": "Spacetek 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate2-desc",
+      "value": "A 2x2 Spacetek Dynamics sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate3-name",
+      "value": "Hypox 2x3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate3-desc",
+      "value": "A 2x3 Hypox Mining Company sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate4-name",
+      "value": "Osprey Bird 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate4-desc",
+      "value": "A 2x2 Osprey Bird sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate5-name",
+      "value": "Frontiersmen 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate5-desc",
+      "value": "A 2x2 Frontiersmen faction sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate6-name",
+      "value": "RSR CO. 2x3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate6-desc",
+      "value": "A 2x3 Red Sand Rail Company sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate7-name",
+      "value": "Stripes 1x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate7-desc",
+      "value": "A 1x2 hazard stripes sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate8-name",
+      "value": "Stripes 1x3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate8-desc",
+      "value": "A 1x3 hazard stripes sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate15-name",
+      "value": "Stripes 1x2 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate15-desc",
+      "value": "A 1x2 mirrored hazard stripes sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate16-name",
+      "value": "Stripes 1x3 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate16-desc",
+      "value": "A 1x3 mirrored hazard stripes sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate9-name",
+      "value": "Medic 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate9-desc",
+      "value": "A 2x2 Medic Sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate10-name",
+      "value": "Vertec 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate10-desc",
+      "value": "A 2x2 Vertec Sniper Sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate11-name",
+      "value": "Nova 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate11-desc",
+      "value": "A 2x2 Nova Bomber Sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate12-name",
+      "value": "Brawler 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate12-desc",
+      "value": "A 2x2 Brawler Sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate13-name",
+      "value": "Money 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate13-desc",
+      "value": "Why would you buy this? \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate14-name",
+      "value": "Scrip 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate14-desc",
+      "value": "Why would you buy this, but premium? \nNo, really?? \nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate17-name",
+      "value": "PH 1x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate17-desc",
+      "value": "1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate18-name",
+      "value": "PH 1x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate18-desc",
+      "value": "2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate19-name",
+      "value": "PH 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate19-desc",
+      "value": "3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate20-name",
+      "value": "PH 2x2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate20-desc",
+      "value": "4",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate21-name",
+      "value": "FSA 2x3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate21-desc",
+      "value": "A 2x3 Federated States Sticker. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate22-name",
+      "value": "PH 2x3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_stickerplate22-desc",
+      "value": "6",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_0-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_0-desc",
+      "value": "A 1x1 sticker of the number 0. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_1-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_1-desc",
+      "value": "A 1x1 sticker of the number 1. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_2-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_2-desc",
+      "value": "A 1x1 sticker of the number 2. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_3-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_3-desc",
+      "value": "A 1x1 sticker of the number 3. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_4-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_4-desc",
+      "value": "A 1x1 sticker of the number 4. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_5-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_5-desc",
+      "value": "A 1x1 sticker of the number 5. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_6-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_6-desc",
+      "value": "A 1x1 sticker of the number 6. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_7-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_7-desc",
+      "value": "A 1x1 sticker of the number 7. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_8-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_8-desc",
+      "value": "A 1x1 sticker of the number 8. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_9-name",
+      "value": "Number 1x1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_9-desc",
+      "value": "A 1x1 sticker of the number 9. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_0_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_0_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 0. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_1_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_1_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 1. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_2_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_2_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 2. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_3_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_3_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 3. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_4_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_4_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 4. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_5_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_5_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 5. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_6_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_6_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 6. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_7_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_7_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 7. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_8_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_8_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 8. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_9_m-name",
+      "value": "Number 1x1 [M]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sticker_number_9_m-desc",
+      "value": "A mirrored 1x1 sticker of the number 9. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_brenn-name",
+      "value": "Brenn Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_brenn-desc",
+      "value": "Only for Brenn. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_pan-name",
+      "value": "Pan Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_pan-desc",
+      "value": "Only for Pan. \n\nPurely OSCosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_kip-name",
+      "value": "Kip Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_kip-desc",
+      "value": "Only for Kip. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_snip-name",
+      "value": "Snip Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_snip-desc",
+      "value": "Only for Snip. \n\nPurely cosmetic.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_blade-name",
+      "value": "Blade Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_dev_blade-desc",
+      "value": "Only for Blade. \n\nPurely cosmetic.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2201,6 +6179,42 @@
       "alignment": 0
     },
     {
+      "name": "build-placement-error-module",
+      "value": "Only four types of modules are permitted on a bot",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-placement-error-collide",
+      "value": "Unable to replace all parts (collision, inventory count, etc.)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-advanced-header",
+      "value": "ADVANCED MODE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-advanced-desc",
+      "value": "Place parts with advanced orientation control.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "robot-validate-error-title",
       "value": "Robot invalid",
       "bold": false,
@@ -2239,6 +6253,15 @@
     {
       "name": "robot-validate-error-disconnect",
       "value": "Robot contains disconnected parts",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "robot-validate-no-functional",
+      "value": "Robot must contain functional parts",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2345,6 +6368,60 @@
       "alignment": 0
     },
     {
+      "name": "delete-palette-title",
+      "value": "Are you sure?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "delete-palette-body",
+      "value": "Palette '%b' will not be recoverable",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "network-out-of-date-title",
+      "value": "Incompatible net-code version",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "network-out-of-date-body",
+      "value": "Your client is incompatible with the current game servers. Please update.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "chat-conn-failed-title",
+      "value": "Chat Connection Failure",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "chat-conn-failed-body",
+      "value": "Connection to chat server lost",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "mode-free-for-all",
       "value": "Free For All",
       "bold": false,
@@ -2363,6 +6440,51 @@
       "alignment": 0
     },
     {
+      "name": "mode-test",
+      "value": "Prototype Development",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "you-have-died",
+      "value": "You have died.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "respawning-time",
+      "value": "Respawning in %s seconds...",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "chat-broadcast",
+      "value": "Message from the devs",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "replay-save-failed",
+      "value": "Failed to save replay:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "build-mode-build",
       "value": "Building Mode",
       "bold": false,
@@ -2374,6 +6496,15 @@
     {
       "name": "build-mode-paint",
       "value": "Painting Mode",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-mode-customize",
+      "value": "Configure Mode",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2400,7 +6531,7 @@
     },
     {
       "name": "score-damagegiven",
-      "value": "Damage Dealt",
+      "value": "DMG Dealt",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2409,7 +6540,16 @@
     },
     {
       "name": "score-damagetaken",
-      "value": "Damage Taken",
+      "value": "DMG Taken",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "score-damagehealed",
+      "value": "Healed",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2419,6 +6559,69 @@
     {
       "name": "score-timeconnected",
       "value": "Time In Match",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "score-objective",
+      "value": "Objective Time",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "gameend-exit-match",
+      "value": "Claim Payment",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "gameend-exiting-in",
+      "value": "Returing to Orbit in %t...",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "flip-instruction-1",
+      "value": "PRESS ${DriveFlipBot} TO JUMP",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "flip-instruction-2",
+      "value": "HOLD ${DriveFlipBot} TO FLIP",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "flip-instruction-3",
+      "value": "ROTATE BOT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "flip-instruction-4",
+      "value": "RELEASE ${DriveFlipBot} TO DROP",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2444,34 +6647,44 @@
       "alignment": 0
     },
     {
-      "name": "username",
-      "value": "Username:",
+      "name": "information",
+      "value": "CONFIGURE ROBOT",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "username",
+      "value": "Username",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
       "color": [255, 117, 0]
     },
     {
       "name": "password",
-      "value": "Password:",
+      "value": "Password",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 1,
       "color": [255, 117, 0]
     },
     {
       "name": "confirm-password",
-      "value": "Confirm Password:",
-      "size": 34,
+      "value": "Confirm Password",
+      "size": 32,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 1,
       "color": [255, 117, 0]
     },
     {
@@ -2486,18 +6699,19 @@
     },
     {
       "name": "email-to-reset-password",
-      "value": "Email:",
-      "size": 34,
+      "value": "Email",
+      "size": 32,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 1,
       "color": [255, 117, 0]
     },
     {
       "name": "view-usage-terms-and-privacy-policy",
-      "value": "View usage terms & privacy policy",
+      "value": "View usage terms \n& privacy policy",
+      "size": 24,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2518,6 +6732,7 @@
     {
       "name": "create-account",
       "value": "Create account",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2536,18 +6751,9 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "information",
-      "value": "EARLY ACCESS",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 162, 52]
-    },
-    {
       "name": "enter-username",
       "value": "Enter username...",
+      "size": 32,
       "bold": false,
       "italic": true,
       "underline": false,
@@ -2558,6 +6764,7 @@
     {
       "name": "enter-passord",
       "value": "Enter password...",
+      "size": 32,
       "bold": false,
       "italic": true,
       "underline": false,
@@ -2568,6 +6775,7 @@
     {
       "name": "remember-me",
       "value": "Remember me",
+      "size": 28,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2578,6 +6786,7 @@
     {
       "name": "enter-game",
       "value": "LOGIN",
+      "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2588,12 +6797,55 @@
     {
       "name": "options",
       "value": "Settings",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "website",
+      "value": "Website",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "credits",
+      "value": "credits",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "exit-game",
+      "value": "exit",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-craigy-popup",
+      "value": "Craigy",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 162, 52]
     },
     {
       "name": "early-access-title",
@@ -2617,16 +6869,6 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "exit-game",
-      "value": "exit",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "play-button",
       "value": "PLAY ONLINE",
       "size": 40,
@@ -2635,6 +6877,17 @@
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "maindesc-online",
+      "value": "Jump into battle against players online.",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
@@ -2649,7 +6902,40 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "player-statistics",
+      "name": "maindesc-garage",
+      "value": "Create, test and manage your robots.",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "view-logbook",
+      "value": "View Logbook",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "maindesc-logbook",
+      "value": "View your Osprey Employee Logbook.",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "replays",
       "value": "REPLAYS",
       "bold": false,
       "italic": false,
@@ -2659,19 +6945,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "video-settings-title",
-      "value": "VIDEO SETTINGS",
-      "size": 72,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "video-tab",
-      "value": "VIDEO",
+      "value": "1",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2681,7 +6956,7 @@
     },
     {
       "name": "controls-tab",
-      "value": "Controls\n",
+      "value": "2",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2691,7 +6966,7 @@
     },
     {
       "name": "game-tab",
-      "value": "Game\n",
+      "value": "3",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2701,7 +6976,7 @@
     },
     {
       "name": "audio-tab",
-      "value": "Audio",
+      "value": "4",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2710,8 +6985,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-preset",
-      "value": "Graphics Preset",
+      "name": "graphics-vsync",
+      "value": "Use VSync",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2730,8 +7005,68 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "light-quality",
+      "value": "Lighting Quality",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "colourblindness-mode",
+      "value": "Colourblindness Mode",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "brightness",
+      "value": "Brightness\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "render-scale",
+      "value": "Render Scale",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "graphics-general",
+      "value": "Soundtrack Picker",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
       "name": "fullscreen",
-      "value": "Full Screen",
+      "value": "Display Mode",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "graphics-preset",
+      "value": "Base Graphics Preset",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2760,16 +7095,6 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-vsync",
-      "value": "VSync",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "ui-scale",
       "value": "UI Scale",
       "bold": false,
@@ -2781,7 +7106,7 @@
     },
     {
       "name": "fov",
-      "value": "FOV",
+      "value": "Drive FOV",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2790,88 +7115,18 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "antialiasing-mode",
-      "value": "Antialiasing Mode",
-      "bold": false,
+      "name": "graphics-visualeffects",
+      "value": "Visual Effects",
+      "bold": true,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "texture-quality",
-      "value": "Texture Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "shadow-quality",
-      "value": "Shadow Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "model-quality",
-      "value": "Model LOD Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "ambient-occlusion-quality",
-      "value": "Ambient Occlusion Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
+      "color": [255, 116, 0]
     },
     {
       "name": "bloom-quality",
       "value": "Bloom Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chroma-aberration-quality",
-      "value": "Chromatic Aberration Quality",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "motion-blur-quality",
-      "value": "Motion Blur",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chromatic-aberration-intensity",
-      "value": "Chromatic Aberration Intensity",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2890,8 +7145,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "screen-space-reflections",
-      "value": "Screen Space Reflections",
+      "name": "chroma-aberration-quality",
+      "value": "Chromatic Aberration Quality",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2900,8 +7155,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "screen-space-global-illumination",
-      "value": "Screen Space Global Illumination",
+      "name": "chromatic-aberration-intensity",
+      "value": "Chromatic Aberration Intensity",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2912,6 +7167,16 @@
     {
       "name": "graphics-advanced",
       "value": "Advanced Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "model-quality",
+      "value": "Model LOD Quality",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2920,8 +7185,128 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "sss-quality",
-      "value": "Subsurface Scattering Quality",
+      "name": "texture-quality",
+      "value": "Texture Quality",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "botdebris-amount",
+      "value": "Bot Debris Amount",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "botdebris-distance",
+      "value": "- Debris Render Distance",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "botdebris-chunks",
+      "value": "- Large Debris Chunks Only",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "antialiasing-mode",
+      "value": "Antialiasing Mode",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "dynamicresolution",
+      "value": "Dynamic Resolution",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "shadow-quality",
+      "value": "Shadow Distance",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ambient-occlusion-quality",
+      "value": "Ambient Occlusion Quality",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "screen-space-reflections",
+      "value": "Screen Space Reflections Quality",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "graphics-ssao",
+      "value": "Use Screen Space Ambient Occlusion",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "graphics-volumetric-fog",
+      "value": "Use Volumetric Fog",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "graphics-experimental",
+      "value": "Unused",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "graphics-distortion-data",
+      "value": "Capture Distortion Data",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2940,8 +7325,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-bad-transparency",
-      "value": "Low-Quality Transparency",
+      "name": "screen-space-global-illumination",
+      "value": "Screen Space Global Illumination Quality",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2950,18 +7335,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-no-decals",
-      "value": "Disable Decals",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "graphics-volumetric-fog",
-      "value": "Do Volumetric Fog",
+      "name": "motion-blur-quality",
+      "value": "Motion Blur",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2980,6 +7355,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "graphics-no-decals",
+      "value": "Disable Decals",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "graphics-refraction-data",
       "value": "Capture Refraction Data",
       "bold": false,
@@ -2990,8 +7375,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-distortion-data",
-      "value": "Capture DIstortion Data",
+      "name": "graphics-bad-transparency",
+      "value": "Low-Quality Transparency",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3000,19 +7385,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "graphics-ssao",
-      "value": "Do SSAO",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "apply-changes",
-      "value": "APPLY CHANGES",
-      "size": 40,
+      "name": "sss-quality",
+      "value": "Subsurface Scattering Quality",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3032,9 +7406,49 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "control-settings-title",
-      "value": "CONTROL SETTINGS",
-      "size": 72,
+      "name": "apply-changes",
+      "value": "APPLY CHANGES",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "description",
+      "value": "Description",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "video-setting-description-template",
+      "value": "This is a template description. It contains a lot of text that may or may not ever be read by players. If you can read this, mention me in your screenshot (@snip_3d #6594 on discord). I would be curious to know how you managed to see this text! I am the one who wrote this default text. The purpose of it is to fill space so that I can correctly lay out extensive text boxes so that they are not cut off. Designing UI is hard. It's especially frustrating when you have to design it so that it scales, but it's satisfying when it works. I am now venting into a default text box. Perhaps I should stop and get back to actual work... maybe...",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "video-recommendation",
+      "value": "HARDWARE REPORT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "system-log",
+      "value": "SYSTEM LOG",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3064,7 +7478,7 @@
     },
     {
       "name": "mouse-sensitivity-garage",
-      "value": "Mouse Sensitvity (Garage)\n",
+      "value": "Camera Sensitivity (Garage)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3074,7 +7488,7 @@
     },
     {
       "name": "mouse-sensitivity-drive",
-      "value": "Mouse Sensitvity (Drive)",
+      "value": "Camera Sensitivity (Drive)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3083,8 +7497,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "edit-keybinds",
-      "value": "Edit Keybinds",
+      "name": "zoom-sensitivity-zoom",
+      "value": "Camera Sensitivity (Scoped)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3094,7 +7508,7 @@
     },
     {
       "name": "keybinds-garage",
-      "value": "Garage/Build Keybinds\n",
+      "value": "Garage & Building Keybinds",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3104,7 +7518,7 @@
     },
     {
       "name": "keybinds-drive",
-      "value": "Drive/Battle Keybinds",
+      "value": "Testing & Battling Keybinds",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3133,6 +7547,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "press-any-key",
+      "value": "PRESS ANY KEY",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "set-to-default",
       "value": "set to defaults",
       "size": 40,
@@ -3144,15 +7568,14 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "game-settings-title",
-      "value": "GAME SETTINGS",
-      "size": 72,
-      "bold": false,
+      "name": "game-testmode",
+      "value": "Testmode Settings",
+      "bold": true,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [255, 255, 255]
+      "color": [255, 116, 0]
     },
     {
       "name": "test-environment",
@@ -3161,7 +7584,117 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-aiamount",
+      "value": "AI Spawn Amount",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-aiaccuracy",
+      "value": "AI Shooting Accuracy",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-aidistance",
+      "value": "AI Engagement Distance",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-visuals",
+      "value": "Visual Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
       "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "settings-screenshake",
+      "value": "Screenshake Intensity",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-enhancedcamera",
+      "value": "Enhanced Follow-Bot Camera",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-motionsickness",
+      "value": "Show Center of Mass Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-reduceuimotion",
+      "value": "Reduce UI Motion",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-speedunits",
+      "value": "Speed Measurement",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-buildmode",
+      "value": "Buildmode Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "garage-material",
+      "value": "Garage Environment\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
@@ -3175,34 +7708,34 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "settings-screenshake",
-      "value": "Screenshake\n\n",
+      "name": "ui-build-widgets",
+      "value": "Show Build Part Widgets",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
       "name": "ui-save-matches",
-      "value": "Save Match Records (avg 300KiB/player/min)",
+      "value": "Save Match Replays (avg 300KiB/player/min)",
       "size": 30,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
       "name": "records-path",
-      "value": "Save Records Path:",
+      "value": "Replay Save Location",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
@@ -3212,18 +7745,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "audio-settings-title",
-      "value": "AUDIO SETTINGS",
-      "size": 72,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
+      "alignment": 5,
       "color": [255, 255, 255]
     },
     {
@@ -3238,7 +7760,7 @@
     },
     {
       "name": "sound-effects-volume",
-      "value": "Sound Effects Volume\n",
+      "value": "Hit Effects Volume\n",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3267,19 +7789,18 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "choose-active-soundtracks",
-      "value": "Choose Active Soundtracks:",
-      "size": 40,
+      "name": "ui-audio-disableMissileAlarm",
+      "value": "Disable Missile Alarm",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
+      "alignment": 4,
       "color": [255, 255, 255]
     },
     {
       "name": "game-area",
-      "value": "Game Area",
+      "value": "Current Area",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3354,8 +7875,31 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "max-amp-exceeded",
+      "value": "⚠ Power Capacity Exceeded!",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
       "name": "return-to-main-menu",
       "value": "Main Menu",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "garage-customization",
+      "value": "customize",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3366,6 +7910,18 @@
     {
       "name": "logbook",
       "value": "LOGBOOK",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "friends",
+      "value": "friends",
+      "size": 28,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3374,14 +7930,25 @@
       "color": [128, 128, 128]
     },
     {
-      "name": "friends",
-      "value": "friends",
+      "name": "robot-name",
+      "value": "BOT NAME",
+      "size": 28,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [128, 128, 128]
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "configure-bot",
+      "value": "configure",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 5,
+      "color": [255, 255, 255]
     },
     {
       "name": "edit-bot",
@@ -3394,20 +7961,18 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "robot-name",
-      "value": "ROBOT NAME",
-      "size": 36,
+      "name": "delete-bot",
+      "value": "delete",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
-      "color": [255, 117, 0]
+      "alignment": 5,
+      "color": [255, 255, 255]
     },
     {
       "name": "power-usage",
-      "value": "POWER USAGE",
-      "size": 36,
+      "value": "POWER",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3416,8 +7981,9 @@
       "color": [255, 117, 0]
     },
     {
-      "name": "return-to-orbit",
-      "value": "return to orbit",
+      "name": "dialogue-okay",
+      "value": "OK",
+      "size": 24,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3426,15 +7992,44 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "return-to-orbit-in",
-      "value": "Returing to Orbit in %t...",
-      "size": 34,
+      "name": "configure-garage-title",
+      "value": "CUSTOMIZE GARAGE",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [128, 128, 128]
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "configure-garage-screens",
+      "value": "employee enrichment panels",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "configure-garage-map",
+      "value": "TESTING SIMULATION ENVIRONMENT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "configure-garage-bots",
+      "value": "TESTING SIMULATION SETTINGS",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
     },
     {
       "name": "enter-to-type",
@@ -3444,12 +8039,215 @@
       "italic": true,
       "underline": false,
       "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gameend-exit-match",
+      "value": "CLAIM PAYMENT",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
       "alignment": 0,
       "color": [255, 255, 255]
     },
     {
+      "name": "gameend-exiting-in",
+      "value": "Returing to Orbit in %t...",
+      "size": 30,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
+    },
+    {
+      "name": "reward-you-recieved",
+      "value": "<mspace=0.85em>200",
+      "size": 85,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 3,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "reward-screen-title",
+      "value": "YOU'VE RECIEVED",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 2,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "hud-module-dead",
+      "value": "ERROR\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 5,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "flip-instruction-1",
+      "value": "---",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "flip-instruction-2",
+      "value": "---",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "flip-instruction-3",
+      "value": "---",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "flip-instruction-4",
+      "value": "---",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "flip-instruction-completed",
+      "value": "THANK YOU FOR\nFLYING WITH OSPREY",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [207, 117, 0]
+    },
+    {
+      "name": "return-to-battle-warning",
+      "value": "⚠ RETURN TO THE BATTLE ⚠",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "oob-disconnected",
+      "value": "ROBOT DISCONNECTED",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 8,
+      "color": [180, 83, 0]
+    },
+    {
+      "name": "oob-standby",
+      "value": "PLEASE STAND BY",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 2,
+      "color": [180, 83, 0]
+    },
+    {
+      "name": "oob-uplink",
+      "value": "REMOTE ROBOTICS UPLINK SERVICES",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [40, 40, 40]
+    },
+    {
+      "name": "oob-console",
+      "value": "Robot control connection interrupted.\nERRx02: Connection Terminated.\n\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "respawn-console",
+      "value": "Robot control connection interrupted.\nERRx01: Out of Control Range.\n\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [40, 40, 40]
+    },
+    {
+      "name": "oob-username",
+      "value": "USER ID:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [40, 40, 40]
+    },
+    {
+      "name": "oob-lastlocation",
+      "value": "LAST KNOWN LOCATION:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [40, 40, 40]
+    },
+    {
+      "name": "respawn-redeployment",
+      "value": "15.0",
+      "size": 72,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
       "name": "return-to-game",
       "value": "RETURN TO GAME",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3460,6 +8258,7 @@
     {
       "name": "self-destruct",
       "value": "SELF-DESTRUCT",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3470,6 +8269,7 @@
     {
       "name": "quit-to-garage",
       "value": "QUIT TO GARAGE",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3479,18 +8279,8 @@
     },
     {
       "name": "language-settings-title",
-      "value": "LANGUAGE SETTINGS",
+      "value": "DEPENDENCIES, LICENSES, AND CREDITS",
       "size": 70,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "translation-save-return",
-      "value": "save & return",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3501,7 +8291,7 @@
     {
       "name": "translation-download",
       "value": "DOWNLOAD",
-      "size": 64,
+      "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3512,7 +8302,7 @@
     {
       "name": "translation-installed",
       "value": "INSTALLED",
-      "size": 64,
+      "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3541,81 +8331,6 @@
       "color": [128, 128, 128]
     },
     {
-      "name": "add-to-palette",
-      "value": "ADD TO PALETTE",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "paint-color-preview",
-      "value": "COLOR PREVIEW",
-      "size": 40,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "paint-palette-num",
-      "value": "STANDARD PALETTE\n",
-      "size": 36,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "paint-tool-hotbar",
-      "value": "PAINT TOOL HOTBAR",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "paint-mix",
-      "value": "MIX",
-      "size": 52,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [128, 128, 128]
-    },
-    {
-      "name": "paint-pick",
-      "value": "PICK",
-      "size": 52,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [128, 128, 128]
-    },
-    {
-      "name": "paint-paint",
-      "value": "PAINT",
-      "size": 52,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [128, 128, 128]
-    },
-    {
       "name": "paint-menu",
       "value": "PAINT MIXER",
       "bold": false,
@@ -3627,12 +8342,284 @@
     },
     {
       "name": "back",
-      "value": "Back",
+      "value": "back",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "PAINT-PALETTES",
+      "value": "PALETTES",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "paint-create-palette",
+      "value": "CREATE NEW PALETTE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "paint-palette-equipped",
+      "value": "EQUIPPED",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "pant-open-paint-tool",
+      "value": "OPEN PAINT TOOL",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "pant-save-palette",
+      "value": "SAVE AND CLOSE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "add-to-palette",
+      "value": "SAVE COLOR",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "copy-palette-color",
+      "value": "COPY COLOR",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "delete-palette-color",
+      "value": "DELETE COLOR",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "license",
+      "value": "license",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "replay-warning",
+      "value": "replay files are version-dependant, and may not be compatible with future versions of procelio!",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "view-replay",
+      "value": "View Replay",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "logbook-title",
+      "value": "OSPREY EMPLOYEE LOGBOOK",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "logbook-parts",
+      "value": "PLAYER LOG",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
+    },
+    {
+      "name": "gamemode-capture",
+      "value": "CAPTURE POINTS",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gamedesc-capture",
+      "value": "Fight over multiple control points for victory.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gamedesc-dm",
+      "value": "8v8 showdown. Last team standing wins.",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gamemode-TC",
+      "value": "DEATHMATCH",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "menu-button",
+      "value": "MENU",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "build-open-gizmos",
+      "value": "Open Gizmos Menu",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 7,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gizmo-colliders",
+      "value": "Show Colliders",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gizmo-center-of-lift",
+      "value": "Show Center of Lift",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gizmo-center-of-thrust",
+      "value": "Show Center of Thrust",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "gizmo-center-of-mass",
+      "value": "Show Center of Mass",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "toggle-mirror-type",
+      "value": "Toggle Mirror Type",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 7,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "toggle-mirror-mode",
+      "value": "Toggle Mirror Mode",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 7,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "advanced-mode",
+      "value": "Advanced Mode",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 7,
       "color": [255, 255, 255]
     },
     {
@@ -3676,6 +8663,36 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "shop-help-title",
+      "value": "INFORMATION",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "shop-help-desc",
+      "value": "LEFT CLICK to add a part to your purchase order.\n\nRIGHT CLICK to sell a part from your inventory.\n\nSHIFT + CLICK to add / sell 5x at a time.\n\nCTRL + CLICK to add / sell 10x at a time.\n\nHit CONFIRM to process the order.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "autobuy-help-desc",
+      "value": "When enabled, Osprey will automatically purchase parts as you place them in build mode. \n\nThis deducts the associated credits from your account and adds the part to your inventory in real time.\n\nNOTICE: Employee debts generated by auto-purchasing parts are non-refundable. Proceed with caution.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "techtree-wip",
       "value": "UNDER CONSTRUCTION",
       "bold": false,
@@ -3693,6 +8710,28 @@
       "underline": false,
       "strikethrough": false,
       "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "exit-test-mode",
+      "value": "| L",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 9,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "toggle-damage-tester",
+      "value": "Toggle Damage Tester",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 7,
       "color": [255, 255, 255]
     },
     {
@@ -3715,6 +8754,17 @@
       "strikethrough": false,
       "alignment": 0,
       "color": [255, 117, 0]
-    }
+    },
+    {
+      "name": "damagetest-damage-scale",
+      "value": "damage scale",
+      "size": 22,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
   ]
 }
