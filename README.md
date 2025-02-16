@@ -38,6 +38,8 @@ Each translation file consists of two pieces:
 The "language.json" file holds all of the translation data for this translation.
 This file contains a bit of metadata, then a large list of language elements that define the actual user interface text.
 
+Note: "logbook" entries are provided by default but are considered optional as some can be very long. Feel free to simply delete any entries that you don't want to fill out.
+
 #### Metadata
 
 ##### anglicized_name
