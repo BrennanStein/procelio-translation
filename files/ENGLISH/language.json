@@ -1220,6 +1220,87 @@
       "alignment": 0
     },
     {
+      "name": "mapname-alpha-prospect",
+      "value": "Alpha Prospect",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "mapname-deimos-nexus",
+      "value": "Deimos Nexus",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "mapname-feldspar-valley",
+      "value": "Feldspar Valley",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "mapname-icarus-north",
+      "value": "Icarus North",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "maplocation-home-high-mars-orbit",
+      "value": "High Mars Orbit",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "maplocation-mars-melas-chasma",
+      "value": "Melas Chasma, Mars",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "maplocation-mars-pavonis-mons",
+      "value": "Pavonis Mons, Mars",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "maplocation-mars-arcadia-dorsa",
+      "value": "Arcadia Dorsa, Mars",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "maslocation-mars-planum-boreale",
+      "value": "Planum Boreale, Mars",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "inv-tooltip-availability",
       "value": "Available: %ct",
       "bold": false,
@@ -6848,27 +6929,6 @@
       "color": [255, 162, 52]
     },
     {
-      "name": "early-access-title",
-      "value": "EARLY ACCESS",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 162, 52]
-    },
-    {
-      "name": "early-access-warning",
-      "value": "Procelio is still in active development! You may run across missing or unfinished features.",
-      "size": 26,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 1,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "play-button",
       "value": "PLAY ONLINE",
       "size": 40,
@@ -6942,6 +7002,27 @@
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "early-access-title",
+      "value": "EARLY ACCESS",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 162, 52]
+    },
+    {
+      "name": "early-access-warning",
+      "value": "Procelio is still in active development! You may run across missing or unfinished features.",
+      "size": 26,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
       "color": [255, 255, 255]
     },
     {
@@ -7046,7 +7127,7 @@
     },
     {
       "name": "graphics-general",
-      "value": "Soundtrack Picker",
+      "value": "General Settings",
       "bold": true,
       "italic": false,
       "underline": false,
@@ -7457,6 +7538,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "controls-mouse-settings",
+      "value": "Mouse Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
       "name": "invert-mouse-y-build",
       "value": "Invert Mouse Y (Garage)",
       "bold": false,
@@ -7505,6 +7596,16 @@
       "strikethrough": false,
       "alignment": 0,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "controls-keybindings",
+      "value": "Keybindings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
     },
     {
       "name": "keybinds-garage",
@@ -7649,7 +7750,7 @@
     },
     {
       "name": "ui-game-motionsickness",
-      "value": "Show Center of Mass Gizmos",
+      "value": "Main Menu Motionsickness Mode",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -7718,6 +7819,56 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "ui-game-gizmo-collider",
+      "value": "Show Collision Box Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-gizmo-lift",
+      "value": "Show Center of Lift Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-gizmo-thrust",
+      "value": "Show Center of Thrust Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-gizmo-mass",
+      "value": "Show Center of Mass Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "game-replay",
+      "value": "Replay Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
       "name": "ui-save-matches",
       "value": "Save Match Replays (avg 300KiB/player/min)",
       "size": 30,
@@ -7747,6 +7898,16 @@
       "strikethrough": false,
       "alignment": 5,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "autio-general",
+      "value": "General Settings",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
     },
     {
       "name": "master-volume",
@@ -7797,6 +7958,16 @@
       "strikethrough": false,
       "alignment": 4,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "autio-music-selector",
+      "value": "Soundtrack Picker",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
     },
     {
       "name": "game-area",
@@ -7876,7 +8047,7 @@
     },
     {
       "name": "max-amp-exceeded",
-      "value": "⚠ Power Capacity Exceeded!",
+      "value": "Power Capacity Exceeded!",
       "size": 28,
       "bold": false,
       "italic": false,
@@ -7981,17 +8152,6 @@
       "color": [255, 117, 0]
     },
     {
-      "name": "dialogue-okay",
-      "value": "OK",
-      "size": 24,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "configure-garage-title",
       "value": "CUSTOMIZE GARAGE",
       "bold": false,
@@ -8043,39 +8203,6 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "gameend-exit-match",
-      "value": "CLAIM PAYMENT",
-      "size": 50,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "gameend-exiting-in",
-      "value": "Returing to Orbit in %t...",
-      "size": 30,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [128, 128, 128]
-    },
-    {
-      "name": "reward-you-recieved",
-      "value": "<mspace=0.85em>200",
-      "size": 85,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 3,
-      "color": [255, 117, 0]
-    },
-    {
       "name": "reward-screen-title",
       "value": "YOU'VE RECIEVED",
       "bold": false,
@@ -8094,50 +8221,6 @@
       "strikethrough": false,
       "alignment": 5,
       "color": [254, 56, 56]
-    },
-    {
-      "name": "flip-instruction-1",
-      "value": "---",
-      "size": 24,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
-      "name": "flip-instruction-2",
-      "value": "---",
-      "size": 24,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
-      "name": "flip-instruction-3",
-      "value": "---",
-      "size": 24,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
-      "name": "flip-instruction-4",
-      "value": "---",
-      "size": 24,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
     },
     {
       "name": "flip-instruction-completed",
@@ -8162,15 +8245,15 @@
       "color": [254, 56, 56]
     },
     {
-      "name": "oob-disconnected",
-      "value": "ROBOT DISCONNECTED",
+      "name": "oob-terminated",
+      "value": "ROBOT TERMINATED",
       "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 8,
-      "color": [180, 83, 0]
+      "color": [255, 117, 0]
     },
     {
       "name": "oob-standby",
@@ -8214,6 +8297,17 @@
       "color": [40, 40, 40]
     },
     {
+      "name": "oob-disconnected",
+      "value": "ROBOT DISCONNECTED",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 8,
+      "color": [180, 83, 0]
+    },
+    {
       "name": "oob-username",
       "value": "USER ID:",
       "bold": false,
@@ -8235,14 +8329,14 @@
     },
     {
       "name": "respawn-redeployment",
-      "value": "15.0",
-      "size": 72,
+      "value": "REDEPLOYMENT IN...",
+      "size": 32,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [255, 117, 0]
+      "color": [255, 255, 255]
     },
     {
       "name": "return-to-game",
