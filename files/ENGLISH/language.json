@@ -8860,5 +8860,533 @@
       "alignment": 1,
       "color": [255, 255, 255]
     },
+    {
+      "name": "infolog_ffffff_test_run_please_ignore-title",
+      "value": "INFOLOG #FFFFFF: TEST RUN PLEASE IGNORE",
+    },
+    {
+      "name": "infolog_ffffff_test_run_please_ignore-body",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    },
+    {
+      "name": "infolog_4_operation_advice-title",
+      "value": "INFOLOG #4: OPERATION ADVICE",
+    },
+    {
+      "name": "infolog_4_operation_advice-body",
+      "value": "Have you suffered repeated losses when using an Osprey Modular Vehicle™ product? Try working on your driving and aiming skills, or request a new Modular Vehicle from our design team!",
+    },
+    {
+      "name": "infolog_267_help-title",
+      "value": "INFOLOG #267: help",
+    },
+    {
+      "name": "infolog_267_help-body",
+      "value": "please help me im so tired of writing these",
+    },
+    {
+      "name": "infolog_148_cosmetics-title",
+      "value": "INFOLOG #148: COSMETICS",
+    },
+    {
+      "name": "infolog_148_cosmetics-body",
+      "value": "The Craig cosmetic is not real and is a model. No isopods were harmed in the making of this project.",
+    },
+    {
+      "name": "infolog_171_atmospheric_warning-title",
+      "value": "INFOLOG #171: ATMOSPHERIC WARNING",
+    },
+    {
+      "name": "infolog_171_atmospheric_warning-body",
+      "value": "To all planet-side employees, this your monthly reminder that Mars is cold, inhospitable, and has no breathable atmosphere. Don't get excited, and always remember to bring your suit.",
+    },
+    {
+      "name": "infolog_135_osprey_home-title",
+      "value": "INFOLOG #135: OSPREY HOME",
+    },
+    {
+      "name": "infolog_135_osprey_home-body",
+      "value": "Did you know? \n\nIt is illegal to wield a fire axe within the Osprey HOME Testing Environment™ without a license.",
+    },
+    {
+      "name": "infolog_137_osprey_home-title",
+      "value": "INFOLOG #137: OSPREY HOME",
+    },
+    {
+      "name": "infolog_137_osprey_home-body",
+      "value": "Did you know? \n\nThe Osprey HOME Testing Environment™ is not very energy efficient.",
+    },
+    {
+      "name": "inf͝o͟l̴og_͢e̛r̡r͢_sỳs̷t̴e̸m_̸m͏alf́u̷n҉c̕ti͞o͘n-title",
+      "value": "INF͝O͟L̴OG #͢E̛R̡R͢: SỲS̷T̴E̸M ̸M͏ALF́U̷N҉C̕TI͞O͘N",
+    },
+    {
+      "name": "inf͝o͟l̴og_͢e̛r̡r͢_sỳs̷t̴e̸m_̸m͏alf́u̷n҉c̕ti͞o͘n-body",
+      "value": "T̡hįs͢ ̀f̶aul̷t şhould̛ not́ ҉o̢c͜cu͘r. ̨P̴l̷ęa̢s̶e ́rep̀o̷r̷t̢ ͏i҉t̢ to Osp҉re͞y M̡o̸dul̢ar̴ ͟H͏a̶r̷dw̧are͡ ̛and Techn̨olo͞gy̸'͡s ̴Classif̸i͡ed̀ Res͝ea̢r͢ćh ͡a̕n͘d ͏Devel͟o͏pme̕n̶t͝ d҉ep̵ar͘t͡men͟t ҉i̛mm̀e͡diat͢ely.",
+    },
+    {
+      "name": "infolog_0_adding_tooltips-title",
+      "value": "INFOLOG #0: ADDING TOOLTIPS",
+    },
+    {
+      "name": "infolog_0_adding_tooltips-body",
+      "value": "Your Procelio software package comes with 'Loading Screen Tooltips' functionality.\n\nWhile still in the prototype stage, Osprey Modular Hardware and Technology™ is committed to bringing you best-in-class tips and tricks with which to dominate your adversaries!",
+    },
+    {
+      "name": "infolog_38_sights-title",
+      "value": "INFOLOG #38: SIGHTS",
+    },
+    {
+      "name": "infolog_38_sights-body",
+      "value": "Right clicking with any Osprey weapon equipped will focus your AR rendering and zoom in for increased precision at a greater distance.\n\nFor a more mild zoom, press ${DriveZoom} to lower your Field of View on command, temporarily increasing mid-range precision.",
+    },
+    {
+      "name": "infolog_25_augmented_reality_controls-title",
+      "value": "INFOLOG #25: AUGMENTED REALITY CONTROLS",
+    },
+    {
+      "name": "infolog_25_augmented_reality_controls-body",
+      "value": "AR Technology made available to Osprey Modular Vehicle™ operators and designers allows you to visualize certain elements of bot metadata at the press of a button!\n\nIn Build and Test mode, open the Gizmos menu to see options to display important infomartion like your vehicle's center of mass or collision boxes.",
+    },
+    {
+      "name": "infolog_11_electrolaser_mastery-title",
+      "value": "INFOLOG #11: ELECTROLASER MASTERY",
+    },
+    {
+      "name": "infolog_11_electrolaser_mastery-body",
+      "value": "The Electrolaser Carbine (ELC) fires a continuous flurry of high energy bolts at the enemy, gaining inaccuracy over time. Hold off the trigger between shots to let the guns recalibrate, and tap the fire button to fire accurate shots over long distances.",
+    },
+    {
+      "name": "infolog_12_nova_cannon_mastery-title",
+      "value": "INFOLOG #12: NOVA CANNON MASTERY",
+    },
+    {
+      "name": "infolog_12_nova_cannon_mastery-body",
+      "value": "The Nova Cannon fires intense volleys of superheated energy at the enemy. These volleys inherit some of your bots velocity and arc downwards with gravity, so plan accordingly. Nova shots explode on impact, dealing splash damage. \n\nDid you know? The reload times for Nova Lauchers scale with the amount of guns on your robot.",
+    },
+    {
+      "name": "infolog_13_gauss_rifle_mastery-title",
+      "value": "INFOLOG #13: GAUSS RIFLE MASTERY",
+    },
+    {
+      "name": "infolog_13_gauss_rifle_mastery-body",
+      "value": "The Electromagnetic Gauss Rifle is a high precision tool of destruction. The rifle becomes unstable while moving, but the integrated laser sight will always shine true to where it's aiming. Learn to fire when you see it line up with your target.\n\nThe Gauss Rifle uses a shell-based magazine. Press ${DriveReload} to start reloading, and you can cancel any time after the first shell reloads.",
+    },
+    {
+      "name": "infolog_14_rivet_rifle_mastery-title",
+      "value": "INFOLOG #14: RIVET RIFLE MASTERY",
+    },
+    {
+      "name": "infolog_14_rivet_rifle_mastery-body",
+      "value": "The Rivet Rifle was originally a tool for construction, but it fares equally as well in robot destruction. It pulls from a passively recharging magazine and can be fired semi automatically to maintain accuracy.\n\nHold fire to engage full auto mode, but keep in mind the fire pattern spreads quickly this way.",
+    },
+    {
+      "name": "infolog_17_missile_pod_mastery-title",
+      "value": "INFOLOG #17: MISSILE POD MASTERY",
+    },
+    {
+      "name": "infolog_17_missile_pod_mastery-body",
+      "value": "A versatile but simple secondary weapon, use these smart missiles to finish off low health enemies, or pressure stationary targets (such as Gauss snipers) into moving out of position.",
+    },
+    {
+      "name": "infolog_18_mine_layer_mastery-title",
+      "value": "INFOLOG #18: MINE LAYER MASTERY",
+    },
+    {
+      "name": "infolog_18_mine_layer_mastery-body",
+      "value": "Putting landmines in difficult to see places will surprise (damage) the enemy before engagement. They can also be used as improvised bombs on aircraft, but be mindful of their arm time.",
+    },
+    {
+      "name": "infolog_19_smoke_module_mastery-title",
+      "value": "INFOLOG #19: SMOKE MODULE MASTERY",
+    },
+    {
+      "name": "infolog_19_smoke_module_mastery-body",
+      "value": "Absolutely decimate the enemy by blinding them with smoke. Might also blind yourself.",
+    },
+    {
+      "name": "infolog_20_cas_cutter_mastery-title",
+      "value": "INFOLOG #20: CAS CUTTER MASTERY",
+    },
+    {
+      "name": "infolog_20_cas_cutter_mastery-body",
+      "value": "These Contained Arc Saws will cut through anything, including other robots. Getting up close and personal, the cutter can output high amounts of damage in a flash, but puts the user's craft in danger. \n\nConsider escape routes before engaging.",
+    },
+    {
+      "name": "infolog_21_module_deck-title",
+      "value": "INFOLOG #21: MODULE DECK",
+    },
+    {
+      "name": "infolog_21_module_deck-body",
+      "value": "Multiple modules can be equipped at once, with their activation keys being shown next to the weapons module in the HUD. If a module is destroyed, an error sign will take its place.",
+    },
+    {
+      "name": "infolog_27_osprey_building_system-title",
+      "value": "INFOLOG #27: OSPREY BUILDING SYSTEM",
+    },
+    {
+      "name": "infolog_27_osprey_building_system-body",
+      "value": "Did you know? \n\nIt is possible to replace all primary weapons at once, by placing a new weapon of your choice on top of any of your existing weaponry",
+    },
+    {
+      "name": "infolog_28_osprey_test_simulacrum-title",
+      "value": "INFOLOG #28: OSPREY TEST SIMULACRUM",
+    },
+    {
+      "name": "infolog_28_osprey_test_simulacrum-body",
+      "value": "Did you know? \n\nIt is possible to switch between multiple testing environments within your Procelio software package settings.",
+    },
+    {
+      "name": "infolog_29_osprey_garage_screens-title",
+      "value": "INFOLOG #29: OSPREY GARAGE SCREENS",
+    },
+    {
+      "name": "infolog_29_osprey_garage_screens-body",
+      "value": "Did you know? \n\nIt is possible to change the garage panel displays within your Procelio software package settings.",
+    },
+    {
+      "name": "infolog_31_osprey_logbook-title",
+      "value": "INFOLOG #31: OSPREY LOGBOOK",
+    },
+    {
+      "name": "infolog_31_osprey_logbook-body",
+      "value": "Did you know? \n\nAn Osprey Employee Logbook comes standard with your Procelio software package.",
+    },
+    {
+      "name": "infolog_32_musical_motivation-title",
+      "value": "INFOLOG #32: MUSICAL MOTIVATION",
+    },
+    {
+      "name": "infolog_32_musical_motivation-body",
+      "value": "Did you know? \n\nYou are able to add custom music to your radio.",
+    },
+    {
+      "name": "infolog_33_flat_wings-title",
+      "value": "INFOLOG #33: FLAT WINGS",
+    },
+    {
+      "name": "infolog_33_flat_wings-body",
+      "value": "Flat wings provide great redundancy with their cheap cost and provide good control at low speeds, but are prone to overspeed. It will take longer to turn at speed without outside forces.",
+    },
+    {
+      "name": "infolog_33_swept_wings-title",
+      "value": "INFOLOG #33: SWEPT WINGS",
+    },
+    {
+      "name": "infolog_33_swept_wings-body",
+      "value": "Swept wings provide a great middle ground between ease of use, control, and lift, at the cost of price. If you're not sure what kind of plane to build, consider starting here.",
+    },
+    {
+      "name": "infolog_35_delta_wings-title",
+      "value": "INFOLOG #35: DELTA WINGS",
+    },
+    {
+      "name": "infolog_35_delta_wings-body",
+      "value": "Looking for some high speed action? Delta wings provide high control and lift performance at speed, but are more prone to lose control during sharp turns and stalls.",
+    },
+    {
+      "name": "infolog_36_rudders-title",
+      "value": "INFOLOG #36: RUDDERS",
+    },
+    {
+      "name": "infolog_36_rudders-body",
+      "value": "Rudders provide more control and stability surfaces for your aircraft to work with, but do not provide much lift.\n\nAll rudders provide the same control benefits.",
+    },
+    {
+      "name": "infolog_37_flight-title",
+      "value": "INFOLOG #37: FLIGHT",
+    },
+    {
+      "name": "infolog_37_flight-body",
+      "value": "Making a flying bot requires wings, thrust, and balance. Your bot will try to split lift and other forces across multiple wings to maintain stable flight, but flying bots are ultimately more fragile than grounded ones.",
+    },
+    {
+      "name": "infolog_38_tank_tracks-title",
+      "value": "INFOLOG #38: TANK TRACKS",
+    },
+    {
+      "name": "infolog_38_tank_tracks-body",
+      "value": "Tank tracks provide excellent armor for their power requirements, at the cost of an increased mass. While more sluggish in the long run compared to other ground movement types, tanks make up for this in their superior in-combat maneuvering, on-the-spot turning, and hill climbning ability. \nHold ${RobotDriveDown} to enter high gear.",
+    },
+    {
+      "name": "infolog_39_tank_gears-title",
+      "value": "INFOLOG #39: TANK GEARS",
+    },
+    {
+      "name": "infolog_39_tank_gears-body",
+      "value": "When using Tank Tracks, hold ${RobotDriveDown} to enter high gear. While in high gear, your direct drive power and speed is greatly increased, at the cost of turning ability. Use it to cover long distances outside of combat, or for a faster escape. Be wary of the short cooldown when switching gears.",
+    },
+    {
+      "name": "infolog_41_advanced_build_mode-title",
+      "value": "INFOLOG #41: ADVANCED BUILD MODE",
+    },
+    {
+      "name": "infolog_41_advanced_build_mode-body",
+      "value": "While in the garage, hold down ${GarageEnableAdvanced} to enter advanced build mode. When in advanced mode, you can use various keys to adjust block position and rotation in 3D space, without needing to bridge off of existing parts.",
+    },
+    {
+      "name": "infolog_42_inertial_rectifier-title",
+      "value": "INFOLOG #42: INERTIAL RECTIFIER",
+    },
+    {
+      "name": "infolog_42_inertial_rectifier-body",
+      "value": "While in control of your robot, press ${DriveFlipBot} to gain a vertical boost and align your bot upright. \n\nAlternatively, hold down ${DriveFlipBot} to control your bots alignment rotation and release to drop your robot in the desired direction.",
+    },
+    {
+      "name": "infolog_43_iff_tagging-title",
+      "value": "INFOLOG #43: IFF TAGGING",
+    },
+    {
+      "name": "infolog_43_iff_tagging-body",
+      "value": "Your AR HUD comes equiped with a state-of-the-art Identification Friend or Foe (IFF) system. Osprrey's SatOPS teams automatically manage assigning friendly units to your on-screem IFF. \n\nPress ${BattleEntitySpot} while looking at an unknown unit to mark them as a hostile for both yourself and your allies. Spotted enemies are trackable through walls, but will eventually lose their mark.\n NOTE: Mis-identifying a unit or attempting to identify rocks as enemies will require time for the system to recalibrate, and will be marked on your annual performance review.",
+    },
+    {
+      "name": "infolog_892_painting-title",
+      "value": "INFOLOG #892: PAINTING",
+    },
+    {
+      "name": "infolog_892_painting-body",
+      "value": "Osprey Modular Hardware and Technology™ provides tools to paint your Osprey Modular Vehicle™ in many different colors. \n\nDesigners may create harmonic gradient palettes.",
+    },
+    {
+      "name": "infolog_5694_wheels-title",
+      "value": "INFOLOG #5694: WHEELS",
+    },
+    {
+      "name": "infolog_5694_wheels-body",
+      "value": "Osprey Modular Hardware and Technology™'s wheels are able to be placed on your Osprey Modular Vehicle™. \n\nA single wheel is able to put out around one thousand brake horsepower.",
+    },
+    {
+      "name": "infolog_7922_terrain-title",
+      "value": "INFOLOG #7922: TERRAIN",
+    },
+    {
+      "name": "infolog_7922_terrain-body",
+      "value": "Your Osprey Modular Vehicle™, if built properly, may traverse many different types of terrain. \n\nConsider your movement parts well, especially when crossing rocky terrain.",
+    },
+    {
+      "name": "infolog_1_build_zone-title",
+      "value": "INFOLOG #1: BUILD ZONE",
+    },
+    {
+      "name": "infolog_1_build_zone-body",
+      "value": "The Build Environment is an Osprey-deployed space outpost for mixed-reality construction and testing of Osprey Modular Vehicle™ products. Once a robot's design passes client-requested quality assurance testing, the robot is manufactured and shipped planetside.",
+    },
+    {
+      "name": "infolog_3_neutrality-title",
+      "value": "INFOLOG #3: NEUTRALITY",
+    },
+    {
+      "name": "infolog_3_neutrality-body",
+      "value": "Osprey Modular Hardware and Technology™ does not condone the actions of either Hypox™ or the Aegis Frontiersmen in the ongoing conflict on Mars.",
+    },
+    {
+      "name": "infolog_6_corporate_partnerships-title",
+      "value": "INFOLOG #6: CORPORATE PARTNERSHIPS",
+    },
+    {
+      "name": "infolog_6_corporate_partnerships-body",
+      "value": "Osprey Modular Hardware and Technology™ is proud to announce its partnership with SpaceTek Dynamics™ to bring you canisters ideal for use with SpaceTek's LighterThanAir™ products.\n\nWARNING: ONCE LTA CANISTER IS PRESSURIZED, DO NOT SHAKE, HEAT, OR PUNCTURE.",
+    },
+    {
+      "name": "infolog_9_work_conditions-title",
+      "value": "INFOLOG #9: WORK CONDITIONS",
+    },
+    {
+      "name": "infolog_9_work_conditions-body",
+      "value": "In light of recently-publicized claims, Osprey Modular Hardware and Technology™ would like to remind you that all Innovation Laborers™ are paid a fair wage and are typically permitted to return to their families on weekends.",
+    },
+    {
+      "name": "infolog_5_alternative_products-title",
+      "value": "INFOLOG #5: ALTERNATIVE PRODUCTS",
+    },
+    {
+      "name": "infolog_5_alternative_products-body",
+      "value": "In addition to Modular Vehicles™, Osprey provides a number of products designed to make your life easier. Try our Wuud™ collection, wood-like products made from a wide selection of organic and inorganic materials!",
+    },
+    {
+      "name": "infolog_7_captain_procelio-title",
+      "value": "INFOLOG #7: CAPTAIN PROCELIO",
+    },
+    {
+      "name": "infolog_7_captain_procelio-body",
+      "value": "Despite rumors to the contrary, Osprey Modular Hardware and Technology™ has no association with the individual known as 'Captain Procelio' and has no information as to his whereabouts.",
+    },
+    {
+      "name": "infolog_8_proceli-os-title",
+      "value": "INFOLOG #8: PROCELI-Os",
+    },
+    {
+      "name": "infolog_8_proceli-os-body",
+      "value": "In collaboration with One Mars Radio™, Osprey Modular Hardware and Technology™'s Classified Research and Development Division is proud to announce the public release of\n <i>\"Proceli-Os™\": Part of a Healthy and Heavy-Metal-Free Breakfast!</i>",
+    },
+    {
+      "name": "infolog_10_store-of-value-title",
+      "value": "INFOLOG #10: STORE-OF-VALUE",
+    },
+    {
+      "name": "infolog_10_store-of-value-body",
+      "value": "As to better facilitate interplanetary commerce, Osprey Modular Hardware and Technology™ has begun work on the Future Initiative for Space-based Holdings, a commodity-backed currency project for engaging in stable trade of Osprey™ (and partners)'s goods without reliance on government fiat.",
+    },
+    {
+      "name": "infolog_25_shipping_services-title",
+      "value": "INFOLOG #25: SHIPPING SERVICES",
+    },
+    {
+      "name": "infolog_25_shipping_services-body",
+      "value": "Osprey Modular Hardware and Technology™ will ship anything, anywhere, fast and safe.\n\nOsprey would like to remind all employees that shipping with Voyant is forbidden outside of raw construction material shipments.",
+    },
+    {
+      "name": "ma_tollum-title",
+      "value": "MA: TOLLUM",
+    },
+    {
+      "name": "ma_tollum-body",
+      "value": "'Treaty Organization for the Legislation and Land Use of Mars.'\n\nFormed by Earth governments at the turn of the 2100's, TOLLUM holds responsibility for alloting and tracking legal distribution and ownership of Martian soil. The Hypox Mining Company™ lays claim to land granted to it for exclusive use by TOLLUM.",
+    },
+    {
+      "name": "ma_hypox_mining_company-title",
+      "value": "MA: HYPOX MINING COMPANY",
+    },
+    {
+      "name": "ma_hypox_mining_company-body",
+      "value": "Hypox Mining Company™ set foot on Mars, after winning mineral rights from TOLLUM, to extract valuable minerals from the red planet. While investors expected straightforward operations with good returns, their hopes were stymied by the discovery of unlicensed colonies already established on lands now belonging to Hypox™.",
+    },
+    {
+      "name": "ma_osprey_modular_hardware-title",
+      "value": "MA: OSPREY MODULAR HARDWARE",
+    },
+    {
+      "name": "ma_osprey_modular_hardware-body",
+      "value": "The foremost entity in private space travel and industry -- rivaling even the United Defense Force's in heavy industry -- Osprey™ and its myriad subdivisions have the ability to manufacture and transport virtually anything under the sun.",
+    },
+    {
+      "name": "ma_osprey_robotics-title",
+      "value": "MA: OSPREY ROBOTICS",
+    },
+    {
+      "name": "ma_osprey_robotics-body",
+      "value": "When peaceful efforts to resettle illegal colonies on Hypox™'s land were met with a string of incidents of property damage and vandalism, the mining company contracted with Osprey™'s robotics subdivision to dispatch autonomous and remote-controlled drones to protect its property against hostile tresspassers.",
+    },
+    {
+      "name": "ma_aegis-title",
+      "value": "MA: AEGIS",
+    },
+    {
+      "name": "ma_aegis-body",
+      "value": "AEGIS Colonization Enterprises™ was established in the early days of Martian colonization (preceding most regulation), offering paid trips and supplies for prospective Martian colonists in exchange for indentured servitude in colony-based production chains.\n\nAEGIS, in cooperation with both governments and private enterprise, has had a hand in not only the majority of colonial settlement, but also in much Martian infrastructure on the whole.",
+    },
+    {
+      "name": "ma_aegis_frontiersmen-title",
+      "value": "MA: AEGIS FRONTIERSMEN",
+    },
+    {
+      "name": "ma_aegis_frontiersmen-body",
+      "value": "A militia of hardened survivors who came to Mars seeking new lives and new opportunities under the AEGIS Martian Colonization Initiative™ who, after completing their contractural period of servitude, set out to claim their own land and form their own settlements. As a result, the Frontiersmen have found themselves in direct conflict with Hypox™.\nWhile lacking the formal backing of any Martian organizations, the group has managed to acquire access to the same modular robotics technology from Osprey that Hypox has.",
+    },
+    {
+      "name": "ma_spacetek_dynamics-title",
+      "value": "MA: SPACETEK DYNAMICS",
+    },
+    {
+      "name": "ma_spacetek_dynamics-body",
+      "value": "SpaceTek Dynamics™, one of the leading spacing corporations, specializes in high-tech research and development, exceeding by far Osprey's R&D teams in applied physics research. While the privately-held company is generally secretive about its dealings, it has in the past partnered with AEGIS Colonization Enterprises™ to build and run the Icarus North Massive Solar Array, and the Deimos Skyhook Project.",
+    },
+    {
+      "name": "tollum_(for_dummies)-title",
+      "value": "TOLLUM (FOR DUMMIES)",
+    },
+    {
+      "name": "tollum_(for_dummies)-body",
+      "value": "'Treaty Organization for the Legislation and Land Use of Mars.'\n\nTOLLUM was created by Earth governments in the early 2100s to manage land ownership on Mars. It keeps track of who owns what land, with the Hypox Mining Company™ receiving exclusive rights to certain areas from TOLLUM.",
+    },
+    {
+      "name": "hypox_mining_company_(for_dummies)-title",
+      "value": "HYPOX MINING COMPANY (FOR DUMMIES)",
+    },
+    {
+      "name": "hypox_mining_company_(for_dummies)-body",
+      "value": "The Hypox Mining Company™ came to Mars after getting the right to mine minerals from TOLLUM. They ran into trouble when they found illegal colonies on the land now controlled by Hypox™.",
+    },
+    {
+      "name": "osprey_modular_hardware_(for_dummies)-title",
+      "value": "OSPREY MODULAR HARDWARE (FOR DUMMIES)",
+    },
+    {
+      "name": "osprey_modular_hardware_(for_dummies)-body",
+      "value": "Osprey™ is a major player in private space travel and industry, even competing with the United Defense Force in the heavy industry sector. Its many divisions can manufacture and transport almost anything needed for space operations.",
+    },
+    {
+      "name": "osprey_robotics_(for_dummies)-title",
+      "value": "OSPREY ROBOTICS (FOR DUMMIES)",
+    },
+    {
+      "name": "osprey_robotics_(for_dummies)-body",
+      "value": "When Hypox™ faced vandalism and damage to equipment while trying to move illegal colonies off their land, they hired Osprey™'s robotics division to send out drones to protect their property from trespassers.",
+    },
+    {
+      "name": "aegis_(for_dummies)-title",
+      "value": "AEGIS (FOR DUMMIES)",
+    },
+    {
+      "name": "aegis_(for_dummies)-body",
+      "value": "AEGIS Colonization Enterprises™ was created early in Mars' settlement, before most laws were in place. They provided settlers with transportation and supplies in exchange for work. AEGIS played a big role in helping to settle Mars and build its infrastructure.",
+    },
+    {
+      "name": "aegis_frontiersmen_(for_dummies)-title",
+      "value": "AEGIS FRONTIERSMEN (FOR DUMMIES)",
+    },
+    {
+      "name": "aegis_frontiersmen_(for_dummies)-body",
+      "value": "The Frontiersmen are a group of former workers who came to Mars under AEGIS. After finishing their service, they chose to settle Mars on their own and came into conflict with Hypox™. They also gained access to the same advanced robotics from Osprey™ that Hypox™ uses.",
+    },
+    {
+      "name": "spacetek_dynamics_(for_dummies)-title",
+      "value": "SPACETEK DYNAMICS (FOR DUMMIES)",
+    },
+    {
+      "name": "spacetek_dynamics_(for_dummies)-body",
+      "value": "SpaceTek Dynamics™ is a leading space research company, more advanced than Osprey™ in applied physics. Though secretive, they have worked with AEGIS on major projects like the Icarus North Solar Array and Deimos Skyhook Project.",
+    },
+    {
+      "name": "mars_travel_guide_trains-title",
+      "value": "MARS TRAVEL GUIDE: TRAINS",
+    },
+    {
+      "name": "mars_travel_guide_trains-body",
+      "value": "The Red Sand Rail Company, in tight partnership with AEGIS, is responsible for maintaining the high velocity maglev trains that carry goods, cargo, and materials from point to point across Mars. With a maximum surface operating velocity exceeding 3000kph (due to the rarified Martian atmosphere), these reinforced trains are renowned for keeping a tight schedule regardless of weather or debris.",
+    },
+    {
+      "name": "mars_travel_guide_alpha_prospect-title",
+      "value": "MARS TRAVEL GUIDE: ALPHA PROSPECT",
+    },
+    {
+      "name": "mars_travel_guide_alpha_prospect-body",
+      "value": "Alpha Prospect is one of the first mining operations established by Hypox in pursuit of rich niobium ores. While largely controlled by Hypox, the mine has become a symbolic landmark and a focal point of Frontiersmen' attacks against Hypox's operations.",
+    },
+    {
+      "name": "mars_radio_guide_deimos_nexus-title",
+      "value": "MARS RADIO GUIDE: DEIMOS NEXUS",
+    },
+    {
+      "name": "mars_radio_guide_deimos_nexus-body",
+      "value": "Deimos Nexus is the first and largest Spaceport on Mars. Constructed by AEGIS and SpaceTek under the management of TOLLUM, it serves as a massive shipping and immigration center for the red planet. While designated to be neutral ground by Earth nations, even it is not safe from the proxy war on Mars.",
+    },
+    {
+      "name": "mars_travel_guide_icarus_north-title",
+      "value": "MARS TRAVEL GUIDE: ICARUS NORTH",
+    },
+    {
+      "name": "mars_travel_guide_icarus_north-body",
+      "value": "The Icarus North Solar Array is a monumental solar farm built into the Planum Boreale of Mars in a partnership between AEGIS™ and SpaceTek Dynamics™.\n\nDuring the summer season, the massive facility uses rail-mounted solar panels to chase the never-setting polar sun to supposedly generate energy. During the winter months, a complement of SpaceTek's scientists remain at the facility to ensure it remains in good working order.<i>Among other things...</i>",
+    },
+    {
+      "name": "mars_travel_guide_cebrenia-title",
+      "value": "MARS TRAVEL GUIDE: CEBRENIA",
+    },
+    {
+      "name": "mars_travel_guide_cebrenia-body",
+      "value": "Despite the widely-popular drone recordings of the Cebrenia quadrangle's <i>Hecates Thelus</i> volcano, access to the quadrant remains strictly prohibited by Martian authorities in the wake of the mysterious implosion in 21XX",
+    }
   ]
 }
