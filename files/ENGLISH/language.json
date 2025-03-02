@@ -1157,6 +1157,24 @@
       "alignment": 0
     },
     {
+      "name": "key-robottogglecosmetics",
+      "value": "Toggle Lights / Cosmetics",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-robothorn",
+      "value": "Honk Equipped Horn",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "key-gizmostogglecollisionboxes",
       "value": "Toggle Collision Box Gizmos",
       "bold": false,
@@ -1265,7 +1283,7 @@
       "alignment": 0
     },
     {
-      "name": "maplocation-mars-melas-chasma",
+      "name": "maplocation-alpha-prospect",
       "value": "Melas Chasma, Mars",
       "bold": false,
       "italic": false,
@@ -1274,7 +1292,7 @@
       "alignment": 0
     },
     {
-      "name": "maplocation-mars-pavonis-mons",
+      "name": "maplocation-deimos-nexus",
       "value": "Pavonis Mons, Mars",
       "bold": false,
       "italic": false,
@@ -1283,7 +1301,7 @@
       "alignment": 0
     },
     {
-      "name": "maplocation-mars-arcadia-dorsa",
+      "name": "maplocation-feldspar-valley",
       "value": "Arcadia Dorsa, Mars",
       "bold": false,
       "italic": false,
@@ -1292,7 +1310,7 @@
       "alignment": 0
     },
     {
-      "name": "maslocation-mars-planum-boreale",
+      "name": "maplocation-icarus-north",
       "value": "Planum Boreale, Mars",
       "bold": false,
       "italic": false,
@@ -1436,6 +1454,15 @@
       "alignment": 0
     },
     {
+      "name": "stat-secondaryammovalue",
+      "value": "Secondary Stock Value: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "auxstat-knockback",
       "value": "Knockback (kn): %s",
       "bold": false,
@@ -1572,7 +1599,7 @@
     },
     {
       "name": "auxstat-restockrate",
-      "value": "Restock Rate (/s): %s",
+      "value": "Secondary Restock Rate (/s): %s",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -1663,6 +1690,51 @@
     {
       "name": "auxstat-aoefalloff",
       "value": "AoE Falloff: x%s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-fluxrestockrate",
+      "value": "Secondary Restock Rate (/s): %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-secondarymagazinecap",
+      "value": "Active Magazine Cap: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-secondaryreserveammo",
+      "value": "Reserve Ammo: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-secondaryreloaddelay",
+      "value": "Reload Delay: %s",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "auxstat-secondarycharges",
+      "value": "Charges (per Ammo): %s",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2563,6 +2635,78 @@
     {
       "name": "cosmetic-thrusterexhaustph6-desc",
       "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_1-name",
+      "value": "Horn Alt SFX 1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_1-desc",
+      "value": "beep beep 1 (placeholder)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_2-name",
+      "value": "Horn Alt SFX 2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_2-desc",
+      "value": "beep beep 2 (placeholder)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_3-name",
+      "value": "Horn Alt SFX 3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_3-desc",
+      "value": "beep beep 3 (placeholder)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_4-name",
+      "value": "Horn Alt SFX 4",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-horn_alt_4-desc",
+      "value": "beep beep 4 (placeholder)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4829,6 +4973,42 @@
       "alignment": 0
     },
     {
+      "name": "block-ammo_box_small-name",
+      "value": "Small Ammo Box",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-ammo_box_small-desc",
+      "value": "Provides a small increase of reserve ammunition to supplement your equipped secondary weapon system.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-ammo_box_large-name",
+      "value": "Large Ammo Box",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-ammo_box_large-desc",
+      "value": "Provides a large increase of reserve ammunition to supplement your equipped secondary weapon system.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "block-alpha_isopod_cosmetic-name",
       "value": "Hardhat Craig",
       "bold": false,
@@ -4966,6 +5146,42 @@
     {
       "name": "block-cosm_sirenlight-desc",
       "value": "Has lights, rotates.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sirenlight_orange-name",
+      "value": "Siren Light (Orange)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-cosm_sirenlight_orange-desc",
+      "value": "Has orange lights, rotates.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-horn-name",
+      "value": "Horn",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-horn-desc",
+      "value": "Beep beep",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -6296,6 +6512,33 @@
       "alignment": 0
     },
     {
+      "name": "build-cust-held-cosmetic",
+      "value": "Held Cosmetic",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-cust-equipped-cosmetics",
+      "value": "Equipped Cosmetics",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "build-cust-incompatible-part",
+      "value": "Incompatible with part!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "robot-validate-error-title",
       "value": "Robot invalid",
       "bold": false,
@@ -6477,7 +6720,7 @@
     },
     {
       "name": "network-out-of-date-body",
-      "value": "Your client is incompatible with the current game servers. Please update.",
+      "value": "Your client is incompatible with the current game servers. Please update to the newest version via our website [procelio.com].",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -6559,6 +6802,96 @@
     {
       "name": "replay-save-failed",
       "value": "Failed to save replay:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dependencies-licenses-credits",
+      "value": "Dependencies, Licenses and Credits",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "replay-browser",
+      "value": "Replay Browser",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-ok",
+      "value": "Ok",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-continue",
+      "value": "Continue",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-cancel",
+      "value": "Cancel",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-reset",
+      "value": "Reset",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-select",
+      "value": "Select",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-remove",
+      "value": "Remove",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-add",
+      "value": "Add",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "ui-button-return",
+      "value": "Return",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -7769,6 +8102,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "ui-enable-dithering",
+      "value": "Enable Bot Dithering",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "ui-game-speedunits",
       "value": "Speed Measurement",
       "bold": false,
@@ -8209,7 +8552,17 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 2,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-dialogue-continue",
+      "value": "Continue",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -8235,7 +8588,7 @@
     },
     {
       "name": "return-to-battle-warning",
-      "value": "⚠ RETURN TO THE BATTLE ⚠",
+      "value": "RETURN TO THE BATTLE",
       "size": 40,
       "bold": false,
       "italic": false,
@@ -8267,14 +8620,14 @@
       "color": [180, 83, 0]
     },
     {
-      "name": "oob-uplink",
+      "name": "oob-uplink-killed",
       "value": "REMOTE ROBOTICS UPLINK SERVICES",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 1,
-      "color": [40, 40, 40]
+      "color": [255, 117, 0]
     },
     {
       "name": "oob-console",
@@ -8285,6 +8638,16 @@
       "strikethrough": false,
       "alignment": 1,
       "color": [255, 117, 0]
+    },
+    {
+      "name": "oob-uplink",
+      "value": "REMOTE ROBOTICS UPLINK SERVICES",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [40, 40, 40]
     },
     {
       "name": "respawn-console",
@@ -8372,9 +8735,20 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "online-battles-not-paused",
+      "value": "Online Battles are not paused!",
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 2,
+      "color": [254, 56, 56]
+    },
+    {
       "name": "language-settings-title",
-      "value": "DEPENDENCIES, LICENSES, AND CREDITS",
-      "size": 70,
+      "value": "LANGUAGE SETTINGS",
+      "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8550,7 +8924,6 @@
     {
       "name": "view-replay",
       "value": "View Replay",
-      "size": 24,
       "bold": false,
       "italic": false,
       "underline": false,
