@@ -654,7 +654,7 @@
     },
     {
       "name": "key-garagerotateghostx",
-      "value": "Manually rotate ghost X (with ctrl)",
+      "value": "Manually rotate ghost X (in advanced build)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -663,7 +663,7 @@
     },
     {
       "name": "key-garagerotateghosty",
-      "value": "Manually rotate ghost Y (with ctrl)",
+      "value": "Manually rotate ghost Y (in advanced build)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -672,7 +672,25 @@
     },
     {
       "name": "key-garagerotateghostz",
-      "value": "Manually rotate ghost Z (with ctrl",
+      "value": "Manually rotate ghost Z (in advanced build)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garageundoredo",
+      "value": "Undo (in advanced build)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garageredomodifier",
+      "value": "Invert Undo (i.e. Redo) (in advanced build)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4595,6 +4613,24 @@
       "alignment": 0
     },
     {
+      "name": "block-alpha_sec_bombbay-name",
+      "value": "Bomb Bay (Standard)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_bombbay-desc",
+      "value": "Drops a bomb that inherits bot velocity, exploding on contact once armed.\n\n Deals self-damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "block-electroplate_a_l-name",
       "value": "Model A.L",
       "bold": false,
@@ -6450,7 +6486,7 @@
     },
     {
       "name": "build-placement-error-noblocks",
-      "value": "No more blocks of that type",
+      "value": "No more blocks of that type (%d)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -6684,7 +6720,25 @@
     },
     {
       "name": "delete-bot-body",
-      "value": "Bot '%b' will not be recoverable",
+      "value": "Bot '%b' may not be recoverable",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "clipboard-replace-bot-title",
+      "value": "Are you sure?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "clipboard-replace-bot-body",
+      "value": "Replace '%b1' with clipboard contents '%b2'",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8202,6 +8256,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "settings-undolog",
+      "value": "Undo Log Length",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "game-replay",
       "value": "Replay Settings",
       "bold": true,
@@ -8243,7 +8307,7 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "autio-general",
+      "name": "audio-general",
       "value": "General Settings",
       "bold": true,
       "italic": false,
@@ -8303,7 +8367,7 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "autio-music-selector",
+      "name": "audio-music-selector",
       "value": "Soundtrack Picker",
       "bold": true,
       "italic": false,
@@ -8442,6 +8506,39 @@
       "strikethrough": false,
       "alignment": 0,
       "color": [128, 128, 128]
+    },
+    {
+      "name": "prefabs-menu-button",
+      "value": "PREFABS",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
+    },
+    {
+      "name": "clipboard-copy",
+      "value": "COPY\n",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "clipboard-paste",
+      "value": "PASTE",
+      "size": 28,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
     },
     {
       "name": "robot-name",
@@ -9319,7 +9416,7 @@
     },
     {
       "name": "infolog_25_augmented_reality_controls-body",
-      "value": "AR Technology made available to Osprey Modular Vehicle™ operators and designers allows you to visualize certain elements of bot metadata at the press of a button!\n\nIn Build and Test mode, open the Gizmos menu to see options to display important infomartion like your vehicle's center of mass or collision boxes."
+      "value": "AR Technology made available to Osprey Modular Vehicle™ operators and designers allows you to visualize certain elements of bot metadata at the press of a button!\n\nIn Build and Test mode, open the Gizmos menu to see options to display important information like your vehicle's center of mass or collision boxes."
     },
     {
       "name": "infolog_11_electrolaser_mastery-title",
@@ -9335,7 +9432,7 @@
     },
     {
       "name": "infolog_12_nova_cannon_mastery-body",
-      "value": "The Nova Cannon fires intense volleys of superheated energy at the enemy. These volleys inherit some of your bots velocity and arc downwards with gravity, so plan accordingly. Nova shots explode on impact, dealing splash damage. \n\nDid you know? The reload times for Nova Lauchers scale with the amount of guns on your robot."
+      "value": "The Nova Cannon fires intense volleys of superheated energy at the enemy. These volleys inherit some of your bots velocity and arc downwards with gravity, so plan accordingly. Nova shots explode on impact, dealing splash damage. \n\nDid you know? The reload times for Nova Launchers scale with the amount of guns on your robot."
     },
     {
       "name": "infolog_13_gauss_rifle_mastery-title",
