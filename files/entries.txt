@@ -20,9 +20,9 @@ aegis_frontiersmen_(for_dummies)-title
 ambient-occlusion-quality
 antialiasing-mode
 apply-changes
+audio-general
+audio-music-selector
 audio-tab
-autio-general
-autio-music-selector
 autobuy-help-desc
 auxstat-activationcooldown
 auxstat-activationcost
@@ -162,6 +162,8 @@ block-alpha_rudder_i-desc
 block-alpha_rudder_i-name
 block-alpha_rudder-desc
 block-alpha_rudder-name
+block-alpha_sec_bombbay-desc
+block-alpha_sec_bombbay-name
 block-alpha_sec_energyblade-desc
 block-alpha_sec_energyblade-name
 block-alpha_sec_minelayer-desc
@@ -451,6 +453,10 @@ chat-conn-failed-title
 chroma-aberration-quality
 chromatic-aberration-intensity
 clear
+clipboard-copy
+clipboard-paste
+clipboard-replace-bot-body
+clipboard-replace-bot-title
 colourblindness-mode
 configure-bot
 configure-garage-bots
@@ -816,6 +822,7 @@ key-garagechangesymmetry
 key-garageenableadvanced
 key-garagepickblock
 key-garageplaceblock
+key-garageredomodifier
 key-garageremoveblock
 key-garagerotateghostx
 key-garagerotateghosty
@@ -829,6 +836,7 @@ key-garageshiftrobotleft
 key-garageshiftrobotright
 key-garageshiftrobotup
 key-garagetogglemirroractive
+key-garageundoredo
 key-garagewipebay
 key-garagewipecosmetics
 key-gizmosdisableall
@@ -1344,6 +1352,7 @@ pant-save-palette
 password
 play-button
 power-usage
+prefabs-menu-button
 press-any-key
 quit-to-garage
 records-path
@@ -1381,6 +1390,7 @@ screen-space-global-illumination
 screen-space-reflections
 self-destruct
 settings-screenshake
+settings-undolog
 set-to-default
 shadow-quality
 shop
