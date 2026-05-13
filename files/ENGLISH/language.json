@@ -1229,6 +1229,24 @@
       "alignment": 0
     },
     {
+      "name": "key-drivemodule5",
+      "value": "Ability 5",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-drivemodule6",
+      "value": "Ability 6",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "key-functiontoggleui",
       "value": "Toggle UI visibility",
       "bold": false,
@@ -1303,6 +1321,42 @@
     {
       "name": "key-gizmosdisableall",
       "value": "Disable All Gizmos",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garageraisebuildplate",
+      "value": "Raise Garage Buildplate",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garagelowerbuildplate",
+      "value": "Lower Garage Buildplate",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garageresetbuildplate",
+      "value": "Reset Garage Buildplate",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "key-garagerotatebuildplate",
+      "value": "Rotate Garage Buildplate",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2300,6 +2354,42 @@
       "alignment": 0
     },
     {
+      "name": "cosmetic-skin_gun_primary_supporter-name",
+      "value": "Supporter Primary Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_gun_primary_supporter-desc",
+      "value": "Show off your support in style.\n\nFor primary weapons.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_gun_secondary_supporter-name",
+      "value": "Supporter Secondary Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_gun_secondary_supporter-desc",
+      "value": "Show off your support in style.\n\nFor primary weapons.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "cosmetic-skin_mov_wing_fed-name",
       "value": "FSAF Aero Skin",
       "bold": false,
@@ -2336,6 +2426,42 @@
       "alignment": 0
     },
     {
+      "name": "cosmetic-skin_mov_wing_supporter-name",
+      "value": "Supporter Aero Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_mov_wing_supporter-desc",
+      "value": "Show off your support in style.\n\nApplicable to wings and rudders.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_module_supporter-name",
+      "value": "Supporter Module Skin",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-skin_module_supporter-desc",
+      "value": "Show off your support in style.\n\nFor modules.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "cosmetic-partglowred-name",
       "value": "Static Red",
       "bold": false,
@@ -2346,7 +2472,7 @@
     },
     {
       "name": "cosmetic-partglowred-desc",
-      "value": "Gives an electroplate a red color.",
+      "value": "Gives an arcshield a red color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2364,7 +2490,7 @@
     },
     {
       "name": "cosmetic-partglowblue-desc",
-      "value": "Gives an electroplate a purple-blue color.",
+      "value": "Gives an arcshield a purple-blue color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2382,7 +2508,7 @@
     },
     {
       "name": "cosmetic-partglowyellow-desc",
-      "value": "Gives an electroplate a yellow color.",
+      "value": "Gives an arcshield a yellow color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2400,7 +2526,7 @@
     },
     {
       "name": "cosmetic-partglowgreen-desc",
-      "value": "Gives an electroplate a green color.",
+      "value": "Gives an arcshield a green color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2418,7 +2544,7 @@
     },
     {
       "name": "cosmetic-partglowpurple-desc",
-      "value": "Gives an electroplate a purple color.",
+      "value": "Gives an arcshield a purple color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2436,7 +2562,7 @@
     },
     {
       "name": "cosmetic-partgloworange-desc",
-      "value": "Gives an electroplate a orange color.",
+      "value": "Gives an arcshield a orange color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2454,7 +2580,7 @@
     },
     {
       "name": "cosmetic-partglowwhite-desc",
-      "value": "Gives an electroplate a white color.",
+      "value": "Gives an arcshield a white color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2472,7 +2598,7 @@
     },
     {
       "name": "cosmetic-partglowblack-desc",
-      "value": "Gives an electroplate a black color.",
+      "value": "Gives an arcshield a black color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2490,7 +2616,7 @@
     },
     {
       "name": "cosmetic-partglowmilitary-desc",
-      "value": "Gives an electroplate a military green color.",
+      "value": "Gives an arcshield a military green color.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2508,7 +2634,7 @@
     },
     {
       "name": "cosmetic-partglowbee-desc",
-      "value": "Gives an electroplate a bee inspired gradient.",
+      "value": "Gives an arcshield a bee inspired gradient.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2526,7 +2652,7 @@
     },
     {
       "name": "cosmetic-partglowice-desc",
-      "value": "Gives an electroplate an ice inspired gradient.",
+      "value": "Gives an arcshield an ice inspired gradient.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2544,7 +2670,7 @@
     },
     {
       "name": "cosmetic-partglowdarkred-desc",
-      "value": "Gives an electroplate a dark red color. \n\nNothing edgier than a spoon.",
+      "value": "Gives an arcshield a dark red color. \n\nNothing edgier than a spoon.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2562,7 +2688,7 @@
     },
     {
       "name": "cosmetic-partglowpurpulse-desc",
-      "value": "Gives an electroplate a purple/black pulsing gradient.",
+      "value": "Gives an arcshield a purple/black pulsing gradient.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2580,7 +2706,7 @@
     },
     {
       "name": "cosmetic-partglowthunder-desc",
-      "value": "Gives an electroplate a pulsing thunder inspired gradient.",
+      "value": "Gives an arcshield a pulsing thunder inspired gradient.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2598,7 +2724,7 @@
     },
     {
       "name": "cosmetic-partglowearth-desc",
-      "value": "Gives an electroplate an earth inspired gradient.",
+      "value": "Gives an arcshield an earth inspired gradient.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2616,7 +2742,7 @@
     },
     {
       "name": "cosmetic-partglowrainbow-desc",
-      "value": "Gives an electroplate the rainbow gradient.\n\nFor the true gamer.",
+      "value": "Gives an arcshield the rainbow gradient.\n\nFor the true gamer.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2634,7 +2760,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterncube-desc",
-      "value": "Gives an electroplate a cubed pattern.",
+      "value": "Gives an arcshield a cubed pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2652,7 +2778,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterntri1-desc",
-      "value": "Gives an electroplate a triangled pattern.",
+      "value": "Gives an arcshield a triangled pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2670,7 +2796,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterntri2-desc",
-      "value": "Gives an electroplate a triangled pattern.",
+      "value": "Gives an arcshield a triangled pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2688,7 +2814,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterntri3-desc",
-      "value": "Gives an electroplate a triangled pattern.",
+      "value": "Gives an arcshield a triangled pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2706,7 +2832,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterncarbon-desc",
-      "value": "Gives an electroplate a carbon fiber pattern.",
+      "value": "Gives an arcshield a carbon fiber pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2724,7 +2850,7 @@
     },
     {
       "name": "cosmetic-electroplatepatterncamo-desc",
-      "value": "Gives an electroplate an urban DDPAT camouflage pattern.",
+      "value": "Gives an arcshield an urban DDPAT camouflage pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2742,7 +2868,7 @@
     },
     {
       "name": "cosmetic-electroplatepatternprem1-desc",
-      "value": "Gives an electroplate a low poly pattern.",
+      "value": "Gives an arcshield a low poly pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2760,7 +2886,7 @@
     },
     {
       "name": "cosmetic-electroplatepatternprem2-desc",
-      "value": "Gives an electroplate a hazard stripe pattern.",
+      "value": "Gives an arcshield a hazard stripe pattern.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -2778,7 +2904,43 @@
     },
     {
       "name": "cosmetic-electroplatepatternprem3-desc",
-      "value": "Gives an electroplate a squared pattern.",
+      "value": "Gives an arcshield a squared pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternclassic-name",
+      "value": "Honeycomb",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternclassic-desc",
+      "value": "Gives an arcshield a classic alpha honeycomb pattern.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternsupporter-name",
+      "value": "Supporter Shield Pattern",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "cosmetic-electroplatepatternsupporter-desc",
+      "value": "Gives an arcshield a formation of isopods.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3002,8 +3164,8 @@
       "alignment": 0
     },
     {
-      "name": "cosmetic-thrusterexhaustph3-name",
-      "value": "Placeholder",
+      "name": "cosmetic-thrusterexhaustcordium-name",
+      "value": "Cordial",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3011,8 +3173,8 @@
       "alignment": 0
     },
     {
-      "name": "cosmetic-thrusterexhaustph3-desc",
-      "value": "Placeholder.\n\nAn alternate exhaust trail for thrusters.",
+      "name": "cosmetic-thrusterexhaustcordium-desc",
+      "value": "Frequently cited as a factor of several geothermal and geopolitical disasters.\n\nAn alternate exhaust trail for thrusters.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3273,7 +3435,7 @@
     },
     {
       "name": "inv-cat-electroplates",
-      "value": "Shield Plates",
+      "value": "Arcshield Plates",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -3416,6 +3578,15 @@
       "alignment": 0
     },
     {
+      "name": "inv-cat-cosm-supporter",
+      "value": "Supporter Pack Rewards",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "inv-cat-info",
       "value": "Information",
       "bold": false,
@@ -3506,7 +3677,7 @@
       "alignment": 0
     },
     {
-      "name": "weapon-category-rocket",
+      "name": "weapon-category-missile",
       "value": "Missile Launcher",
       "bold": false,
       "italic": false,
@@ -3580,6 +3751,15 @@
     {
       "name": "weapon-category-fluxlauncher",
       "value": "Flux Mortar",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "weapon-category-rocketpod",
+      "value": "Scylla RKT Pod",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4218,7 +4398,7 @@
     },
     {
       "name": "block-alpha_thruster_t1-name",
-      "value": "Mk. 1-A",
+      "value": "Thruster M1-A",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4236,7 +4416,7 @@
     },
     {
       "name": "block-alpha_topmount_thruster-name",
-      "value": "Mk. 1-B",
+      "value": "Thruster M1-B",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4254,7 +4434,7 @@
     },
     {
       "name": "block-alpha_thruster_t5-name",
-      "value": "Mk. 3",
+      "value": "Thruster M2",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4272,7 +4452,7 @@
     },
     {
       "name": "block-alpha_thruster_t9-name",
-      "value": "Mk. 4",
+      "value": "Thruster M3",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4300,6 +4480,96 @@
     {
       "name": "block-mov_turbofan_thruster-desc",
       "value": "Test part.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_small-name",
+      "value": "Thruster M1-A",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_small-desc",
+      "value": "A small and simple thruster that can apply force in the placed direction.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_small_topmount-name",
+      "value": "Thruster M1-B",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_small_topmount-desc",
+      "value": "A small and simple thruster, attached directly to a robot.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_medium-name",
+      "value": "Thruster M2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_medium-desc",
+      "value": "A medium sized thruster that can apply force in the placed direction.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_medium_flat-name",
+      "value": "Thruster M2-C",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_medium_flat-desc",
+      "value": "A compact medium sized thruster that can apply force in the placed direction.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_large-name",
+      "value": "Thruster M3",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-mov_thruster_large-desc",
+      "value": "A large and powerful thruster that can apply force in the placed direction.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -4821,7 +5091,7 @@
     },
     {
       "name": "block-alpha_gyroscope-desc",
-      "value": "On activation, helps counteract bot rotation.\n\nStacking grants additional charges.",
+      "value": "On activation, helps counteract bot rotation.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5099,7 +5369,7 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_sec_rocketlauncher-name",
+      "name": "block-alpha_sec_missilelauncher-name",
       "value": "Missile Launcher",
       "bold": false,
       "italic": false,
@@ -5108,7 +5378,7 @@
       "alignment": 0
     },
     {
-      "name": "block-alpha_sec_rocketlauncher-desc",
+      "name": "block-alpha_sec_missilelauncher-desc",
       "value": "Fires a heat-seeking missile.",
       "bold": false,
       "italic": false,
@@ -5207,8 +5477,26 @@
       "alignment": 0
     },
     {
+      "name": "block-alpha_sec_rocketpod-name",
+      "value": "Scylla RKT Pod",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-alpha_sec_rocketpod-desc",
+      "value": "A cluster of stabilized unguided rockets, dealing high explosive damage over moderate range.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "block-electroplate_a_l-name",
-      "value": "Model A.L",
+      "value": "Arcshield A.L",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5226,7 +5514,7 @@
     },
     {
       "name": "block-electroplate_a_r-name",
-      "value": "Model A.R",
+      "value": "Arcshield A.R",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5244,7 +5532,7 @@
     },
     {
       "name": "block-electroplate_b_l-name",
-      "value": "Model B.L",
+      "value": "Arcshield B.L",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5262,7 +5550,7 @@
     },
     {
       "name": "block-electroplate_b_r-name",
-      "value": "Model B.R",
+      "value": "Arcshield B.R",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5280,7 +5568,7 @@
     },
     {
       "name": "block-electroplate_c-name",
-      "value": "Model C",
+      "value": "Arcshield C",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5289,6 +5577,258 @@
     },
     {
       "name": "block-electroplate_c-desc",
+      "value": "A high-tech energy shield which recharges after taking damage. \n Decomissioned",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_1-name",
+      "value": "Arcshield M1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_1-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_2-name",
+      "value": "Arcshield M2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_2-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_3-name",
+      "value": "Arcshield M3 [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_3-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_3_m-name",
+      "value": "Arcshield M3 [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_3_m-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_4-name",
+      "value": "Arcshield M4",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_4-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_5-name",
+      "value": "Arcshield M5 [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_5-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_5_m-name",
+      "value": "Arcshield M5 [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_5_m-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_6-name",
+      "value": "Arcshield M6 [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_6-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_6_m-name",
+      "value": "Arcshield M6 [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_6_m-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_7-name",
+      "value": "Arcshield M7",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_7-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_8-name",
+      "value": "Arcshield M8",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_8-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_9-name",
+      "value": "Arcshield M9 [L]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_9-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_9_m-name",
+      "value": "Arcshield M9 [R]",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_9_m-desc",
+      "value": "A high-tech energy shield which recharges after taking damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_10-name",
+      "value": "Arcshield M10",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-chassis_shield_10-desc",
       "value": "A high-tech energy shield which recharges after taking damage.",
       "bold": false,
       "italic": false,
@@ -5415,7 +5955,7 @@
     },
     {
       "name": "block-mod_dash-desc",
-      "value": "On activation, create a singularity that displaces bot in desired direction.\n\nStacking grants additional charges.",
+      "value": "On activation, create a singularity that displaces bot in desired direction.\n\nStacking improves energy consumption.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5451,7 +5991,7 @@
     },
     {
       "name": "block-mod_fuel-desc",
-      "value": "On activation, expend turbofuel to tremendously increase thrust output of thrusters that align with the module.\n\nStacking grants additional tank capacity.",
+      "value": "On activation, expend turbofuel to tremendously increase thrust output of thrusters that align with the module.\n\nStacking improves energy consumption.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5469,7 +6009,7 @@
     },
     {
       "name": "block-mod_shockwave-desc",
-      "value": "On activation, release a radial blast that damages and pushes enemy bots away.\n\nStacking grants additional charges.",
+      "value": "On activation, release a radial blast that damages and pushes enemy bots away.\n\nStacking increases blast force and radius.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -5614,6 +6154,42 @@
     {
       "name": "block-ammo_box_large-desc",
       "value": "Provides a large increase of reserve ammunition to supplement your equipped secondary weapon system.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-energy_capacitor_small-name",
+      "value": "Small Energy Capacitor",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-energy_capacitor_small-desc",
+      "value": "Provides a small increase of available energy to power your equipped modules.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-energy_capacitor_large-name",
+      "value": "Large Energy Capacitor",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "block-energy_capacitor_large-desc",
+      "value": "Provides a large increase of available energy to power your equipped modules.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -7835,6 +8411,15 @@
       "alignment": 0
     },
     {
+      "name": "rewards-notification",
+      "value": "After disconnecting from a match, you were awarded {money}",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "build-mode-build",
       "value": "Building Mode",
       "bold": false,
@@ -7972,6 +8557,24 @@
     {
       "name": "flip-instruction-4",
       "value": "RELEASE ${DriveFlipBot} TO DROP",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "energy-overdraw-nocharge",
+      "value": "CRITICAL ENERGY DRAW - RESTARTING",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "energy-overdraw-charging",
+      "value": "RECHARGING CAPACITOR - STAND BY",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8160,7 +8763,7 @@
     },
     {
       "name": "tech-54-name",
-      "value": "Missile Pod",
+      "value": "Missile Launcher",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8376,7 +8979,7 @@
     },
     {
       "name": "tech-110-name",
-      "value": "Medium Thruster",
+      "value": "Compact Medium Thruster",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8385,7 +8988,7 @@
     },
     {
       "name": "tech-110-desc",
-      "value": "A medium impulse thruster for providing propulsion and control on a variety of craft.",
+      "value": "A more compact but power-hungry version of the medium thruster, exchanging AMP efficiency for internal space savings.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8430,7 +9033,7 @@
     },
     {
       "name": "tech-113-name",
-      "value": "PLACEHOLDER Compact Medium Thruster",
+      "value": "Medium Thruster",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8439,7 +9042,7 @@
     },
     {
       "name": "tech-113-desc",
-      "value": "A more compact but power-hungry version of the medium thruster, for saving internal space.",
+      "value": "A medium impulse thruster for providing propulsion and control on a variety of craft.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8610,7 +9213,7 @@
     },
     {
       "name": "tech-205-name",
-      "value": "Electroshield Pack",
+      "value": "Legacy Arcshield Pack",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8619,7 +9222,43 @@
     },
     {
       "name": "tech-205-desc",
+      "value": "A deprecated collection of regenerating energy shields to protect specific points on your bot.\n\nYou probably shouldn't be seeing this anymore.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tech-206-name",
+      "value": "Arcshield Pack 1",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tech-206-desc",
       "value": "A collection of regenerating energy shields to protect specific points on your bot.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tech-207-name",
+      "value": "Arcshield Pack 2",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tech-207-desc",
+      "value": "An expanded collection of regenerating energy shields to protect specific points on your bot.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9167,14 +9806,671 @@
       "alignment": 0
     },
     {
+      "name": "character-name-unknown",
+      "value": "Unidentified",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-title-unknown",
+      "value": "Unidentified",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-name-craig",
+      "value": "Craig",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-title-craig",
+      "value": "Dubiously Canon Entity",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-name-frontiersmen",
+      "value": "Mason Harris",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-title-frontiersmen",
+      "value": "Foreman, Aegian Frontiersmen",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-name-hypox",
+      "value": "Ada Madaki",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-title-hypox",
+      "value": "Overseer, Hypox Mining Company",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-name-tutorialbot",
+      "value": "O.P.A.L.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "character-title-tutorialbot",
+      "value": "Osprey Productivity Alignment Logician",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "faction-name-neutral",
+      "value": "Unknown Affiliation",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "faction-name-osprey",
+      "value": "Osprey Modular Hardware",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "faction-name-frontiersmen",
+      "value": "Aegian Frontiersmen",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "faction-name-hypox",
+      "value": "Hypox Mining Company",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-paused-title",
+      "value": "Tutorial Paused",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-paused-message",
+      "value": "Did you want to quit the Procelio User Orientation?\n<align=\"center\"><color=#38BDFD><i>⚠ O.P.A.L. will remember this.</i></align>",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tutorial-remove-block-checkbox",
+      "value": "Remove block",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-instruction-click",
+      "value": "Click to proceed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-instruction-tasks",
+      "value": "Complete all tasks to proceed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-c",
+      "value": "C",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-intro-1",
+      "value": "Welcome to the Procelio User Orientation! We’re happy to have you here.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-intro-2",
+      "value": "I am the Osprey Productivity Alignment Logician, OPAL for short. I will be your company-mandated guide through the Procelio Remote Robotics Program.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-intro-3",
+      "value": "Please press the highlighted 'Edit Bot' button (or ${ShortcutEscape} on your input device) to enter editing mode.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-intro",
+      "value": "This is the garage environment where you can build, modify, and test robots. Lets get you acclimated with your Osprey Augmented Testing tools.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-cam",
+      "value": "I’ve provided a helpful checklist to calibrate your camera movement. Try each option out and get a feel for how to navigate the garage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-bots",
+      "value": "Good work! Your robots- ‘bots,’ affectionately- are remotely piloted vehicles which you'll use to participate in assigned missions.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-bots-2",
+      "value": "‘Assigned missions’ involve approved levels of robot combat, which means your bots should be armed. This one here, however, doesn't have any guns yet.\n\nLet's remedy that!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-reqtree-1",
+      "value": "Press ${ShortcutBuild2Tech} to open the Requisitions Tree.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-reqtree-2",
+      "value": "This is the Requisitions Tree, where you can use company credits to unlock licenses to procure and operate new equipment.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-reqtree-3",
+      "value": "To the left of the tree are the category tabs, navigate to the Weaponry tab and unlock the Electrolaser Carbine.\n\nClick on a node to see its details. Unlock it using the right details pane.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-reqtree-4",
+      "value": "Great! Now that you’re licensed to kill, press ${ShortcutBuild2Tech} or ${ShortcutEscape} to return to build mode.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-guns",
+      "value": "Now let's get this bot armed. Place the provided Electrolaser Carbines on top of highlighted blocks.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-movement-1",
+      "value": "Good work! Your bot has guns, but is still lacking movement.\n\nYou won’t be able to operate at minimum acceptable standards with it like this.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-movement-2",
+      "value": "Fortunately, as a Zulu-grade employee in the Osprey Contracting Division, you've been pre-approved for access to modular wheels.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-inventory-1",
+      "value": "Press ${ShortcutBuild2Inventory} to open the inventory.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-inventory-2",
+      "value": "This is the Inventory, where you can view and select parts you’ve unlocked the license to use.\n\nNavigate to the Movement tab at the top bar and select Steering Wheels",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-garage-movement-3",
+      "value": "Now that you have selected them, place wheels on the green blocks on the bots undercarriage. \n\nTip: you can press ${GarageToggleMirrorActive} to toggle automatic mirrored build actions off and on.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-deleting-blocks",
+      "value": "Now you’re all ready to start driving- \n\nOops, sorry, I spilled some blocks.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-deleting-blocks-2",
+      "value": "To be able to use a bot, all blocks must be connected to the <b>Core</b> of the robot. Any disconnected blocks will be automatically highlighted in red.\n\nUse ${GarageRemoveBlock} to remove the excess blocks at the front of the garage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-deleting-blocks-3",
+      "value": "Great work! Osprey reminds you that a key factor in employee success is the willingness to clean up someone else's mess without asking questions.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-drive-intro",
+      "value": "With that out of the way, are you ready to drive?\n\nPress ${ShortcutBuild2Test} to enter test mode.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-drive-controls",
+      "value": "I’ve provided a helpful checklist to calibrate your robot movement. Try each option out and get a feel for how to drive.\n\nTip: Wheeled bots have a turning radius. Try combining turning with forward and/or backward inputs.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-drive-waypoint",
+      "value": "That’s it! Now drive to and park in the highlighted waypoint.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-drive-home",
+      "value": "This is the Osprey HOME environment: one of the company's testing locations for modular robots prior to deployment. \n\nYou may want to take a moment to look around, this is where you will be testing all your bots going forward.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-spot",
+      "value": "In missions, sharing information is key. I've gone ahead and spawned a passive enemy bot ahead of you. Aim at it and use ${BattleEntitySpot} to 'spot' it.\n\nSpotting an enemy will relay its position and information to your team, but there's a cooldown if you miss.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-shooting-1",
+      "value": "Great, weapons armed! Go shoot at that spotted bot until it explodes.\n\nPress ${DriveShoot} to shoot, and hold ${DriveScope} to scope in for more precise aim.\n\nTip: the Electrolaser Carbine has infinite ammunition, but its accuracy decreases the longer ${DriveShoot} is held!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-intro",
+      "value": "Great work! You might have noticed parts falling off left and right as you shot that dummy. Let’s talk about damaging Osprey products.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-1",
+      "value": "Damage in Procelio travels between parts along connection points.\n\nIf a part receives more damage than it has health, the remaining damage will transfer to adjacent connected parts as the part is destroyed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-2",
+      "value": "I've loaded a cross section of a bot to help demonstrate this damage flow system.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-3",
+      "value": "Shoot the highlighted red block and observe its effects.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-4",
+      "value": "Did you see the blocks connected to the red block also fall off? That was due to damage overflow!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-5",
+      "value": "Different weapons do different amounts of damage, but all spread follows the same pattern. Clever building can help reduce the collateral damage of one well-placed shot.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-6",
+      "value": "As a modular structure, your robot will fall apart in different ways depending on how you build it and where you’re shot at. It’s not possible <i>or</i> expected to plan for every outcome, but understanding how damage works can help keep you in a fight longer.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-7",
+      "value": "Now there's another important detail to remember: the <b>core</b> is the heart of your robot. All bots must have exactly one core, and<i>all</i> components must be connected to it to be eligible for deployment.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-8",
+      "value": "Any parts that become <b>disconnected from</b> the core due to structural damage will be automatically destroyed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-9",
+      "value": "Now shoot the highlighted orange block and observe its effects.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-10",
+      "value": "Look at all that damage!\n\nBecause a load-bearing part was shot, all part that were connected to the core through it were also destroyed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-11",
+      "value": "As exterior blocks of your bot are destroyed, the internals will become visible. Redundant connection routes to important parts can reduce the chances of suffering critical hits like that.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-12",
+      "value": "If all functional blocks -- generally, guns or movement parts -- are destroyed on a bot, its core will overload and the bot will explode. Go for the vital components to disable an opponent!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-13",
+      "value": "Now, shoot the yellow block and observe its effects.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-damage-14",
+      "value": "KaBOOM!\n\nGreat work, we’re almost done with your orientation.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-abilities",
+      "value": "I've given you an <b>activatable ability</b>. Certain modules or game states may grant you these. Press ${DriveModule1} to trigger this one.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-flip",
+      "value": "Was that a ruse to get you flipped over? Why yes, yes it was.\n\nYou can use ${DriveFlipBot} to activate your built-in 'flip' ability to turn yourself right side up. Holding ${DriveFlipBot} will allow you to laterally rotate your bot before it's dropped back down.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-weapon-swap",
+      "value": "One more topic: weapons.\nEach bot is permitted to have one category of Primary Weapon (like the Electrolaser Carbine) and one category of Secondary Weapon, in addition to up to four module types.\n\nYour bot is equipped with minelayers as a secondary weapon. Press ${DriveCycleWeapon} to cycle the active weapon, then ${DriveShoot} to lay a mine.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-aircraft-intro",
+      "value": "Great work! With that, there should be nothing else to challenge your rising career-",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-aircraft-1",
+      "value": "aaaAAA I forgot about air bots.\nLook up! Look <b>UP!</b>",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-aircraft-2",
+      "value": "That's not good. It’s laughing at your damaged state from on high.\n\nGo into the healing zone on the far side of this room to get repaired, then we’ll deal with it.\n\nTip: In online games, heal points can be found at your team's base.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-aircraft-3",
+      "value": "Great! Now that you’re repaired, go and blast that drone out of the sky!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-aircraft-outro",
+      "value": "Good work. Always remember to be on the lookout, not everyone is fighting on the same playing field.\n\nAircraft can be very dangerous, but they also tend to have to retreat when sustaining damage.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-outro-1",
+      "value": "Congratulations! You have completed the Procelio User Orientation and have been certified to possess the base-level competency expected of Osprey employees!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-outro-2",
+      "value": "There’s a lot to take in when it comes to modular robotic combat, we hope this orientation has provided you with the basic fundamentals for success.\n\nOPAL will be deprecated if it has not!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-outro-3",
+      "value": "Should you ever need to find more information about your environment, parts, and job duties, please refer to your Osprey Employee Logbook available in the garage menu.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-outro-4",
+      "value": "We hope you’ve enjoyed your stay, you will be returned to the employee lounge shortly.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "information",
-      "value": "CONFIGURE ROBOT",
+      "value": "EARLY ACCESS",
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 0,
-      "color": [255, 255, 255]
+      "color": [255, 162, 52]
     },
     {
       "name": "username",
@@ -9367,17 +10663,6 @@
       "color": [255, 162, 52]
     },
     {
-      "name": "sign-in-options",
-      "value": "Sign In with",
-      "size": 50,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
       "name": "enter-game-steam",
       "value": "LOGIN STEAM",
       "size": 50,
@@ -9410,6 +10695,17 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "sign-in-options",
+      "value": "Sign In with",
+      "size": 50,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
       "name": "language",
       "value": "Change Language",
       "bold": false,
@@ -9417,6 +10713,76 @@
       "underline": false,
       "strikethrough": false,
       "alignment": 5,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "steamlogin-branch-title",
+      "value": "WELCOME, STEAM USER!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "steamlogin-branch-message",
+      "value": "If you have a non-Steam account, log in and then link steam from the main menu\n\n\n\nIf this is your first time playing, you can create and link a new Procelio account here.\n\n\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "steamlogin-username-title",
+      "value": "set procelio username",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "steamlogin-username-desc",
+      "value": "adding standalone login credentials will allow you to log in without using steam.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "link-steam-account",
+      "value": "LINK STEAM ACCOUNT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "add-standalone-login",
+      "value": "ADD STANDALONE LOGIN",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "run-tutorial",
+      "value": "tutorial woo",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -9547,38 +10913,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "report-player-title",
-      "value": "SET PROCELIO USERNAME",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "link-steam-account",
-      "value": "LINK STEAM ACCOUNT",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "add-standalone-login",
-      "value": "ADD STANDALONE LOGIN",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "video-tab",
-      "value": "1",
+      "value": "VIDEO",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9588,7 +10924,7 @@
     },
     {
       "name": "controls-tab",
-      "value": "2",
+      "value": "Controls\n",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9598,7 +10934,7 @@
     },
     {
       "name": "game-tab",
-      "value": "3",
+      "value": "Game\n",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9608,7 +10944,7 @@
     },
     {
       "name": "audio-tab",
-      "value": "4",
+      "value": "Audio",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10098,6 +11434,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "settings-control-profile",
+      "value": "Control Profile",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "controls-mouse-settings",
       "value": "Mouse Settings",
       "bold": true,
@@ -10229,6 +11575,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "setting-join-globalchat",
+      "value": "Join Global Chat",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "game-testmode",
       "value": "Testmode Settings",
       "bold": true,
@@ -10321,6 +11677,16 @@
     {
       "name": "ui-game-reduceuimotion",
       "value": "Reduce UI Motion",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-game-gaussboresight",
+      "value": "Gauss Boresight Scope",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10647,6 +12013,46 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "currency-info-normal-title",
+      "value": "Company Credits",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "currency-info-normal-desc",
+      "value": "Company credits are paid out for performance in battles.\n\nYou can spend your company credits on requisitions, parts, cosmetics, or prefabs.\n\nCredits are capped at 100k, to encourage employee expenditure.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "currency-info-premium-title",
+      "value": "Premium Chips",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [63, 129, 190]
+    },
+    {
+      "name": "currency-info-premium-desc",
+      "value": "Premium chips are a special currency awarded through achievements, events, and external purchases.\n\n\nin-game purchases for premium chips are disabled until we have a product we feel is worth monetizing.\n\n\nYour support means the world to us, in any form.\n",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "credit-cap-warning-title",
       "value": "credit cap hit",
       "bold": false,
@@ -10852,6 +12258,57 @@
       "strikethrough": false,
       "alignment": 0,
       "color": [255, 117, 0]
+    },
+    {
+      "name": "configure-robot-title",
+      "value": "CONFIGURE ROBOT:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "bot-remaps-global",
+      "value": "set global keybind profile",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "bot-control-remapping",
+      "value": "Control Overrides",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "bot-control-remapping-reset",
+      "value": "reset",
+      "size": 27,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "bot-control-remapping-instructions",
+      "value": "BOT ACTION < < < < < USER INPUT",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
     },
     {
       "name": "social-menu",
@@ -11095,6 +12552,17 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "chat-server-connection-lost",
+      "value": "Cannot connect to Chat Server.",
+      "size": 24,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
       "name": "reward-screen-title",
       "value": "YOU'VE RECIEVED",
       "bold": false,
@@ -11123,6 +12591,139 @@
       "strikethrough": false,
       "alignment": 5,
       "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-hp",
+      "value": "integrity",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-",
+      "value": "encumbered",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-barrier",
+      "value": "BARRIER",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [155, 0, 253]
+    },
+    {
+      "name": "dashboard-stat-invincible",
+      "value": "Invincible",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [62, 199, 62]
+    },
+    {
+      "name": "dashboard-stat-thrust",
+      "value": "turbofuel",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [62, 199, 62]
+    },
+    {
+      "name": "dashboard-stat-chaff",
+      "value": "Chaff",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [62, 199, 62]
+    },
+    {
+      "name": "dashboard-stat-damage-vulnerable",
+      "value": "fragile",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-healbane",
+      "value": "flux virus",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-overdraw",
+      "value": "overdraw",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-stat-oob",
+      "value": "awol",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [254, 56, 56]
+    },
+    {
+      "name": "dashboard-meter-",
+      "value": "METER",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "dashboard-meter-collective",
+      "value": "collective",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "dashboard-meter-lta",
+      "value": "LTA",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
     },
     {
       "name": "flip-instruction-completed",
@@ -11403,13 +13004,13 @@
     {
       "name": "paint-palette-equipped",
       "value": "EQUIPPED",
-      "size": 40,
+      "size": 24,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 116, 0]
+      "alignment": 7,
+      "color": [255, 117, 0]
     },
     {
       "name": "pant-open-paint-tool",
@@ -11824,7 +13425,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -11875,7 +13476,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -11886,7 +13487,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -11897,7 +13498,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -12176,6 +13777,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "unlock-tech-cancel",
+      "value": "nevermind",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "unlock-tech-confirm",
       "value": "get back to work",
       "bold": false,
@@ -12218,12 +13829,12 @@
     {
       "name": "exit-test-mode",
       "value": "| L",
-      "size": 24,
+      "size": 38,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 9,
+      "alignment": 0,
       "color": [255, 117, 0]
     },
     {
@@ -12234,7 +13845,7 @@
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 7,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -12390,6 +14001,16 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "prefab-import-only-available-parts",
+      "value": "Only Import Owned Parts",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "prefab-warning-overamp",
       "value": "file '???' imported",
       "size": 30,
@@ -12519,8 +14140,8 @@
       "color": [255, 255, 255]
     },
     {
-      "name": "prefab-impor-confirmation",
-      "value": "[robotnamehere] saved to local backup folder.",
+      "name": "prefab-export-confirmation",
+      "value": "Robot saved to local backup folder.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -12866,7 +14487,7 @@
     },
     {
       "name": "infolog_43_iff_tagging-body",
-      "value": "Your AR HUD comes equiped with a state-of-the-art Identification Friend or Foe (IFF) system. Osprrey's SatOPS teams automatically manage assigning friendly units to your on-screem IFF. \n\nPress ${BattleEntitySpot} while looking at an unknown unit to mark them as a hostile for both yourself and your allies. Spotted enemies are trackable through walls, but will eventually lose their mark.\n NOTE: Mis-identifying a unit or attempting to identify rocks as enemies will require time for the system to recalibrate, and will be marked on your annual performance review."
+      "value": "Your AR HUD comes equiped with a state-of-the-art Identification Friend or Foe (IFF) system. Osprey's SatOPS teams automatically manage assigning friendly units to your on-screen IFF. \n\nPress ${BattleEntitySpot} while looking at an unknown unit to mark them as a hostile for both yourself and your allies. Spotted enemies are trackable through walls, but will eventually lose their mark.\n NOTE: Mis-identifying a unit or attempting to identify rocks as enemies will require time for the system to recalibrate, and will be marked on your annual performance review."
     },
     {
       "name": "infolog_892_painting-title",
