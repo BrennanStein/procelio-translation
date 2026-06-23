@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "description": "Optional style overrides applied on top of files/shared_style.json"
+  },
+  "by_key": {
+    "confirm-password": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "dmg-test-scale": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "email-to-reset-password": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "enter-passord": {
+      "italic": true
+    },
+    "enter-to-type": {
+      "italic": true
+    },
+    "enter-username": {
+      "italic": true
+    },
+    "password": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "power-usage": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "re-enter-password": {
+      "italic": true
+    },
+    "techtree-wip": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "translation-disabled": {
+      "color": [
+        128,
+        128,
+        128
+      ]
+    },
+    "translation-enabled": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    },
+    "username": {
+      "color": [
+        255,
+        117,
+        0
+      ]
+    }
+  }
+}
