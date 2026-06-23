@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "description": "Glossary and manual overrides for automated German translation."
+  },
+  "by_key": {
+    "gamemode-TC": "TEAM-DEATHMATCH",
+    "confirm-user-operation": "Spieleraktion bestätigen",
+    "prefab-warning-overamp": "Datei '???' importiert",
+    "block-mod_spoofer-desc": "Tarnt bei Aktivierung dein IFF-Signal vorübergehend als verbündet, wodurch auch Minen und Raketenaufschaltungen getäuscht werden. Eigener und erhaltener Schaden lässt den Effekt schneller auslaufen.\n\nMehrfaches Ausrüsten erhöht die Tarnungsdauer.",
+    "tech-257-desc": "Tarnt bei Aktivierung dein IFF-Signal vorübergehend als verbündet. Täuscht auch Minen, automatische Verteidigungen und Raketenaufschaltungen.",
+    "tech-help-desc": "Willkommen im Freischaltkatalog des Procelio-Programms. Hier kannst du deine hart verdienten Firmen-Credits ausgeben, um Lizenzen für neue Komponenten auf deinen Bots freizuschalten.\n\nJede Kategorie hat ihren eigenen Baum aus Knoten, und jeder Knoten besitzt Voraussetzungen, die erfüllt sein müssen. Klicke auf einen Knoten, um mehr über seinen Inhalt und seine Voraussetzungen zu erfahren. Sobald alle Bedingungen erfüllt sind, kannst du Knoten mit Credits freischalten. Das schaltet die zugehörige Ausrüstung, Gegenstände oder Boni für deinen Account frei und öffnet gleichzeitig den Weg zu tieferen Knoten im jeweiligen Baum.\n\nSobald ein Ausrüstungsteil freigeschaltet ist, kann es in der Garage verwendet werden. Die meisten Basisteile stehen unbegrenzt zur Verfügung, während fortgeschrittenere Teile wie Module oder Kosmetik eventuell zusätzliche Käufe im Shop erfordern.\n\nRessourcenbelohnungen sind einmalige Gegenstandsboni für deinen Account. Alle Verkäufe sind endgültig.\n"
+  },
+  "by_source_text": {
+    "Garage Bay": "Garagenplatz",
+    "An additional garage bay for constructing and storing active bots.": "Ein zusätzlicher Garagenplatz zum Bauen und Speichern aktiver Bots.",
+    "Loading Data...": "Daten werden geladen...",
+    "Success!": "Erfolg!",
+    "Electrolaser Carbine": "Electrolaser-Stutzen",
+    "Gauss Rifle": "Gauss-Gewehr",
+    "Nova Cannon": "Nova-Kanone",
+    "Rivet Rifle": "Nietengewehr",
+    "Show off your support in style.\n\nFor primary weapons.": "Zeig deine Unterstützung mit Stil.\n\nFür Primärwaffen.",
+    "in advanced build": "im erweiterten Baumodus",
+    "Garage Buildplate": "Garagen-Bauplattform",
+    "arcshield": "Arcshield",
+    "Gradient": "Farbverlauf",
+    "exhaust trail": "Kondensstreifen",
+    "Chassis": "Karosserie",
+    "Cube": "Block",
+    "rod": "Stange",
+    "repulsion pad": "Abstoßplatte",
+    "Turret": "Revolver",
+    "Flux Weaver": "Flux-Flechter",
+    "Force Concussor": "Kraft-Schocker",
+    "Prefab": "Fabrikat"
+  },
+  "post_replace": [
+    [
+      "Garage-Bucht",
+      "Garagenplatz"
+    ],
+    [
+      "Garagenbucht",
+      "Garagenplatz"
+    ],
+    [
+      "Garage Bay",
+      "Garagenplatz"
+    ],
+    [
+      "Electrolaser Carbine",
+      "Electrolaser-Stutzen"
+    ],
+    [
+      "Gauss Rifle",
+      "Gauss-Gewehr"
+    ],
+    [
+      "Nova Cannon",
+      "Nova-Kanone"
+    ],
+    [
+      "Rivet Rifle",
+      "Nietengewehr"
+    ],
+    [
+      "lackierbar",
+      "färbbar"
+    ],
+    [
+      "Lila",
+      "Violett"
+    ]
+  ]
+}
