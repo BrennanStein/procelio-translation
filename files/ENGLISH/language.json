@@ -1482,7 +1482,7 @@
     },
     {
       "name": "report-cause-obscenebot",
-      "value": "Robot (inappropriate/obscene)",
+      "value": "Robot '{bot}' (inappropriate/obscene)",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -7592,6 +7592,15 @@
       "alignment": 0
     },
     {
+      "name": "try-again-later",
+      "value": "Please try again later",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "authentication-failure",
       "value": "Authentication failure",
       "bold": false,
@@ -8213,6 +8222,33 @@
       "alignment": 0
     },
     {
+      "name": "mode-asset-extraction",
+      "value": "Asset Extraction",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "mode-desc-asset-extraction",
+      "value": "Bring points back to your base",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "mode-rules-asset-extraction",
+      "value": "- Multiplayer PvP\n- Drop Deck Size: 3\n- Amp Limit: 2000\n- Respawns Enabled\n- Server Bots Enabled\n- Fixed Time Limit",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "you-have-died",
       "value": "You have died.",
       "bold": false,
@@ -8384,6 +8420,33 @@
       "alignment": 0
     },
     {
+      "name": "save-error-be-a-good-influence",
+      "value": "Be a good influence and name your bot something respectable, alright?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "save-error-unknown-tell-devs",
+      "value": "Failed to save robot: {cause} (tell devs)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "save-error-probably-over-capacity",
+      "value": "Unable to save; robot complexity {seen} exceededs limit {limit}\n\n(sorry, we probably rebalanced things)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "save-error-bad-robot",
       "value": "Invalid robot (unknown cause; call devs)",
       "bold": false,
@@ -8411,8 +8474,161 @@
       "alignment": 0
     },
     {
+      "name": "buy-garage",
+      "value": "Purchase Garage Bay",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "buy-garage-cap",
+      "value": "You have the maximum number of purchaseable garage bays",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "buy-garage-funds",
+      "value": "You lack sufficient funds to purchase a garage bay",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "rewards-notification",
       "value": "After disconnecting from a match, you were awarded {money}",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "delete-account-header",
+      "value": "WARNING: Account Deletion",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "delete-account-body",
+      "value": "A request to delete your account has been submitted. Please re-login to confirm the request.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "delete-account-confirmbody",
+      "value": "The request to delete your account has been confirmed.\n Note: deletion will be cancelled if you log in again in the next 14 days.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dsar-account-header",
+      "value": "Request Account Data",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dsar-account-body",
+      "value": "A request for a report of your account data has been submitted. Please re-login to confirm the request.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dsar-account-confirmbody",
+      "value": "The request for your account data has been confirmed, though it may take some time to compile. Use this code to fetch it",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "internal-server-error",
+      "value": "An internal server error occurred. Maybe try again.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dsar-query-notfound",
+      "value": "No DSAR response with that code is ready yet.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "dsar-query-ok",
+      "value": "Data ready for download! Use the provided URL in the next hour:",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "account-operation-header",
+      "value": "WARNING: Pending Account Operation",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "account-operation-body",
+      "value": "A pending account operation will be confirmed by login. Proceed?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "account-operation-error",
+      "value": "An error occurred. The account operation was not confirmed.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "steam-invite-err-header",
+      "value": "Error setting invite",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "steam-invite-err-body",
+      "value": "An error occurred. Cause code: ${causecode}",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8465,6 +8681,15 @@
       "alignment": 0
     },
     {
+      "name": "score-assists",
+      "value": "Assists",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "score-damagegiven",
       "value": "DMG Dealt",
       "bold": false,
@@ -8503,6 +8728,24 @@
     {
       "name": "score-objective",
       "value": "Objective Time",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "score-objectivepointsgenerated",
+      "value": "Points First Claimed",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "score-objectivepointsscored",
+      "value": "Points Deposited",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -8575,6 +8818,60 @@
     {
       "name": "energy-overdraw-charging",
       "value": "RECHARGING CAPACITOR - STAND BY",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "asset-extraction-shuttle-approach",
+      "value": "On Approach",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "asset-extraction-shuttle-loading",
+      "value": "Loading Assets",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "asset-extraction-shuttle-departing",
+      "value": "Departing",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "asset-extraction-shuttle-abort",
+      "value": "Aborting Pickup",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "assetextract-bank-depositing",
+      "value": "Depositing Points...",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "assetextract-bank-stealing",
+      "value": "Stealing Points...",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9959,7 +10256,7 @@
       "alignment": 0
     },
     {
-      "name": "tut-instruction-click",
+      "name": "dialogue-click",
       "value": "Click to proceed.",
       "bold": false,
       "italic": false,
@@ -9968,8 +10265,8 @@
       "alignment": 0
     },
     {
-      "name": "tut-instruction-tasks",
-      "value": "Complete all tasks to proceed.",
+      "name": "dialogue-tasks",
+      "value": "Complete task to proceed.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -9977,8 +10274,44 @@
       "alignment": 0
     },
     {
-      "name": "tut-c",
-      "value": "C",
+      "name": "dialogue-dismiss",
+      "value": "Press ${ShortcutDismissDialogue} to dismiss.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-circle-spot",
+      "value": "SPOT ME",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-circle-shoot",
+      "value": "SHOOT ME",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-circle-mock",
+      "value": "HEY LOSER",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-circle-kill",
+      "value": "KILL",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10005,7 +10338,7 @@
     },
     {
       "name": "tut-intro-3",
-      "value": "Please press the highlighted 'Edit Bot' button (or ${ShortcutEscape} on your input device) to enter editing mode.",
+      "value": "Please press the highlighted 'Edit Robot' button (or ${ShortcutEscape} on your input device) to enter editing mode.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10068,7 +10401,7 @@
     },
     {
       "name": "tut-reqtree-3",
-      "value": "To the left of the tree are the category tabs, navigate to the Weaponry tab and unlock the Electrolaser Carbine.\n\nClick on a node to see its details. Unlock it using the right details pane.",
+      "value": "To the left of the tree are the category tabs. Navigate to the Weaponry tab and unlock the Electrolaser Carbine.\n\nClick on a node to see its details. Unlock it using the right details pane.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10086,7 +10419,7 @@
     },
     {
       "name": "tut-garage-guns",
-      "value": "Now let's get this bot armed. Place the provided Electrolaser Carbines on top of highlighted blocks.",
+      "value": "Now let's get this bot armed. Use ${GaragePlaceBlock} to place the provided Electrolaser Carbines on top of highlighted blocks.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10139,6 +10472,15 @@
       "alignment": 0
     },
     {
+      "name": "tut-core",
+      "value": "Great work! In addition to guns and movements, all bots need a <b>core</b> to provide critical function.\n\nThis bot already has a core installed, but the core is the heart of your robot- don't leave it out in the open!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "tut-deleting-blocks",
       "value": "Now you’re all ready to start driving- \n\nOops, sorry, I spilled some blocks.",
       "bold": false,
@@ -10149,7 +10491,7 @@
     },
     {
       "name": "tut-deleting-blocks-2",
-      "value": "To be able to use a bot, all blocks must be connected to the <b>Core</b> of the robot. Any disconnected blocks will be automatically highlighted in red.\n\nUse ${GarageRemoveBlock} to remove the excess blocks at the front of the garage.",
+      "value": "To be able to use a bot, all blocks must be connected to the <b>core</b> of the robot. Any disconnected blocks will be automatically highlighted in red.\n\nUse ${GarageRemoveBlock} to remove the excess blocks at the front of the garage.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10202,6 +10544,42 @@
       "alignment": 0
     },
     {
+      "name": "tut-drive-compass",
+      "value": "Lets talk about navigation. At the bottom of your display is a company-standard navigation console displaying a compass, as well your bots' current speed, altitude, and orientation.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-minimap-1",
+      "value": "The Minimap in the top-left of your screen presents an overhead view of the environment, your position and heading within it, allied positions, and any nearby enemies detected on radar.\n\nPress ${UIMinimapToggle} to hide the minimap.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-minimap-2",
+      "value": "Great!\n\nNow press ${UIMinimapToggle} again to bring the minimap up again.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "tut-minimap-3",
+      "value": "The minimap permits three levels of magnification.\n\nPress ${UIMinimapScale} to cycle through them.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
       "name": "tut-spot",
       "value": "In missions, sharing information is key. I've gone ahead and spawned a passive enemy bot ahead of you. Aim at it and use ${BattleEntitySpot} to 'spot' it.\n\nSpotting an enemy will relay its position and information to your team, but there's a cooldown if you miss.",
       "bold": false,
@@ -10211,7 +10589,7 @@
       "alignment": 0
     },
     {
-      "name": "tut-shooting-1",
+      "name": "tut-shooting",
       "value": "Great, weapons armed! Go shoot at that spotted bot until it explodes.\n\nPress ${DriveShoot} to shoot, and hold ${DriveScope} to scope in for more precise aim.\n\nTip: the Electrolaser Carbine has infinite ammunition, but its accuracy decreases the longer ${DriveShoot} is held!",
       "bold": false,
       "italic": false,
@@ -10239,7 +10617,7 @@
     },
     {
       "name": "tut-damage-2",
-      "value": "I've loaded a cross section of a bot to help demonstrate this damage flow system.",
+      "value": "I've projected a cross section of a bot to help demonstrate this damage flow system.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10266,7 +10644,7 @@
     },
     {
       "name": "tut-damage-5",
-      "value": "Different weapons do different amounts of damage, but all spread follows the same pattern. Clever building can help reduce the collateral damage of one well-placed shot.",
+      "value": "Different weapons do different amounts of damage, but all damage follows the same basic rules. Clever building can help reduce the collateral damage of one well-placed shot.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10284,7 +10662,7 @@
     },
     {
       "name": "tut-damage-7",
-      "value": "Now there's another important detail to remember: the <b>core</b> is the heart of your robot. All bots must have exactly one core, and<i>all</i> components must be connected to it to be eligible for deployment.",
+      "value": "This is important: Remember when I said the <b>core</b> is the heart of your robot? All bots must have exactly one core, and <i>all</i> components must be connected to it to be eligible for deployment.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10293,7 +10671,7 @@
     },
     {
       "name": "tut-damage-8",
-      "value": "Any parts that become <b>disconnected from</b> the core due to structural damage will be automatically destroyed.",
+      "value": "As such, any parts that become <b>disconnected from</b> the core due to structural damage will be automatically destroyed.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10302,7 +10680,7 @@
     },
     {
       "name": "tut-damage-9",
-      "value": "Now shoot the highlighted orange block and observe its effects.",
+      "value": "Let's demonstrate this: please shoot the highlighted orange block and observe its effects.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10311,7 +10689,7 @@
     },
     {
       "name": "tut-damage-10",
-      "value": "Look at all that damage!\n\nBecause a load-bearing part was shot, all part that were connected to the core through it were also destroyed.",
+      "value": "Look at all that damage!\n\nBecause a load-bearing part was shot, all of the parts that were connected to the core through it were also destroyed.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10329,7 +10707,7 @@
     },
     {
       "name": "tut-damage-12",
-      "value": "If all functional blocks -- generally, guns or movement parts -- are destroyed on a bot, its core will overload and the bot will explode. Go for the vital components to disable an opponent!",
+      "value": "If all functional blocks- generally, guns or movement parts- are destroyed on a bot, its core will overload and the bot will explode. When in combat, shoot for the vital components to disable an opponent!",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10456,6 +10834,96 @@
     {
       "name": "tut-outro-4",
       "value": "We hope you’ve enjoyed your stay, you will be returned to the employee lounge shortly.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-00",
+      "value": "A small trainer bot designed for introducing new pilots of the Procelio program to their controls. The Rookie is a minimum viable product for Osprey contractors and is considered ineffective for frontline combat, but is quite affordable and comes in over 16 million colors.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-01",
+      "value": "An attempt to match evolving battlefield conditions, the Firestarter is a minimum viable product with a focus on surviving heavy ordnance impacts to its exterior ablative shell.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-02",
+      "value": "A medium-weight hovercraft designed for performing routine patrols and light combat duty. Strafe around corners and keep the nose on target to shred enemies with autocannon fire.\n\nDesigned by BreakfastBaron.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-03",
+      "value": "A mobile combat engineering and repair platform deployed by Osprey to support other frontline units. With a Flux Weaver array, a mine factory, and all-around shielding, the Tortoise is a highly valuable team player.\n\nDesigned by DestroyThing.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-04",
+      "value": "A simple yet reliable bot, the Marbler is a heavy-duty unit designed to outlast opponents over contested areas with heavy ballistic projection and reliable tank track movement. Its complexity is intentionally minimized to make it easy to manufacture and maintain.\n\nDesigned by siiftun1857.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-05",
+      "value": "An unconventionally asymmetrical design drafted in a late night fever, the Quasimodo leverages the unique strafing properties of wheeled craft to deliver and maintain a broadside of pain to other grounded bots. Recommended for more experienced pilots.\n\nDesigned by BoneBreaker.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-06",
+      "value": "A heavy bomber designed for high-altitude bombardment of ground targets. Built under license from Skywatch Aerospace Inc. and refit with Osprey's modular hardware, the Kelenken is a rugged and reliable airframe capable of weathering the Martian skies on long sorties.\n\nDesigned by Owlfeathers.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-07",
+      "value": "A medium patrol fighter designed for air superiority, interception, and light ground attack roles. The TA-07 is a license-built variant of the Skywatch Aerospace AS-07 Hawkmoth II, and sees use in the hands of both Osprey contractors and the company's own private security forces.\n\nDesigned by Owlfeathers.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-08",
+      "value": "The second generation of the Vulture heavyweight aerial ordnance platform designed to utilize the stability and low-speed performance of Flat Wings to deliver depleted uranium slugs anywhere, anytime, at any height. Prioritizes maintaining control and accuracy under heavy damages. Recommended for more experienced pilots.\n\nDesigned by N_Thinker.",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0
+    },
+    {
+      "name": "prefab-desc-09",
+      "value": "A high-tech lightweight interceptor with a focus on harassing other aerial targets at long ranges. The Raycast does its best work at high speed, striking hard and fading before returning fire can catch it in the open. Recommended for more experienced pilots.\n\n Designed by BreakfastBaron.",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10613,12 +11081,13 @@
     },
     {
       "name": "options",
-      "value": "cloud upload",
+      "value": "Settings",
+      "size": 40,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
-      "alignment": 8,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -10675,7 +11144,7 @@
     },
     {
       "name": "steam-autologin",
-      "value": "AUTOLOGIN",
+      "value": "STEAM AUTOLOGIN",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -10776,16 +11245,6 @@
       "color": [255, 117, 0]
     },
     {
-      "name": "run-tutorial",
-      "value": "tutorial woo",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "play-button",
       "value": "PLAY ONLINE",
       "size": 40,
@@ -10831,7 +11290,7 @@
     },
     {
       "name": "view-logbook",
-      "value": "View Logbook",
+      "value": "Play Tutorial",
       "size": 40,
       "bold": false,
       "italic": false,
@@ -10842,13 +11301,33 @@
     },
     {
       "name": "maindesc-logbook",
-      "value": "View your Osprey Employee Logbook.",
+      "value": "Learn the basics of Procelio.",
       "size": 20,
       "bold": false,
       "italic": false,
       "underline": false,
       "strikethrough": false,
       "alignment": 4,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "mm-tutorialnotice-title",
+      "value": "New player?",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [58, 189, 253]
+    },
+    {
+      "name": "mm-friends-list",
+      "value": "friends list",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -10910,6 +11389,278 @@
       "underline": false,
       "strikethrough": false,
       "alignment": 1,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "nf-demo-need-feedback",
+      "value": "HELP US IMRPOVE PROCELIO!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "nf-demo-submit-feedback",
+      "value": "SUBMIT FEEDBACK",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "social-menu",
+      "value": "SOCIAL MENU",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "back",
+      "value": "Back",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "queue-squad",
+      "value": "DROP SQUAD",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 127, 0]
+    },
+    {
+      "name": "friends-friendlist",
+      "value": "Friends",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 127, 0]
+    },
+    {
+      "name": "leave-squad",
+      "value": "leave squad",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "social-squad-invite-code",
+      "value": "YOUR SQUAD INVITE CODE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "invite-via-steam",
+      "value": "invite via steam",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "social-paste-invite-code",
+      "value": "JOIN SQUAD WITH CODE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 117, 0]
+    },
+    {
+      "name": "social-hide-offline-friends",
+      "value": "Hide Offline Friends",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "social-add-new-friend",
+      "value": "ADD NEW FRIEND",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "social-lists",
+      "value": "FRIEND REQUESTS",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "friendreq-recv",
+      "value": "Outgoing Friend Requests",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 127, 0]
+    },
+    {
+      "name": "players-blocked",
+      "value": "BLOCKED USERS",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "queue-squad-friends-list",
+      "value": "FRIENDS LIST",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "pant-save-palette",
+      "value": "SAVE AND CLOSE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "ui-button-try-join",
+      "value": "JOIN GROUP",
+      "size": 32,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-squad-block",
+      "value": "SQUAD BLOCK",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-squad-kick",
+      "value": "SQUAD KICK",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-report",
+      "value": "REPORT",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-removefriend",
+      "value": "UNFRIEND",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-addfriend",
+      "value": "FRIEND",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-invite",
+      "value": "INVITE",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-dm",
+      "value": "MESSAGE",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "chat-context-close-dm",
+      "value": "Block",
+      "size": 18,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
       "color": [255, 255, 255]
     },
     {
@@ -11496,6 +12247,26 @@
     {
       "name": "zoom-sensitivity-zoom",
       "value": "Camera Sensitivity (Scoped)",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "controls-part-behaviors",
+      "value": "Part Behaviors",
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 116, 0]
+    },
+    {
+      "name": "tank-sprint-toggle",
+      "value": "Toggle Tank Track Gears",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -12311,247 +13082,6 @@
       "color": [128, 128, 128]
     },
     {
-      "name": "social-menu",
-      "value": "SOCIAL MENU",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "back",
-      "value": "Back",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "queue-squad",
-      "value": "DROP SQUAD",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 127, 0]
-    },
-    {
-      "name": "friends-friendlist",
-      "value": "Friends",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 127, 0]
-    },
-    {
-      "name": "leave-squad",
-      "value": "leave squad",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "social-squad-invite-code",
-      "value": "YOUR SQUAD INVITE CODE",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
-      "name": "social-paste-invite-code",
-      "value": "JOIN SQUAD WITH CODE",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 117, 0]
-    },
-    {
-      "name": "social-hide-offline-friends",
-      "value": "Hide Offline Friends",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "social-add-new-friend",
-      "value": "ADD NEW FRIEND",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "social-lists",
-      "value": "FRIEND REQUESTS",
-      "size": 40,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 116, 0]
-    },
-    {
-      "name": "friendreq-recv",
-      "value": "Outgoing Friend Requests",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 127, 0]
-    },
-    {
-      "name": "players-blocked",
-      "value": "BLOCKED USERS",
-      "size": 40,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 116, 0]
-    },
-    {
-      "name": "queue-squad-friends-list",
-      "value": "FRIENDS LIST",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "pant-save-palette",
-      "value": "SAVE AND CLOSE",
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "ui-button-try-join",
-      "value": "JOIN GROUP",
-      "size": 32,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-squad-block",
-      "value": "SQUAD BLOCK",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-squad-kick",
-      "value": "SQUAD KICK",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-report",
-      "value": "REPORT",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-removefriend",
-      "value": "UNFRIEND",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-addfriend",
-      "value": "FRIEND",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-invite",
-      "value": "INVITE",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-dm",
-      "value": "MESSAGE",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
-      "name": "chat-context-close-dm",
-      "value": "Block",
-      "size": 18,
-      "bold": false,
-      "italic": false,
-      "underline": false,
-      "strikethrough": false,
-      "alignment": 0,
-      "color": [255, 255, 255]
-    },
-    {
       "name": "chat-server-connection-lost",
       "value": "Cannot connect to Chat Server.",
       "size": 24,
@@ -13053,6 +13583,39 @@
       "color": [255, 255, 255]
     },
     {
+      "name": "check-dsar",
+      "value": "<- Check Req",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "request-dsar",
+      "value": "Request data",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "delete-account",
+      "value": "Delete Account",
+      "size": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "license",
       "value": "license",
       "bold": false,
@@ -13192,6 +13755,16 @@
       "color": [128, 128, 128]
     },
     {
+      "name": "queue-squad-wait-for-host",
+      "value": "WAIT FOR HOST",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
+    },
+    {
       "name": "queue-queue-for-match",
       "value": "enter queue",
       "bold": false,
@@ -13231,6 +13804,16 @@
       "strikethrough": false,
       "alignment": 0,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "queue-robotselector-tab-trialbotshint",
+      "value": "NEED MORE BOTS? TRY SOME!",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [61, 130, 220]
     },
     {
       "name": "queue-robotselector-hide-invalid",
@@ -13302,6 +13885,16 @@
       "strikethrough": false,
       "alignment": 4,
       "color": [255, 255, 255]
+    },
+    {
+      "name": "gamemode-asset-extract",
+      "value": "ASSET EXTRACTION",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [128, 128, 128]
     },
     {
       "name": "gamedesc-dm",
@@ -13594,6 +14187,17 @@
     {
       "name": "techtree-menu",
       "value": "REQUISITIONS TREE",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 0,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "need-help-button",
+      "value": "?",
+      "size": 50,
       "bold": false,
       "italic": false,
       "underline": false,
@@ -13951,6 +14555,26 @@
       "color": [255, 117, 0]
     },
     {
+      "name": "prefab-local-export",
+      "value": "local export",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 8,
+      "color": [255, 255, 255]
+    },
+    {
+      "name": "prefab-cloud-upload",
+      "value": "cloud upload",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "alignment": 8,
+      "color": [255, 255, 255]
+    },
+    {
       "name": "shared-prefabs-header",
       "value": "SHARED PREFABS",
       "bold": false,
@@ -14181,7 +14805,7 @@
     },
     {
       "name": "botfile-import-desc",
-      "value": "Thank you for playing Procelio during our Alpha phase! If you have any old .bot files exported from the proceliotool bot manager program, you can freely import them as local prefabs here. Local prefabs are our official in-game replacement for the old bot manager program.\n\nTo import your old files, copy the full file path leading either to the directory housing your bot files, or to a bot file directly, and paste it into the field below. If the bot files are located and valid, they will be turned into local prefabs for future import. \n\nExample 1: C:\Users\[YOU]\Documents\Your_Procelio_Bots\nExample 2: C:\Users\[YOU]\Documents\Your_Procelio_Bots\myrobot.bot\n\nDo note that you will need to unlock the parts on your robot before you can import it. This service will only be available for a limited time, and will be discontinued some time after our Steam launch, alongside the deprecation of the bot manager program.\n",
+      "value": "Thank you for playing Procelio during our Alpha phase! If you have any old .bot files exported from the proceliotool bot manager program, you can freely import them as local prefabs here. Local prefabs are our official in-game replacement for the old bot manager program.\n\nTo import your old files, copy the full file path leading either to the directory housing your bot files, or to a bot file directly, and paste it into the field below. If the bot files are located and valid, they will be turned into local prefabs for future import. \n\nExample 1: C:\\Users\\[YOU]\\Documents\\Your_Procelio_Bots\nExample 2: C:\\Users\\[YOU]\\Documents\\Your_Procelio_Bots\\myrobot.bot\n\nDo note that you will need to unlock the parts on your robot before you can import it. This service will only be available for a limited time, and will be discontinued some time after our Steam launch, alongside the deprecation of the bot manager program.\n",
       "bold": false,
       "italic": false,
       "underline": false,
@@ -14736,6 +15360,6 @@
     {
       "name": "mars_travel_guide_cebrenia-body",
       "value": "Despite the widely-popular drone recordings of the Cebrenia quadrangle's <i>Hecates Thelus</i> volcano, access to the quadrant remains strictly prohibited by Martian authorities in the wake of the mysterious implosion in 21XX"
-    
+    }
   ]
 }
