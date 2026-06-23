@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "description": "Optional style overrides applied on top of files/shared_style.json"
+  },
+  "by_key": {
+    "garage-background-login-error": {
+      "size": 25
+    },
+    "paint-button": {
+      "size": 22
+    },
+    "inventory-button": {
+      "size": 22
+    },
+    "shop-button": {
+      "size": 22
+    },
+    "battle-button": {
+      "size": 22
+    },
+    "test-button": {
+      "size": 22
+    },
+    "tech-button": {
+      "size": 22
+    },
+    "gameend-exit-match": {
+      "size": 30
+    }
+  }
+}
