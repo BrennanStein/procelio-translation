@@ -10,3 +10,7 @@ Cargo.lock
 **/*.rs.bk
 
 *lang
+
+/build
+
+__pycache__

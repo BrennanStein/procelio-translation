@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "description": "Glossary and manual overrides for automated translation. by_key wins over by_source_text. post_replace is applied after translation or cache lookup."
+  },
+  "by_key": {},
+  "by_source_text": {},
+  "post_replace": []
+}
