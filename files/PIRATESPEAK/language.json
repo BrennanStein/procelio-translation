@@ -582,12 +582,7 @@
     },
     {
       "name": "confirm-password",
-      "value": "CONFIRM PASSCODE:",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "CONFIRM PASSCODE:"
     },
     {
       "name": "conn-files-failed-description",
@@ -635,12 +630,7 @@
     },
     {
       "name": "dmg-test-scale",
-      "value": "x3",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "x3"
     },
     {
       "name": "early-access-title",
@@ -660,12 +650,7 @@
     },
     {
       "name": "email-to-reset-password",
-      "value": "EMAIL:",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "EMAIL:"
     },
     {
       "name": "enter-game",
@@ -677,18 +662,15 @@
     },
     {
       "name": "enter-passord",
-      "value": "ENTER PASSCODE...",
-      "italic": true
+      "value": "ENTER PASSCODE..."
     },
     {
       "name": "enter-to-type",
-      "value": "Press ENTER if ye dare...",
-      "italic": true
+      "value": "Press ENTER if ye dare..."
     },
     {
       "name": "enter-username",
-      "value": "ENTER NICKNAME",
-      "italic": true
+      "value": "ENTER NICKNAME"
     },
     {
       "name": "environmental-volume",
@@ -1336,12 +1318,7 @@
     },
     {
       "name": "password",
-      "value": "PASSCODE:",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "PASSCODE:"
     },
     {
       "name": "play-button",
@@ -1353,12 +1330,7 @@
     },
     {
       "name": "power-usage",
-      "value": "WIT LIMIT",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "WIT LIMIT"
     },
     {
       "name": "quit-to-garage",
@@ -1366,8 +1338,7 @@
     },
     {
       "name": "re-enter-password",
-      "value": "captain@procelio.com",
-      "italic": true
+      "value": "captain@procelio.com"
     },
     {
       "name": "records-path",
@@ -1491,12 +1462,7 @@
     },
     {
       "name": "techtree-wip",
-      "value": "UNDER CONSTRUCTION",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "UNDER CONSTRUCTION"
     },
     {
       "name": "techtree-wip-desc",
@@ -1540,12 +1506,7 @@
     },
     {
       "name": "translation-disabled",
-      "value": "NOT READY\n",
-      "color": [
-        128,
-        128,
-        128
-      ]
+      "value": "NOT READY\n"
     },
     {
       "name": "translation-download",
@@ -1553,12 +1514,7 @@
     },
     {
       "name": "translation-enabled",
-      "value": "READY\n",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "READY\n"
     },
     {
       "name": "translation-installed",
@@ -1582,12 +1538,7 @@
     },
     {
       "name": "username",
-      "value": "NICKNAME:",
-      "color": [
-        255,
-        117,
-        0
-      ]
+      "value": "NICKNAME:"
     },
     {
       "name": "video-settings-title",
